@@ -1,0 +1,28 @@
+<div class="control-section" >
+    <div>
+        <ejs-appbar>
+            <button #defaultButtonMenu ejs-button cssClass="e-inherit"  (click)="toggle()">
+                <span class="e-icons e-large e-menu"></span>
+            </button>
+        </ejs-appbar>
+    </div>
+    <ejs-sidebar id="sideTree" class="sidebar-treeview" #sidebarTreeviewInstance [width]="width" [target]="target" [mediaQuery]="mediaQuery" [isOpen]="true">
+        <div class='main-menu'>
+            <div class="table-content">
+                <p class="main-menu-header">Traffic Management System</p>
+            </div>
+            <div>
+                <ejs-treeview id='mainTree' cssClass="main-treeview" [fields]="fields" expandOn='Click'></ejs-treeview>
+            </div>
+        </div>
+    </ejs-sidebar>
+    <div class="main-sidebar-content" id="main-text">
+        <div class="sidebar-content">
+        <div class="sidebar-heading"> Responsive Sidebar with Treeview</div>
+            <p class="paragraph-content">
+                This is a graphical aid for visualising and categorising the site,
+                 in the style of an expandable and collapsable treeview component.
+            </p>
+        </div>
+    </div>
+</div>

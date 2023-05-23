@@ -1,7 +1,13 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { enableProdMode } from '@angular/core';
 
 import { AppModule } from './app/app.module';
+import { registerLicense } from '@syncfusion/ej2-base';
 
+// Registering Syncfusion license key
+registerLicense('Mgo+DSMBaFt+QHJqUE1hXk5Hd0BLVGpAblJ3T2ZQdVt5ZDU7a15RRnVfR19gSX1Tc0djW3dYcg==;Mgo+DSMBPh8sVXJ1S0R+WVpFdEBBXHxAd1p/VWJYdVt5flBPcDwsT3RfQF5jTHxQdkZjXH1ec3RWRA==;ORg4AjUWIQA/Gnt2VFhiQlRPd11dXmJWd1p/THNYflR1fV9DaUwxOX1dQl9gSXtRdUVgWXpccHdUT2I=;MjE1MTA2OEAzMjMxMmUzMjJlMzVFRzNBN0dsK3hVazhTaHRYbFM2akhNUmI1YkpMekY5SGFMdEhXUEdUOEZNPQ==;MjE1MTA2OUAzMjMxMmUzMjJlMzVaM3R5cmxVdU9GQkhXejdlcmFSQmpneW92MVlEcmoycXkxSFNSUDR1UzlNPQ==;NRAiBiAaIQQuGjN/V0d+Xk9BfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hSn5WdEZjWn9bcnRWT2he;MjE1MTA3MUAzMjMxMmUzMjJlMzVEZkExeC9lZjAvOEN4K1ZhYTdqVDdxZDdENk5SUnZ2VE1LMWxtNlBsekpzPQ==;MjE1MTA3MkAzMjMxMmUzMjJlMzVHemM0K2RyRE12NTh4MHVJU1NlOGl3ODh0S1dmMXNTQTlweUVlUVV4RVpVPQ==;Mgo+DSMBMAY9C3t2VFhiQlRPd11dXmJWd1p/THNYflR1fV9DaUwxOX1dQl9gSXtRdUVgWXpccHBSRGI=;MjE1MTA3NEAzMjMxMmUzMjJlMzVXcXppZjNiUnQwMUdsOUFYaG1TTTA3MklWc3U1cGxFYnFJVlZhLyszQ0NFPQ==;MjE1MTA3NUAzMjMxMmUzMjJlMzVpVFlIV1FYaUhGeFhacXlSNENFZ2RaZkFSSVdQSzl4WUdDdkhaQ2tpSThJPQ==;MjE1MTA3NkAzMjMxMmUzMjJlMzVEZkExeC9lZjAvOEN4K1ZhYTdqVDdxZDdENk5SUnZ2VE1LMWxtNlBsekpzPQ==');
+
+enableProdMode();
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));

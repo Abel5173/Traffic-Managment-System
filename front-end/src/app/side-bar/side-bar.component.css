@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    margin: 2rem;
+    font-weight: 600;
+}
+.sub-title{
+    text-align: center;
+}
+.center-align{
+    text-align: center;
+}
+
+#default-sidebar{
+    padding: 2rem;
+}
+#default-sidebar .sub-title{
+    margin: 1rem;
+}
+.e-appbar{
+    margin: 0;
+    padding: 0;
+    background-color: #023435;
+    color: white;
+    font-size: large;
+}
+.icon{
+}
