@@ -6,6 +6,8 @@
 @import "../node_modules/@syncfusion/ej2-angular-navigations/styles/material.css";
 @import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
 @import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 body {
     margin: 0;
   }

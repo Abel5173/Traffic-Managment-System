@@ -7,6 +7,7 @@ import { SidebarModule, AppBarModule } from '@syncfusion/ej2-angular-navigations
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { TreeViewModule } from '@syncfusion/ej2-angular-navigations';
 import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
     SidebarModule,
     TreeViewModule,
     ButtonModule,
-    AppBarModule
+    AppBarModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -26,7 +26,17 @@
 }
 .icon{
 }
-
+h2{
+    text-align: center;
+}
 #default-sidebar[_ngcontent-joa-c18] {
     padding: 0;
+}
+.tree-view{
+    /* text-align: center; */
+}
+.username{
+    color: white;
+    font-size: larger;
+    margin-right: 0.5rem;
 }
