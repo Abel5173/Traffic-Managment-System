@@ -1,28 +1,47 @@
-<div class="control-section" >
-    <div>
-        <ejs-appbar>
-            <button #defaultButtonMenu ejs-button cssClass="e-inherit"  (click)="toggle()">
-                <span class="e-icons e-large e-menu"></span>
-            </button>
-        </ejs-appbar>
-    </div>
-    <ejs-sidebar id="sideTree" class="sidebar-treeview" #sidebarTreeviewInstance [width]="width" [target]="target" [mediaQuery]="mediaQuery" [isOpen]="true">
-        <div class='main-menu'>
-            <div class="table-content">
-                <p class="main-menu-header">Traffic Management System</p>
+<div id="wrapper">
+    <div class="col-lg-12 col-sm-12 col-md-12" id="sidebar-section">
+        <div class="col-lg-12 col-sm-12 col-md-12">
+            <!--end of header-section  declaration -->
+            <!-- sidebar element declaration -->
+            <ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [enableDock]='enableDock' [width]='width' [dockSize]='dockSize' (created)="onCreated($event)" style="visibility: hidden"
+                [mediaQuery]='mediaQuery' [target]='target' (close)="onClose($event)">
+                <div class="main-menu">
+                    <div>
+                        <!-- Treevie element declaration -->
+                        <ejs-treeview id="main-treeview" #treeviewInstance [fields]='field' expandOn='Click'></ejs-treeview>
+
+                    </div>
+                </div>
+            </ejs-sidebar>
+            <!-- end of sidebar element -->
+<!--header-section  declaration -->
+<div class="main-header" id="header-section">
+    <ejs-appbar>
+        <button #defaultButtonMenu ejs-button cssClass="e-inherit"  (click)="openClick()">
+            <span class="e-icons e-large e-menu"></span>
+        </button>
+    </ejs-appbar>
+</div>
+            <!-- main-content declaration -->
+            <div class="main-content" id="main-text">
+                <div class="sidebar-content">
+                    <h2 class="sidebar-heading"> Responsive Sidebar With Treeview</h2>
+                    <p class="paragraph-content"> This is a graphical aid for visualising and categorising the
+                        site,
+                        in the style of an expandable and collapsable treeview component. It auto-expands to
+                        display
+                        the node(s), if any, corresponding to the currently viewed title, highlighting that node(s)
+                        and its ancestors. Load-on-demand when expanding nodes is available where supported
+                        (most graphical browsers), falling back to a full-page reload. MediaWiki-supported caching,
+                        aside from squid, has been considered so that unnecessary re-downloads of content are
+                        avoided
+                        where possible. The complete expanded/collapsed state of the treeview persists across page
+                        views
+                        in most situations</p>
+                    <div class="line"></div>
+                </div>
             </div>
-            <div>
-                <ejs-treeview id='mainTree' cssClass="main-treeview" [fields]="fields" expandOn='Click'></ejs-treeview>
-            </div>
-        </div>
-    </ejs-sidebar>
-    <div class="main-sidebar-content" id="main-text">
-        <div class="sidebar-content">
-        <div class="sidebar-heading"> Responsive Sidebar with Treeview</div>
-            <p class="paragraph-content">
-                This is a graphical aid for visualising and categorising the site,
-                 in the style of an expandable and collapsable treeview component.
-            </p>
+            <!-- end of main-content -->
         </div>
     </div>
 </div>
