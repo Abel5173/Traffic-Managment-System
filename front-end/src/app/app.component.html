@@ -1,3 +1,23 @@
-<app-side-bar></app-side-bar>
-
-<router-outlet></router-outlet>
+<ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [width]='width'(created)="onCreated($event)" style="visibility: hidden"
+                                    [mediaQuery]='mediaQuery' (close)="onClose($event)">
+                                    <div class="main-menu">
+                                        <h2>Traffic Managment <br> System</h2>
+                                        <div>
+                                            <ejs-treeview id="main-treeview" #treeviewInstance [fields]='field' class="tree-view" expandOn='Click'></ejs-treeview>
+                                        </div>
+                                    </div>
+</ejs-sidebar>
+<div>
+    <ejs-appbar>
+        <button #defaultButtonMenu ejs-button cssClass="e-inherit"  (click)="openClick()">
+            <span class="e-icons e-large e-menu"></span>
+        </button>
+        <div class="e-appbar-spacer"></div>
+        <button ejs-button cssClass="e-inherit">
+            <span class="fa fa-user fa-lg username"></span>
+            UserName
+        </button>        
+    </ejs-appbar>
+    <!-- <app-dashboard></app-dashboard> -->
+    <router-outlet></router-outlet>
+</div>

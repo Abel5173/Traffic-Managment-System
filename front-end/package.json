@@ -24,6 +24,8 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@syncfusion/ej2-angular-buttons": "^21.2.5",
+    "@syncfusion/ej2-angular-charts": "^21.2.6",
+    "@syncfusion/ej2-angular-grids": "^21.2.6",
     "@syncfusion/ej2-angular-navigations": "^21.2.5",
     "@syncfusion/ej2-base": "^21.2.3",
     "@syncfusion/ej2-material-theme": "^21.2.5",

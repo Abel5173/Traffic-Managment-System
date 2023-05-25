@@ -1,0 +1,42 @@
+#default-sidebar{
+    padding: 2rem;
+}
+.e-appbar{
+    margin: 0;
+    padding: 0;
+    background-color: #023435;
+    color: white;
+    font-size: large;
+}
+.icon{
+}
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.custom-icon-color {
+    color: #090d0d82;
+    /* margin-right: 0.5rem; */
+}
+
+#default-sidebar[_ngcontent-joa-c18] {
+    padding: 0;
+}
+.tree-view{
+    /* padding: 0.5rem; */
+}
+.username{
+    color: white;
+    font-size: larger;
+    margin-right: 0.5rem;
+}
+.e-treeview .e-list-item.e-active > .e-fullrow {
+    background-color: #13676A82;
+    border-color: #68babd2b;
+    ;
+}
+
+/* CSS for changing the color of the selected item's text */
+.e-treeview .e-active .e-list-text {
+    color: #13676a; /* Replace with your desired color */
+}
