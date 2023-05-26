@@ -40,3 +40,10 @@ h2{
 .e-treeview .e-active .e-list-text {
     color: #13676a; /* Replace with your desired color */
 }
+
+.treeview .e-list-text{
+    font-size: 18px;
+}
+.treeview .e-list-item{
+    margin-bottom: .5rem;
+}

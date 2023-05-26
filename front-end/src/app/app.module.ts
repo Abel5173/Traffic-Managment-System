@@ -10,6 +10,11 @@ import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccumulationChartModule } from '@syncfusion/ej2-angular-charts';
+import { DashboardLayoutModule } from '@syncfusion/ej2-angular-layouts';
+import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
+import { ChartModule } from '@syncfusion/ej2-angular-charts';
+import { CategoryService, LegendService, TooltipService } from '@syncfusion/ej2-angular-charts';
+import { DataLabelService, LineSeriesService} from '@syncfusion/ej2-angular-charts';
 
 @NgModule({
   declarations: [
@@ -24,9 +29,16 @@ import { AccumulationChartModule } from '@syncfusion/ej2-angular-charts';
     ButtonModule,
     AppBarModule,
     FontAwesomeModule,
-    AccumulationChartModule
+    AccumulationChartModule,
+    DashboardLayoutModule,
+    DropDownListModule,
+    ChartModule,
   ],
-  providers: [],
+  providers: [CategoryService, 
+    LegendService, 
+    TooltipService, 
+    DataLabelService, 
+    LineSeriesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

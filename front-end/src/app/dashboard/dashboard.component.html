@@ -1,7 +1,112 @@
-<div class="chart-container">
-    <ejs-accumulationchart [id]="'chart-container'" [legendSettings]="legendSettings">
-      <e-accumulation-series-collection>
-        <e-accumulation-series [dataSource]="piedata" xName="x" yName="y" innerRadius="70%" [palettes]="palette"></e-accumulation-series>
-      </e-accumulation-series-collection>
-    </ejs-accumulationchart> 
+<div class="grid">
+  <div>
+    <h1>Dashboard</h1>
   </div>
+  <div class="cards-1">
+    <div class = "e-card e-responsive card-1">
+      <div class="e-card-content flex">
+        <span class="text">Drivers</span> 
+        <span class="numbers">43900</span>
+      </div>
+    </div>
+    <div class = "e-card e-responsive card-1">
+      <div class="e-card-content flex">
+        <span class="text">Traffic <br> Officers</span> 
+        <span class="numbers">43900</span>
+      </div>
+    </div>
+    <div class = "e-card  card-1">
+      <div class="e-card-content flex">
+        <span class="text">Vehichles</span> 
+        <span class="numbers">43900</span>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <div class="dropdown-item">
+      <ejs-dropdownlist id='ddlelement1' [dataSource]='data' placeholder="From" popupHeight="200px" popupWidth="250px" width="250px"></ejs-dropdownlist>
+    </div>
+    <div class="dropdown-item">
+      <ejs-dropdownlist id='ddlelement2' [dataSource]='data' placeholder="To" popupHeight="200px" popupWidth="250px" width="250px"></ejs-dropdownlist>
+    </div>
+  </div>
+  
+  <div class="tcard">
+    <div class="cards-2">
+      <div tabindex="0" class="e-card e-responsive">
+        <div class="e-card-header">
+            <div class="e-card-header-caption">
+                <div class="e-card-header-title">Accidents </div>
+                <div class="e-card-separator"></div>
+            </div>
+        </div> 
+        <div class="e-card-content">
+          <span class="text">Total accidents</span> 
+          <span class="numbers">0</span>
+        </div>
+        <div class="e-card-content">
+          <span class="text">Life Lost</span> 
+          <span class="numbers">12</span>
+        </div>
+        <div class="e-card-content">
+          <span class="text">Major physical Injuries</span> 
+          <span class="numbers">56</span>
+        </div>
+        <div class="e-card-content">
+          <span class="text">Minor physical Injuries</span> 
+          <span class="numbers">70</span>
+        </div>
+      </div>
+    </div>
+    <div class="cards-3">
+      <div tabindex="0" class="e-card">
+        <div class="e-card-header">
+            <div class="e-card-header-caption">
+                <div class="e-card-header-title">Penalties </div>
+                <div class="e-card-separator"></div>
+            </div>
+        </div> 
+        <div class="e-card-content">
+          <span>
+            <div class="chart-container-1">
+              <ejs-accumulationchart [id]="'chart-container'" [legendSettings]="legendSettings" width="200px">
+                <e-accumulation-series-collection>
+                  <e-accumulation-series [dataSource]="piedata" xName="x" yName="y" innerRadius="70%" [palettes]="palette"></e-accumulation-series>
+                </e-accumulation-series-collection>
+              </ejs-accumulationchart> 
+            </div> 
+          </span>
+          <span>
+            <div class="color-palet">
+              <div class="represent">
+                <div class="color-box1"></div>
+                <span class="color">Over speed</span>
+              </div>
+              <div class="represent">
+                <div class="color-box2"></div>
+                <span class="color">No belt</span> 
+              </div>
+              <div class="represent">
+                <div class="color-box3"></div>
+                <span class="color">phone while driving</span> 
+              </div>
+              <div class="represent">
+                <div class="color-box4"></div>
+                <span class="color">Red light</span> 
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cards-4">
+    <div tabindex="0" class="e-card">
+      <ejs-chart id="chart-container-2" [primaryXAxis]='primaryXAxis' [primaryYAxis]='primaryYAxis' [title]='title'>
+        <e-series-collection>
+            <e-series [dataSource]='chartData' type='Line' xName='month' yName='sales' name='Sales'></e-series>
+        </e-series-collection>
+      </ejs-chart>  
+    </div>
+  </div>
+</div>
