@@ -29,10 +29,7 @@
     "@syncfusion/ej2-angular-charts": "^21.2.6",
     "@syncfusion/ej2-angular-dropdowns": "^21.2.6",
     "@syncfusion/ej2-angular-grids": "^21.2.6",
-<<<<<<< HEAD
-=======
     "@syncfusion/ej2-angular-inputs": "^21.2.6",
->>>>>>> 6441e3e (form and penality grid)
     "@syncfusion/ej2-angular-layouts": "^21.2.6",
     "@syncfusion/ej2-angular-navigations": "^21.2.5",
     "@syncfusion/ej2-base": "^21.2.3",

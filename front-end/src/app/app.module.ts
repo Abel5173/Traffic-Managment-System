@@ -35,6 +35,9 @@ import { GridModule } from '@syncfusion/ej2-angular-grids';
     AccumulationChartModule,
     GridModule,
     DashboardLayoutModule,
+    ChartModule,
+    DropDownListModule,
+
     
   ],
   providers: [CategoryService, 
