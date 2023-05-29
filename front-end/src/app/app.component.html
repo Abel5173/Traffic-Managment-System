@@ -1,13 +1,18 @@
 <div>
-    <ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [width]='width'(created)="onCreated($event)" style="visibility: hidden"
-                                        [mediaQuery]='mediaQuery' (close)="onClose($event)">
-                                        <div class="main-menu">
-                                            <h2>Traffic Managment <br> System</h2>
-                                            <div>
-                                                <ejs-treeview id="main-treeview" #treeviewInstance [fields]='field' class="tree-view treeview" expandOn='Click'></ejs-treeview>
-                                            </div>
-                                        </div>
-    </ejs-sidebar>
+    <ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [width]="width" (created)="onCreated($event)" style="visibility: hidden"
+    [mediaQuery]="mediaQuery" (close)="onClose($event)">
+    <div class="main-menu">
+        <h2>Traffic Management<br>System</h2>
+        <div>
+            <ejs-treeview id="main-treeview" #treeviewInstance [fields]="field" class="tree-view treeview" expandOn="Click">
+                <ng-template #template let-data>
+                    <div [routerLink]="data.routerLink" class="custom-icon-color {{data.iconCss}}">{{data.nodeText}}</div>
+                </ng-template>
+            </ejs-treeview>
+        </div>
+    </div>
+</ejs-sidebar>
+
     <div>
         <ejs-appbar>
             <button #defaultButtonMenu ejs-button cssClass="e-inherit"  (click)="openClick()">

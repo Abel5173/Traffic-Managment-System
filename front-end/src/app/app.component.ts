@@ -34,7 +34,7 @@ export class AppComponent {
                 { nodeId: '04-02', nodeText: 'Dispatchment' }
             ]
         },
-        {nodeId: '05', nodeText: 'Accident', iconCss: 'custom-icon-color fas fa-car-crash'},
+        {nodeId: '05', nodeText: 'Accident',routerLink:'/accident', iconCss: 'custom-icon-color fas fa-car-crash'},
         {
             nodeId: '07', nodeText: 'Penality', iconCss: 'custom-icon-color fas fa-balance-scale',
             nodeChild: [

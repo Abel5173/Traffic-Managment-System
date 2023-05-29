@@ -15,16 +15,21 @@ import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
 import { ChartModule } from '@syncfusion/ej2-angular-charts';
 import { CategoryService, LegendService, TooltipService } from '@syncfusion/ej2-angular-charts';
 import { DataLabelService, LineSeriesService} from '@syncfusion/ej2-angular-charts';
+import { AccidentComponent } from './accident/accident.component';
+import { RouterModule, RouterLink } from '@angular/router';
 
 import { PenalityGridComponent } from './penality-grid/penality-grid.component';
 import { AccidentFormComponent } from './accident-form/accident-form.component';
 import { GridModule } from '@syncfusion/ej2-angular-grids';
+
 @NgModule({
   declarations: [
     AppComponent, 
-    DashboardComponent, PenalityGridComponent, AccidentFormComponent
+    DashboardComponent, AccidentComponent
   ],
   imports: [
+    RouterLink,
+    RouterModule,
     BrowserModule,
     AppRoutingModule,
     SidebarModule,
