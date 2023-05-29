@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="body">
 
 
@@ -15,10 +16,20 @@
             </span>
            <input class="e-input" [(ngModel)]="query" (keyup)="searchevent()" name="" placeholder="Enter Driver license_no" id="">
            
+=======
+<div class="container">
+    <button ejs-button cssClass="e-primary">Add New</button>
+    <div class="space"></div>
+    <div class="wrap">
+        <div class="e-input-group">
+           <input class="e-input" name="" id="">
+           <span class="e-input-group-icon e-input-popup-date"></span>
+>>>>>>> 6441e3e (form and penality grid)
         </div>
     </div>
 </div>
 <ejs-grid [dataSource]='data'>
+<<<<<<< HEAD
     <e-columns class="col" >
         <e-column field='penalty_id' headerText='penalty_id' textAlign='Right' width=90></e-column>
         <e-column field='license_no' headerText='driver_license' width=120></e-column>
@@ -49,3 +60,17 @@ date : Date,
 penalty_leve : string
 amount : String,
 penalty_driver_id :number, -->
+=======
+    <e-columns>
+        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
+        <e-column field='Driver License' headerText='Driver License' width=120></e-column>
+        <e-column field='Driver Name' headerText='Driver Name' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field='Violation Type' headerText='Violation Type' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Date' headerText='Date' textAlign='Right' format='yMd' width=120></e-column>   
+        <e-column field='Penality Level' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
+    </e-columns>
+</ejs-grid>
+>>>>>>> 6441e3e (form and penality grid)

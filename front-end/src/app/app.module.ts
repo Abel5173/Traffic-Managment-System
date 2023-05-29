@@ -10,6 +10,7 @@ import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccumulationChartModule } from '@syncfusion/ej2-angular-charts';
+<<<<<<< HEAD
 import { DashboardLayoutModule } from '@syncfusion/ej2-angular-layouts';
 import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
 import { ChartModule } from '@syncfusion/ej2-angular-charts';
@@ -43,6 +44,16 @@ import { ReactiveFormsModule } from '@angular/forms';
     VehicletableComponent,
     OfficertableComponent,
     LoginComponent
+=======
+import { PenalityGridComponent } from './penality-grid/penality-grid.component';
+import { AccidentFormComponent } from './accident-form/accident-form.component';
+import { GridModule } from '@syncfusion/ej2-angular-grids';
+import { DashboardLayoutModule } from '@syncfusion/ej2-angular-layouts';
+@NgModule({
+  declarations: [
+    AppComponent, 
+    DashboardComponent, PenalityGridComponent, AccidentFormComponent
+>>>>>>> 6441e3e (form and penality grid)
   ],
   imports: [
     ReactiveFormsModule,
@@ -59,11 +70,14 @@ import { ReactiveFormsModule } from '@angular/forms';
     AccumulationChartModule,
     GridModule,
     DashboardLayoutModule,
+<<<<<<< HEAD
     ChartModule,
     DropDownListModule,
     HttpClientModule,
     FormsModule,
 
+=======
+>>>>>>> 6441e3e (form and penality grid)
     
   ],
   providers: [CategoryService, 

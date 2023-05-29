@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { PenaltyService } from '../Services/penalty.service';
+=======
+import { Component } from '@angular/core';
+>>>>>>> 6441e3e (form and penality grid)
 
 @Component({
   selector: 'app-penality-grid',
   templateUrl: './penality-grid.component.html',
   styleUrls: ['./penality-grid.component.css']
 })
+<<<<<<< HEAD
 export class PenalityGridComponent   implements OnInit{
 
   constructor(private penaltydata:PenaltyService){}
@@ -42,5 +47,10 @@ export class PenalityGridComponent   implements OnInit{
 
     this.penaltydata.deletePenalty(id);
   }
+=======
+export class PenalityGridComponent {
+
+  data = [];
+>>>>>>> 6441e3e (form and penality grid)
 
 }
