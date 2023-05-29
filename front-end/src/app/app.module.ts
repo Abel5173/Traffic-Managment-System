@@ -16,10 +16,13 @@ import { ChartModule } from '@syncfusion/ej2-angular-charts';
 import { CategoryService, LegendService, TooltipService } from '@syncfusion/ej2-angular-charts';
 import { DataLabelService, LineSeriesService} from '@syncfusion/ej2-angular-charts';
 
+import { PenalityGridComponent } from './penality-grid/penality-grid.component';
+import { AccidentFormComponent } from './accident-form/accident-form.component';
+import { GridModule } from '@syncfusion/ej2-angular-grids';
 @NgModule({
   declarations: [
     AppComponent, 
-    DashboardComponent
+    DashboardComponent, PenalityGridComponent, AccidentFormComponent
   ],
   imports: [
     BrowserModule,
@@ -30,9 +33,9 @@ import { DataLabelService, LineSeriesService} from '@syncfusion/ej2-angular-char
     AppBarModule,
     FontAwesomeModule,
     AccumulationChartModule,
+    GridModule,
     DashboardLayoutModule,
-    DropDownListModule,
-    ChartModule,
+    
   ],
   providers: [CategoryService, 
     LegendService, 

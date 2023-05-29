@@ -1,0 +1,23 @@
+<div class="container">
+    <button ejs-button cssClass="e-primary">Add New</button>
+    <div class="space"></div>
+    <div class="wrap">
+        <div class="e-input-group">
+           <input class="e-input" name="" id="">
+           <span class="e-input-group-icon e-input-popup-date"></span>
+        </div>
+    </div>
+</div>
+<ejs-grid [dataSource]='data'>
+    <e-columns>
+        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
+        <e-column field='Driver License' headerText='Driver License' width=120></e-column>
+        <e-column field='Driver Name' headerText='Driver Name' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field='Violation Type' headerText='Violation Type' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Date' headerText='Date' textAlign='Right' format='yMd' width=120></e-column>   
+        <e-column field='Penality Level' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
+    </e-columns>
+</ejs-grid>
