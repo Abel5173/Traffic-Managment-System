@@ -24,7 +24,9 @@ import { GridModule } from '@syncfusion/ej2-angular-grids';
 @NgModule({
   declarations: [
     AppComponent, 
-    DashboardComponent, AccidentFormComponent,PenalityGridComponent
+    DashboardComponent,
+    PenalityGridComponent,
+    AccidentFormComponent
   ],
   imports: [
     RouterLink,

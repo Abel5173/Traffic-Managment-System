@@ -10,6 +10,8 @@ import { TextBox } from '@syncfusion/ej2-angular-inputs';
 })
 export class AccidentFormComponent {
 
+  public data: string[] = ['Item 1', 'Item 2', 'Item 3'];
+  public data1: string[] = ['Item 1', 'Item 2', 'Item 3'];
   public cellSpacing: number[] = [10, 10];
   public columns: number = 6;
     public panels: any = [
