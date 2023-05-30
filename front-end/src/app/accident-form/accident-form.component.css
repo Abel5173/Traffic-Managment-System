@@ -4,7 +4,7 @@
     margin: 2rem;
     border: rgb(218, 218, 218) solid .15px;
     border-radius: 15px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
   }
   
   .header-bar {
@@ -21,8 +21,9 @@
   }
   
   .header-text {
+    font-family: 'Inter', sans-serif;
     margin-left: 10px; /* Adjust the margin as needed */
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -33,6 +34,7 @@
 }
 
   .forms {
+    font-family: 'Inter', sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -41,11 +43,13 @@
   }
   
   .form {
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
   }
   
   .text-field {
+    font-family: 'Inter', sans-serif;
     width: 100%;
     padding: 0.5rem;
     border: 1px solid #ccc;
@@ -67,19 +71,31 @@
     font-size: 14px;
   }
   .btns{
+    font-family: 'Inter', sans-serif;
     margin: 2rem;
   }
+
+.e-success{
+    background-color: #007bff;
+}
+
+.e-danger{
+    background-color: #b9040d;
+}
 
   .btn{
     margin: 2rem;
+    font-family: 'Inter', sans-serif;
   }
 
   .vehicle{
+    font-family: 'Inter', sans-serif;
     background: #008000;
     color: white;
   }
 
   .drivers{
+    font-family: 'Inter', sans-serif;
     background: #008000;
     color: white;
   }
