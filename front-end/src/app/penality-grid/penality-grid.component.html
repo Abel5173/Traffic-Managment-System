@@ -1,19 +1,25 @@
+<div class="body">
+
+
+    <div><h1>Penality</h1></div>
 <div class="container">
-    <button ejs-button cssClass="e-primary">Add New</button>
-    <div class="space"></div>
+    <div class="space">
+        <button ejs-button Class="e-primary"><span><i class="fa fa-plus-circle" aria-hidden="true"></i>
+        </span>Add New</button>
+    </div>
     <div class="wrap">
         <div class="input-wrapper">
             
             <span>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </span>
-           <input class="e-input" name="" id="">
+           <input class="e-input-group e-corner" name="" id="">
            
         </div>
     </div>
 </div>
 <ejs-grid [dataSource]='data'>
-    <e-columns>
+    <e-columns class="col" >
         <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
         <e-column field='Driver License' headerText='Driver License' width=120></e-column>
         <e-column field='Driver Name' headerText='Driver Name' textAlign='Right' format='C2' width=90></e-column>
@@ -25,3 +31,4 @@
         <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
     </e-columns>
 </ejs-grid>
+</div>
