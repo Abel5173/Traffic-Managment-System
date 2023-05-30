@@ -4,6 +4,7 @@
     margin: 2rem;
     border: rgb(218, 218, 218) solid .15px;
     border-radius: 15px;
+    font-family: 'Inter';
   }
   
   .header-bar {
@@ -71,4 +72,14 @@
 
   .btn{
     margin: 2rem;
+  }
+
+  .vehicle{
+    background: #008000;
+    color: white;
+  }
+
+  .drivers{
+    background: #008000;
+    color: white;
   }
