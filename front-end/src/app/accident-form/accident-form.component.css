@@ -76,10 +76,12 @@
   }
 
 .e-success{
+    font-family: 'Inter', sans-serif;
     background-color: #007bff;
 }
 
 .e-danger{
+    font-family: 'Inter', sans-serif;
     background-color: #b9040d;
 }
 
