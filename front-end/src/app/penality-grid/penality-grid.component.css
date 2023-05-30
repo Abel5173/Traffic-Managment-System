@@ -18,9 +18,12 @@
     display:flex;
     margin-bottom: 10px;
 }
-.e-primary{
+.add-btn{
 
-    background-color: rgb(18, 219, 35);
+    background-color: rgb(32, 97, 38);
+    color: white;
+    padding: 3px;
+    font-size: 16px;
 }
 .body{
 
@@ -32,4 +35,8 @@
 }
 .col{
     background-color: #1f5d96;
+}
+.icon{
+
+    padding:10px;
 }

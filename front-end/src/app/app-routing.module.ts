@@ -7,7 +7,11 @@ import { PenalityGridComponent } from './penality-grid/penality-grid.component';
 const routes: Routes = [
   { path: '',
   component: AccidentFormComponent
+  
 },
+{
+  path : 'penality' , component : PenalityGridComponent
+}
 ];
 
 @NgModule({
