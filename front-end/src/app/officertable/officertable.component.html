@@ -1,0 +1,34 @@
+<div class="body">
+
+
+    <div><h1>Traffic Officer</h1></div>
+<div class="container">
+    <!-- <div class="space">
+        <button ejs-button Class="add-btn"><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+        </span>Add New</button>
+    </div> -->
+    <div class="wrap">
+        <div class="e-input-group e-corner">
+            
+            <span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+           <input class="e-input" name="" placeholder="Search ..." id="">
+           
+        </div>
+    </div>
+</div>
+<ejs-grid [dataSource]='data'>
+    <e-columns class="col" >
+        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
+        <e-column field='FullName' headerText='FullName' width=120></e-column>
+        <e-column field='Phone_number' headerText='Phone_number' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field='Password' headerText='Password' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Username' headerText='Username' textAlign='Right' format='yMd' width=120></e-column>   
+        <!-- <e-column field='Penality Level' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column> -->
+    </e-columns>
+</ejs-grid>
+</div>

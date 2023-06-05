@@ -20,13 +20,23 @@ import { RouterModule, RouterLink } from '@angular/router';
 import { PenalityGridComponent } from './penality-grid/penality-grid.component';
 import { AccidentFormComponent } from './accident-form/accident-form.component';
 import { GridModule } from '@syncfusion/ej2-angular-grids';
+import { AccidentTableComponent } from './accident-table/accident-table.component';
+import { PenaltyFormComponent } from './penalty-form/penalty-form.component';
+import { DrivertableComponent } from './drivertable/drivertable.component';
+import { VehicletableComponent } from './vehicletable/vehicletable.component';
+import { OfficertableComponent } from './officertable/officertable.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
     DashboardComponent,
     PenalityGridComponent,
-    AccidentFormComponent
+    AccidentFormComponent,
+    AccidentTableComponent,
+    PenaltyFormComponent,
+    DrivertableComponent,
+    VehicletableComponent,
+    OfficertableComponent
   ],
   imports: [
     RouterLink,

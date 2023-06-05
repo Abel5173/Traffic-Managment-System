@@ -1,0 +1,39 @@
+<div class="body">
+
+
+    <div><h1>Accident</h1></div>
+<div class="container">
+    <div class="space">
+        <button ejs-button Class="add-btn"><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+        </span>Add New</button>
+    </div>
+    <div class="wrap">
+        <div class="e-input-group e-corner">
+            
+            <span>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+           <input class="e-input" name="" placeholder="Search ..." id="">
+           
+        </div>
+    </div>
+</div>
+<ejs-grid [dataSource]='data'>
+    <e-columns class="col" >
+        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
+        <e-column field='Accident_Type' headerText='Accident_Type' width=120></e-column>
+        <e-column field='Date' headerText='Date' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field=' Reporter' headerText='Violation reporter' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Address' headerText='Address' textAlign='Right' format='yMd' width=120></e-column>   
+        <e-column field='Vehicle' headerText='Vehicle' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Driver' headerText='Driver' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Life_Lost' headerText='Life_Lost' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Major_Injury' headerText='Major_Injury' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Minor_Injury' headerText='Minor_Injury' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Property_Loss' headerText='Property_Loss' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Property_Loss_in_Mony' headerText='Property_Loss_in_Mony' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Description' headerText='Description' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
+    </e-columns>
+</ejs-grid>
+</div>
