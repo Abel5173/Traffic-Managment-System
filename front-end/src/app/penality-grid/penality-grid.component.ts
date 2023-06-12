@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class PenalityGridComponent {
 
-  data = [];
+  data = [
+    {'NO' : '1','Driver License' : '1232','Driver Name':'bereket','Violation Type':'over speed', 'Date':'2/2/2002','Penality Level':'medium','Amount':'3234','Action':'right'}
+  ];
 
   public headerTemplate: any = (field: any, headerText: any, column: any) => {
     if (field === 'NO') {
