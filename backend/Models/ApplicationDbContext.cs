@@ -18,7 +18,7 @@ public class ApplicationDbContext : DbContext {
     {
         modelBuilder.Entity<Penalty>()
             .HasKey(p => p.penalty_id);
-            modelBuilder.Entity<Accident>()
+        modelBuilder.Entity<Accident>()
              .HasKey(p => p.accident_id);
     
     }
