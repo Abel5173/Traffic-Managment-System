@@ -44,11 +44,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-preview.3.23174.2, )"
+              "version": "[8.0.0-preview.4.23259.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.0-preview.3.23174.2, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
