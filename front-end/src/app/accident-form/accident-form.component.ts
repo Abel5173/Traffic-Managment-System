@@ -2,13 +2,17 @@ import { Component } from '@angular/core';
 import { text } from '@fortawesome/fontawesome-svg-core';
 import { DashboardLayout } from '@syncfusion/ej2-angular-layouts';
 import { TextBox } from '@syncfusion/ej2-angular-inputs';
+import { AccidentFormService } from '../services/accident-form.service';  
 
 @Component({
   selector: 'app-accident-form',
   templateUrl: './accident-form.component.html',
   styleUrls: ['./accident-form.component.css']
 })
+
 export class AccidentFormComponent {
+
+  constructor(private accidentFormService: AccidentFormService){}
 
   public data: string[] = ['Item 1', 'Item 2', 'Item 3'];
   public data1: string[] = ['Item 1', 'Item 2', 'Item 3'];

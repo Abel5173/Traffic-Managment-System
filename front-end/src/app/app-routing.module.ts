@@ -10,9 +10,8 @@ import { OfficertableComponent } from './officertable/officertable.component';
 import { VehicletableComponent } from './vehicletable/vehicletable.component';
 
 const routes: Routes = [
-  { path: '',
-  component: DashboardComponent
-  
+{ 
+  path: '', component: AccidentFormComponent
 },
 {
   path : 'penalitytable' , component : PenalityGridComponent
