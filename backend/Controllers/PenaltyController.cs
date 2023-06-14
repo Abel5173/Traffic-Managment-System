@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using models.penalty;
 
 [ApiController]
-[Route("api/Agent")]
+[Route("api/penalty")]
 public class penaltyController:ControllerBase{
 
 
