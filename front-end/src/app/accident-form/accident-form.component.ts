@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { text } from '@fortawesome/fontawesome-svg-core';
 import { DashboardLayout } from '@syncfusion/ej2-angular-layouts';
 import { TextBox } from '@syncfusion/ej2-angular-inputs';
-import { AccidentFormService } from '../services/accident-form.service';  
+import { AccidentFormService } from '../Services/accident-form.service';  
 
 @Component({
   selector: 'app-accident-form',
