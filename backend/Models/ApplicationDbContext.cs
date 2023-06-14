@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using models.officer;
 using models.penalty;
+using models.driver ;
 
 namespace apidb2.Services;
 
@@ -15,6 +16,7 @@ public class ApplicationDbContext : DbContext {
     public DbSet<Accident> accident { get; set; }
 
     public DbSet<Officer> Officer {get ; set ;}
+    public DbSet<Driver> driver {get ; set ;}
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -25,6 +27,8 @@ public class ApplicationDbContext : DbContext {
              .HasKey(p => p.accident_id);
         modelBuilder.Entity<Officer>()
              .HasKey(p => p.officer_id);     
+        modelBuilder.Entity<Driver>()
+             .HasKey(p => p.license_no); 
     
     }
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj": {}
+    "/home/beki/Documents/InternShip/backend/apidb2.csproj": {}
   },
   "projects": {
-    "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj": {
+    "/home/beki/Documents/InternShip/backend/apidb2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj",
+        "projectUniqueName": "/home/beki/Documents/InternShip/backend/apidb2.csproj",
         "projectName": "apidb2",
-        "projectPath": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj",
-        "packagesPath": "/home/abel/.nuget/packages/",
-        "outputPath": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/obj/",
+        "projectPath": "/home/beki/Documents/InternShip/backend/apidb2.csproj",
+        "packagesPath": "/home/beki/.nuget/packages/",
+        "outputPath": "/home/beki/Documents/InternShip/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/abel/.nuget/NuGet/NuGet.Config"
+          "/home/beki/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.105/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.107/RuntimeIdentifierGraph.json"
         }
       }
     }
