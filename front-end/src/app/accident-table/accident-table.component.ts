@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { AccidentFormService } from '../Services/accident-form.service';
 
 @Component({
   selector: 'app-accident-table',
   templateUrl: './accident-table.component.html',
   styleUrls: ['./accident-table.component.css']
 })
-export class AccidentTableComponent {
+export class AccidentTableComponent  implements OnInit{
 
-  data = [];
+  constructor(private accidentdata : AccidentFormService){}
+
+  data : any ;
+
+
+  ngOnInit() {
+
+    this.accidentdata.getdata().subscribe(data => this.data = data) ;
+  }
+
 
   public headerTemplate: any = (field: any, headerText: any, column: any) => {
     if (field === 'NO') {
