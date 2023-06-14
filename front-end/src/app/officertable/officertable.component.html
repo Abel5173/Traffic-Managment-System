@@ -20,11 +20,11 @@
 </div>
 <ejs-grid [dataSource]='data'>
     <e-columns class="col" >
-        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
-        <e-column field='FullName' headerText='FullName' width=120></e-column>
-        <e-column field='Phone_number' headerText='Phone_number' textAlign='Right' format='C2' width=90></e-column>
-        <e-column field='Password' headerText='Password' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Username' headerText='Username' textAlign='Right' format='yMd' width=120></e-column>   
+        <e-column field='officer_id' headerText='officer_id' textAlign='Right' width=90></e-column>
+        <e-column field='fullname' headerText='fullname' width=120></e-column>
+        <e-column field='phone_no' headerText='phone_no' textAlign='Right' format='text' width=90></e-column>
+        <e-column field='password' headerText='password' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='username' headerText='username' textAlign='Right' format='yMd' width=120></e-column>   
         <!-- <e-column field='Penality Level' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column>
@@ -32,3 +32,9 @@
     </e-columns>
 </ejs-grid>
 </div>
+
+<!-- officer_id: number,
+fullname :string,
+phone_no : number,
+password : string,
+username : string -->

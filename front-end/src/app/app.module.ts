@@ -26,7 +26,6 @@ import { PenaltyFormComponent } from './penalty-form/penalty-form.component';
 import { DrivertableComponent } from './drivertable/drivertable.component';
 import { VehicletableComponent } from './vehicletable/vehicletable.component';
 import { OfficertableComponent } from './officertable/officertable.component';
-
 @NgModule({
   declarations: [
     AppComponent, 
@@ -54,7 +53,9 @@ import { OfficertableComponent } from './officertable/officertable.component';
     DashboardLayoutModule,
     ChartModule,
     DropDownListModule,
-    HttpClientModule
+    HttpClientModule,
+
+    
   ],
   providers: [CategoryService, 
     LegendService, 

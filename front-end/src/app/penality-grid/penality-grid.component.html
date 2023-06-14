@@ -20,15 +20,24 @@
 </div>
 <ejs-grid [dataSource]='data'>
     <e-columns class="col" >
-        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
-        <e-column field='Driver License' headerText='Driver License' width=120></e-column>
-        <e-column field='Driver Name' headerText='Driver Name' textAlign='Right' format='C2' width=90></e-column>
-        <e-column field='Violation Type' headerText='Violation Type' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Date' headerText='Date' textAlign='Right' format='yMd' width=120></e-column>   
-        <e-column field='Penality Level' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='penalty_id' headerText='penalty_id' textAlign='Right' width=90></e-column>
+        <e-column field='driver_license' headerText='Driver License' width=120></e-column>
+        <e-column field='driver_name' headerText='driver_name' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field='violation_type' headerText='violation_type' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='date' headerText='date' textAlign='Right' format='yMd' width=120></e-column>   
+        <e-column field='penalty_leve' headerText='penalty_leve' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='amount' headerText='amount' textAlign='Right' format='yMd' width=120></e-column>
         <!-- <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column> -->
         <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
     </e-columns>
 </ejs-grid>
 </div>
+
+<!-- penalty_id: number,
+driver_license :number,
+driver_name:String,
+violation_type : String,
+date : Date,
+penalty_leve : string
+amount : String,
+penalty_driver_id :number, -->
