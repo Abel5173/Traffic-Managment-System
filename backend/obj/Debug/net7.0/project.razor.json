@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/obj/Debug/net7.0/project.razor.json",
-  "FilePath": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj",
+  "SerializedFilePath": "/home/beki/Documents/InternShip/backend/obj/Debug/net7.0/project.razor.json",
+  "FilePath": "/home/beki/Documents/InternShip/backend/apidb2.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -13,11 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-<<<<<<< HEAD
-        "HashCode": -1929296283,
-=======
-        "HashCode": -203590070,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1759719987,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -101,11 +97,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1488677225,
-=======
-        "HashCode": -579165438,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2067077567,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -190,11 +182,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -366593242,
-=======
-        "HashCode": 364829289,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -796596185,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -227,11 +215,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -171266181,
-=======
-        "HashCode": -553948408,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -258986226,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -265,11 +249,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1356155646,
-=======
-        "HashCode": -1985067193,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1050063087,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -290,11 +270,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -887790100,
-=======
-        "HashCode": 95562004,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1451950310,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -316,11 +292,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1617732477,
-=======
-        "HashCode": -853748597,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -613973912,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -425,11 +397,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 253515979,
-=======
-        "HashCode": 1608211511,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 421273574,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -535,11 +503,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1517367086,
-=======
-        "HashCode": -1334556576,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1234815028,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -572,11 +536,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 224810213,
-=======
-        "HashCode": 214664544,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -328531765,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -610,11 +570,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1074683435,
-=======
-        "HashCode": 1136424903,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1873790047,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -647,11 +603,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1662076635,
-=======
-        "HashCode": 136105475,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2066997572,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -685,11 +637,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 539625136,
-=======
-        "HashCode": -1135551013,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1424031162,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -722,11 +670,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1958982515,
-=======
-        "HashCode": 1259393857,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 113328839,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -760,11 +704,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -21331457,
-=======
-        "HashCode": 63707604,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1746739184,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -785,11 +725,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 976285233,
-=======
-        "HashCode": 1627452041,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1570454021,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -811,11 +747,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1102679354,
-=======
-        "HashCode": -1208135619,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1453072227,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -846,11 +778,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1726638994,
-=======
-        "HashCode": 1627832818,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 985945270,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -882,11 +810,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1781724536,
-=======
-        "HashCode": -2051085017,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1274082749,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -907,11 +831,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1233896963,
-=======
-        "HashCode": 2064887366,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -732286812,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -933,11 +853,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -548245740,
-=======
-        "HashCode": -7439688,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1814070946,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1012,11 +928,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1386407513,
-=======
-        "HashCode": 482266215,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1842673769,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1092,11 +1004,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -114164629,
-=======
-        "HashCode": -1680349126,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1049599607,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1117,11 +1025,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1681056927,
-=======
-        "HashCode": -1039237607,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1774367595,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1143,11 +1047,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1819117715,
-=======
-        "HashCode": 718071749,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1170344938,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1189,11 +1089,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 792176951,
-=======
-        "HashCode": 288052485,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 399206775,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1236,11 +1132,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1122222028,
-=======
-        "HashCode": 656000352,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1227912568,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1282,11 +1174,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1388645766,
-=======
-        "HashCode": 1184040600,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -814935912,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1329,11 +1217,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 410642425,
-=======
-        "HashCode": 1973270702,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1154575650,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1354,11 +1238,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 616061110,
-=======
-        "HashCode": -859876141,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1523382086,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1380,11 +1260,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1779926185,
-=======
-        "HashCode": -1600619965,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -920856323,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1426,11 +1302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1850858486,
-=======
-        "HashCode": -280380846,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 978660254,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1473,11 +1345,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -777576986,
-=======
-        "HashCode": 1196195100,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 292522927,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1585,11 +1453,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 961049120,
-=======
-        "HashCode": 1953068841,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1932628589,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1698,11 +1562,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1265575660,
-=======
-        "HashCode": 1427061878,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1586719881,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1723,11 +1583,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1853480321,
-=======
-        "HashCode": 2108211663,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2112002805,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1749,11 +1605,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -955428000,
-=======
-        "HashCode": -508542853,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1570647172,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1786,11 +1638,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1702314180,
-=======
-        "HashCode": -790788547,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1092394164,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1824,11 +1672,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -994867365,
-=======
-        "HashCode": 790396344,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1743602302,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1849,11 +1693,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 325626116,
-=======
-        "HashCode": 667468466,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -294163609,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1875,11 +1715,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1981364487,
-=======
-        "HashCode": -1641890386,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1018559395,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1898,11 +1734,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1519752564,
-=======
-        "HashCode": 718471634,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1960418461,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1922,11 +1754,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1677467212,
-=======
-        "HashCode": -1726196422,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1733091136,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2031,11 +1859,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2099897680,
-=======
-        "HashCode": 1037518518,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -458920127,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2141,11 +1965,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1035984649,
-=======
-        "HashCode": 103022298,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -49806306,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2178,11 +1998,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 644678769,
-=======
-        "HashCode": 2058510777,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 51965746,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2216,11 +2032,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -334707733,
-=======
-        "HashCode": 194168188,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 952785034,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2292,11 +2104,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 758558046,
-=======
-        "HashCode": -819719994,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 239504328,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2369,11 +2177,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 654356268,
-=======
-        "HashCode": 1300054686,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1960049803,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2481,11 +2285,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2099586115,
-=======
-        "HashCode": 279309873,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1439767414,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2594,11 +2394,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2020946161,
-=======
-        "HashCode": 387134711,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 237720209,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2640,11 +2436,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -778433768,
-=======
-        "HashCode": 1320679570,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 184143820,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2687,11 +2479,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1363897026,
-=======
-        "HashCode": 1614256050,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1717168516,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2788,11 +2576,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -416568169,
-=======
-        "HashCode": 1135707520,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2008692115,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2890,11 +2674,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2002799050,
-=======
-        "HashCode": -1131544489,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -698121894,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2958,11 +2738,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -851020500,
-=======
-        "HashCode": -349687944,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1035667754,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3027,11 +2803,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 197752121,
-=======
-        "HashCode": 1183728835,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 574017017,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3139,11 +2911,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2071932707,
-=======
-        "HashCode": -881118573,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 604237945,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3252,11 +3020,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 58967588,
-=======
-        "HashCode": -1212434488,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 778842684,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3277,11 +3041,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2037087828,
-=======
-        "HashCode": -791746698,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1693282541,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3303,11 +3063,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -458069306,
-=======
-        "HashCode": 263625884,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2019182037,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3405,11 +3161,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -240722209,
-=======
-        "HashCode": 998470565,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1734161162,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3508,11 +3260,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1608187412,
-=======
-        "HashCode": 891639265,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -539926981,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3533,11 +3281,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2089657350,
-=======
-        "HashCode": 96610570,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1878943089,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3559,11 +3303,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 190025027,
-=======
-        "HashCode": 1814056072,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -205103737,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3635,11 +3375,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -26015130,
-=======
-        "HashCode": 2125409234,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1433524609,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3712,11 +3448,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 383007580,
-=======
-        "HashCode": 106828929,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 400266720,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3788,11 +3520,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1688410767,
-=======
-        "HashCode": 763200952,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -641920097,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3865,11 +3593,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1344619507,
-=======
-        "HashCode": -303753704,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -734751229,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3923,11 +3647,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1490560806,
-=======
-        "HashCode": 1730039551,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 531216132,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3982,11 +3702,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 573435698,
-=======
-        "HashCode": 1242574809,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1494672041,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4027,11 +3743,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1385114347,
-=======
-        "HashCode": 72106471,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2083488171,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4073,11 +3785,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1070542712,
-=======
-        "HashCode": 1813941290,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1276997176,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4118,11 +3826,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -9412085,
-=======
-        "HashCode": 1852689029,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -701828537,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4164,11 +3868,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -15824484,
-=======
-        "HashCode": -1124215545,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -769187016,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4210,11 +3910,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2100190338,
-=======
-        "HashCode": -236447532,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1072593805,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4257,11 +3953,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1017282730,
-=======
-        "HashCode": -302443978,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 651563754,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4324,11 +4016,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 222002960,
-=======
-        "HashCode": 1727522504,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -356069675,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4392,11 +4080,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1870069159,
-=======
-        "HashCode": 2011396328,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1918935368,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4417,11 +4101,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1622304755,
-=======
-        "HashCode": 906713578,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -481135705,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4443,11 +4123,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1991333245,
-=======
-        "HashCode": 505506991,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1384590478,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4479,11 +4155,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 11481087,
-=======
-        "HashCode": -952226060,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 245944337,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4516,11 +4188,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2102693090,
-=======
-        "HashCode": 1892720232,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1813971260,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4541,11 +4209,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -761679814,
-=======
-        "HashCode": -1687873531,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1978479373,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4567,11 +4231,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -876751031,
-=======
-        "HashCode": -1432277292,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1289974995,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4590,11 +4250,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1338102637,
-=======
-        "HashCode": 1540379361,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -829646408,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4614,11 +4270,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -902261106,
-=======
-        "HashCode": 201653679,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1295116195,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4650,11 +4302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2028158488,
-=======
-        "HashCode": 282207165,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1079238430,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4687,11 +4335,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1244149991,
-=======
-        "HashCode": -920913540,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1053467856,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4712,11 +4356,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -878117554,
-=======
-        "HashCode": -1556326173,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -868982666,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4738,11 +4378,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -792801165,
-=======
-        "HashCode": -1258635197,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1831448596,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4805,11 +4441,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1345173235,
-=======
-        "HashCode": -646123691,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 670247954,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4873,11 +4505,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -215823345,
-=======
-        "HashCode": -250648748,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 896347371,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4898,11 +4526,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -63702741,
-=======
-        "HashCode": 737413728,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2008070988,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4924,11 +4548,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -778814214,
-=======
-        "HashCode": -1951935102,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1164031352,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4961,11 +4581,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1845728016,
-=======
-        "HashCode": 1494103268,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1942946233,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4999,11 +4615,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1597007331,
-=======
-        "HashCode": 1441775313,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1446807325,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5135,11 +4747,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 630411955,
-=======
-        "HashCode": -595203626,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1721249356,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5272,11 +4880,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1978654848,
-=======
-        "HashCode": 504541352,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1982264531,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5309,11 +4913,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1872159372,
-=======
-        "HashCode": -1786003437,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -914942977,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5347,11 +4947,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -123651010,
-=======
-        "HashCode": -1609174229,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1753274404,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5384,11 +4980,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1187065399,
-=======
-        "HashCode": -554443401,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 205072080,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5422,11 +5014,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1700255073,
-=======
-        "HashCode": -186129796,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1543862481,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5459,11 +5047,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 674031919,
-=======
-        "HashCode": -750548334,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -846849665,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5497,11 +5081,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1056964190,
-=======
-        "HashCode": 1884592618,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 70950891,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5584,11 +5164,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2096709683,
-=======
-        "HashCode": -250924073,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1949967635,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5671,11 +5247,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1656713930,
-=======
-        "HashCode": -912044501,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2145343073,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5758,11 +5330,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1201472761,
-=======
-        "HashCode": -1816995778,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 335408082,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5845,11 +5413,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2049209507,
-=======
-        "HashCode": 91924337,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1441928941,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5932,11 +5496,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1558942327,
-=======
-        "HashCode": 1553229239,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1594847579,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6019,11 +5579,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1613596644,
-=======
-        "HashCode": -900680772,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1610871927,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6106,11 +5662,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1328101009,
-=======
-        "HashCode": 230946974,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2059013469,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6193,11 +5745,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -158515460,
-=======
-        "HashCode": -1767953763,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -78056720,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6280,11 +5828,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1588914604,
-=======
-        "HashCode": -1252996693,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 967491052,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6367,11 +5911,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1826854355,
-=======
-        "HashCode": 1131926834,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1120988085,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6454,11 +5994,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1552954222,
-=======
-        "HashCode": -182900931,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 857385540,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6541,11 +6077,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 928707981,
-=======
-        "HashCode": 261321771,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1456537428,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6628,11 +6160,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1482805133,
-=======
-        "HashCode": 1835372572,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1836443269,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6715,11 +6243,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -518571739,
-=======
-        "HashCode": -1748996010,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1888971760,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6802,11 +6326,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -453205206,
-=======
-        "HashCode": 1067178413,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1345037372,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6889,11 +6409,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2053208768,
-=======
-        "HashCode": 534040788,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -239025940,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6976,11 +6492,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1765287097,
-=======
-        "HashCode": 2057558807,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 233295260,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7063,11 +6575,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 485422740,
-=======
-        "HashCode": -1942259347,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -425149201,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7150,11 +6658,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -342666627,
-=======
-        "HashCode": -1205307800,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -551194315,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7237,11 +6741,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -139178155,
-=======
-        "HashCode": 1380348354,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 158951131,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7324,11 +6824,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1584860861,
-=======
-        "HashCode": 1707006049,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1427765404,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7411,11 +6907,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1689574073,
-=======
-        "HashCode": -300011927,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1358676163,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7498,11 +6990,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -395580119,
-=======
-        "HashCode": -1226054986,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 36100701,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7585,11 +7073,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1209708959,
-=======
-        "HashCode": 148800856,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2091297417,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7672,11 +7156,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1799310816,
-=======
-        "HashCode": 1955407063,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 991148761,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7759,11 +7239,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1770092537,
-=======
-        "HashCode": -1425450198,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -247756911,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7846,11 +7322,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1675176046,
-=======
-        "HashCode": -426018421,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1894729560,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7933,11 +7405,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -85469667,
-=======
-        "HashCode": 932761065,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1506524750,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8020,11 +7488,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2087118376,
-=======
-        "HashCode": 1487184677,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -807139189,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8107,11 +7571,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1726582690,
-=======
-        "HashCode": -1657320452,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1207346040,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8194,11 +7654,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1465903239,
-=======
-        "HashCode": 386829402,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1873897932,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8281,11 +7737,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1494845083,
-=======
-        "HashCode": -749491229,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1862407176,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8368,11 +7820,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1965134685,
-=======
-        "HashCode": 1623258496,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 490732498,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8455,11 +7903,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 339327375,
-=======
-        "HashCode": -303875878,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1213246197,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8542,11 +7986,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2054521656,
-=======
-        "HashCode": 972101828,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1543476113,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8629,11 +8069,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1179458839,
-=======
-        "HashCode": 904531332,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1968350995,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8716,11 +8152,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1904704182,
-=======
-        "HashCode": 1003790558,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1805772146,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8803,11 +8235,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -515615828,
-=======
-        "HashCode": 473376513,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -256937926,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8890,11 +8318,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1241855245,
-=======
-        "HashCode": 1512558928,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1823270054,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8977,11 +8401,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1232445125,
-=======
-        "HashCode": 2016060336,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1336831632,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9064,11 +8484,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -252511419,
-=======
-        "HashCode": -195468796,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -85917943,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9151,11 +8567,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1625337483,
-=======
-        "HashCode": 1077941364,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 559560332,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9238,11 +8650,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2011466983,
-=======
-        "HashCode": 502638443,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2014731023,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9325,11 +8733,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -826087552,
-=======
-        "HashCode": 512239497,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1718813521,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9412,11 +8816,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2028903452,
-=======
-        "HashCode": 213365488,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1039209457,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9499,11 +8899,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1361960188,
-=======
-        "HashCode": 1538915240,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -63505162,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9586,11 +8982,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1630108654,
-=======
-        "HashCode": -57803204,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1598997555,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9673,11 +9065,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1265363565,
-=======
-        "HashCode": -795887971,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1888392272,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9760,11 +9148,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1147571510,
-=======
-        "HashCode": 728809454,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2056475030,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9847,11 +9231,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 540411798,
-=======
-        "HashCode": -267663982,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1257943015,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9934,11 +9314,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1427200343,
-=======
-        "HashCode": 1188879321,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1938066648,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10021,11 +9397,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -888527044,
-=======
-        "HashCode": -1831873655,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1820703226,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10108,11 +9480,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1629809041,
-=======
-        "HashCode": 1580001842,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 515335461,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10195,11 +9563,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1508653430,
-=======
-        "HashCode": 1375885770,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1025667450,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10282,11 +9646,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2054271396,
-=======
-        "HashCode": -977417841,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1262416651,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10369,11 +9729,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2145364119,
-=======
-        "HashCode": -829894208,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2047648868,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10456,11 +9812,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -211644628,
-=======
-        "HashCode": -393314570,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1999591929,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10543,11 +9895,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1431283514,
-=======
-        "HashCode": 1051804883,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 667749777,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10630,11 +9978,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 468480430,
-=======
-        "HashCode": -1447273123,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -829416540,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10717,11 +10061,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 501892787,
-=======
-        "HashCode": -906418089,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 516958370,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10804,11 +10144,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 111935395,
-=======
-        "HashCode": -1625298424,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1998885089,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10891,11 +10227,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1568947373,
-=======
-        "HashCode": -979414023,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -102858443,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10978,11 +10310,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -85746533,
-=======
-        "HashCode": 914134384,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1539182093,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11065,11 +10393,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 841987262,
-=======
-        "HashCode": -799658177,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 512117726,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11152,11 +10476,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -910550497,
-=======
-        "HashCode": -544874995,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1450232510,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11239,11 +10559,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1747086823,
-=======
-        "HashCode": -1516337610,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -368784801,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11326,11 +10642,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1766853535,
-=======
-        "HashCode": 321536863,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -789110187,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11413,11 +10725,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1708481879,
-=======
-        "HashCode": 1059294572,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -857798266,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11500,11 +10808,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1802148641,
-=======
-        "HashCode": -834177822,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1013149495,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11587,11 +10891,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1373168362,
-=======
-        "HashCode": -341773139,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1347801096,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11674,11 +10974,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -712756536,
-=======
-        "HashCode": -1089303400,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 922019438,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11761,11 +11057,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1433512546,
-=======
-        "HashCode": 1849706717,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -171952606,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11848,11 +11140,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1787387280,
-=======
-        "HashCode": 312166273,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 632876151,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11935,11 +11223,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1025137129,
-=======
-        "HashCode": 673355252,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1505096086,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12022,11 +11306,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1991345726,
-=======
-        "HashCode": -878734886,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 837306633,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12109,11 +11389,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1498675191,
-=======
-        "HashCode": 2009400657,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1195289134,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12196,11 +11472,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1700776455,
-=======
-        "HashCode": -781312791,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -399963012,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12283,11 +11555,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 516089432,
-=======
-        "HashCode": 461759694,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2060326086,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12370,11 +11638,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2107716847,
-=======
-        "HashCode": -1074873438,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 729268219,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12457,11 +11721,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 855427281,
-=======
-        "HashCode": -622552833,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 994145624,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12544,11 +11804,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 897153064,
-=======
-        "HashCode": -1065151137,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1802950387,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12631,11 +11887,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 584917781,
-=======
-        "HashCode": -1149877591,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1900858406,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12718,11 +11970,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1546917952,
-=======
-        "HashCode": 831050786,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1030888912,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12805,11 +12053,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1819586141,
-=======
-        "HashCode": -516566294,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1540759157,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12892,11 +12136,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 910624663,
-=======
-        "HashCode": 483718022,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1970682731,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12979,11 +12219,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2013482350,
-=======
-        "HashCode": 1491368692,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2043121027,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13066,11 +12302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 623110880,
-=======
-        "HashCode": 1206242791,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1916614729,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13153,11 +12385,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1613363159,
-=======
-        "HashCode": 217798652,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1382313786,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13240,11 +12468,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 440105427,
-=======
-        "HashCode": -660973205,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -620831240,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13327,11 +12551,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1619882550,
-=======
-        "HashCode": 1467852161,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -2122677177,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13414,11 +12634,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -612164847,
-=======
-        "HashCode": 973028192,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 636132806,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13501,11 +12717,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1454149615,
-=======
-        "HashCode": 857267563,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 838998314,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13588,11 +12800,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 537757599,
-=======
-        "HashCode": 348769569,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -866973891,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13675,11 +12883,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -415120737,
-=======
-        "HashCode": 745485504,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -885160421,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13718,11 +12922,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -836567778,
-=======
-        "HashCode": 1561888279,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1206184485,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -14039,11 +13239,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -781069404,
-=======
-        "HashCode": -762199214,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1879301442,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14242,11 +13438,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 213834513,
-=======
-        "HashCode": -75536687,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1061460211,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14375,11 +13567,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2052888770,
-=======
-        "HashCode": 322765980,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 979567374,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14436,11 +13624,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -426819265,
-=======
-        "HashCode": -809358055,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1495354272,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14574,11 +13758,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1677621917,
-=======
-        "HashCode": 217242789,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1789071113,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14626,11 +13806,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1054830312,
-=======
-        "HashCode": -1782373959,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 117382521,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15049,11 +14225,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -158944682,
-=======
-        "HashCode": 18237215,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 396481722,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15157,11 +14329,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1095762605,
-=======
-        "HashCode": 1213250451,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 772544517,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15209,11 +14377,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -812036163,
-=======
-        "HashCode": 830270675,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1977140619,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15285,11 +14449,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -48981675,
-=======
-        "HashCode": 1261703921,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1723205297,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15324,11 +14484,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1399467283,
-=======
-        "HashCode": -1266750071,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 264402838,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15526,11 +14682,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1741512701,
-=======
-        "HashCode": -247295739,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 13273500,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15560,11 +14712,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -620306659,
-=======
-        "HashCode": -1811168058,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1745302544,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15647,11 +14795,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1553035630,
-=======
-        "HashCode": 1465955971,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -969551026,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15682,11 +14826,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1552878338,
-=======
-        "HashCode": -1616799522,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 644043678,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15841,11 +14981,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1530690413,
-=======
-        "HashCode": -2026975993,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1808475928,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15906,11 +15042,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1202880762,
-=======
-        "HashCode": 2092960520,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1524998580,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15954,11 +15086,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1042796643,
-=======
-        "HashCode": -1625132063,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 446333246,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15993,11 +15121,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1995140066,
-=======
-        "HashCode": -529206669,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1333164095,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16033,11 +15157,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 690807316,
-=======
-        "HashCode": -912394944,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 765612178,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16133,11 +15253,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1228697987,
-=======
-        "HashCode": -1012458858,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1743717779,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16259,11 +15375,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1885099672,
-=======
-        "HashCode": 992050841,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1817424830,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16385,11 +15497,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1551911781,
-=======
-        "HashCode": -2033628846,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 526902595,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16522,11 +15630,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1074275764,
-=======
-        "HashCode": 1477501334,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 816378656,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16659,11 +15763,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1267405174,
-=======
-        "HashCode": 297118597,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1865590155,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16796,11 +15896,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1754263390,
-=======
-        "HashCode": 1569921647,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1241011289,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16933,11 +16029,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1849801051,
-=======
-        "HashCode": -1636044364,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -557688850,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17070,11 +16162,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -13926234,
-=======
-        "HashCode": 991220267,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -312963412,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17207,11 +16295,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1198927660,
-=======
-        "HashCode": 653380807,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1026306792,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17344,11 +16428,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 571376328,
-=======
-        "HashCode": 2087494409,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1592770380,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17481,11 +16561,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 246517752,
-=======
-        "HashCode": -1603200727,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -976463828,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17618,11 +16694,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -693033276,
-=======
-        "HashCode": -1444998954,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -705721249,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17755,11 +16827,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1916295696,
-=======
-        "HashCode": -1478208947,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -811171228,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17892,11 +16960,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 486911517,
-=======
-        "HashCode": 906013814,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1868416557,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18029,11 +17093,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1482426163,
-=======
-        "HashCode": 1722558320,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -487945944,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18155,11 +17215,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1649773602,
-=======
-        "HashCode": 892515181,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 28979039,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18281,11 +17337,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 466397527,
-=======
-        "HashCode": -2058860439,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 729970319,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18372,11 +17424,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 57850821,
-=======
-        "HashCode": 665825014,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1450064979,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18464,11 +17512,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 157856621,
-=======
-        "HashCode": 552791069,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -180323126,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18555,11 +17599,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2068137900,
-=======
-        "HashCode": -1835260660,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1658913825,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18647,11 +17687,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 594784295,
-=======
-        "HashCode": -1305985403,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -919734920,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18738,11 +17774,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 844778535,
-=======
-        "HashCode": 912000115,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 557309006,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18830,11 +17862,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1219002425,
-=======
-        "HashCode": 879574082,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1825901401,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18921,11 +17949,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2016717787,
-=======
-        "HashCode": -1869420593,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -626170009,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19013,11 +18037,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -770327505,
-=======
-        "HashCode": 424792320,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -430888824,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19104,11 +18124,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -88086231,
-=======
-        "HashCode": 600859759,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 969789406,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19196,11 +18212,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1983986997,
-=======
-        "HashCode": -1115523834,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -1780907200,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19287,11 +18299,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 273702564,
-=======
-        "HashCode": -709180690,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1456140696,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19379,11 +18387,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1959666851,
-=======
-        "HashCode": 1307021659,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -699950628,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19470,11 +18474,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1914816469,
-=======
-        "HashCode": 2138466467,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 1679463635,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19562,11 +18562,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 915669618,
-=======
-        "HashCode": -1410776684,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": -940064235,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19605,11 +18601,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1989619267,
-=======
-        "HashCode": 1432756190,
->>>>>>> dda19de (penalty and officer get method done)
+        "HashCode": 2054566710,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
