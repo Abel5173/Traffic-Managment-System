@@ -26,6 +26,8 @@ import { PenaltyFormComponent } from './penalty-form/penalty-form.component';
 import { DrivertableComponent } from './drivertable/drivertable.component';
 import { VehicletableComponent } from './vehicletable/vehicletable.component';
 import { OfficertableComponent } from './officertable/officertable.component';
+import { ListViewModule } from '@syncfusion/ej2-angular-lists';
+
 @NgModule({
   declarations: [
     AppComponent, 
@@ -41,6 +43,7 @@ import { OfficertableComponent } from './officertable/officertable.component';
   imports: [
     RouterLink,
     RouterModule,
+    ListViewModule,
     BrowserModule,
     AppRoutingModule,
     SidebarModule,

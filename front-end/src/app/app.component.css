@@ -33,17 +33,22 @@ h2{
 .e-treeview .e-list-item.e-active > .e-fullrow {
     background-color: #13676A82;
     border-color: #68babd2b;
-    ;
 }
 
-/* CSS for changing the color of the selected item's text */
-.e-treeview .e-active .e-list-text {
-    color: #13676a; /* Replace with your desired color */
+.e-listview .e-list-item {
+    margin: 1rem;
+    color: rgb(110, 110, 110);
+    font-size: medium;
 }
-
-.treeview .e-list-text{
-    font-size: 18px;
+.e-listview .e-list-header{
+    color: #000;
+    font-size: medium;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+    margin: 1rem;
 }
-.treeview .e-list-item{
-    margin-bottom: .5rem;
+.e-listview .e-list-item.e-hover {
+    color:rgb(170, 238, 212);
+    background-color: rgb(64, 104, 94);
 }

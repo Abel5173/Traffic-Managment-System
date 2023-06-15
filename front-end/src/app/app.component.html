@@ -1,13 +1,13 @@
 <div>
     <ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [width]="width" (created)="onCreated($event)" style="visibility: hidden"
     [mediaQuery]="mediaQuery" (close)="onClose($event)">
-        <div class="main-menu">
-            <h2>Traffic Management<br>System</h2>
-            <div>
-                <ejs-treeview id="main-treeview" #treeviewInstance [fields]="field" class="tree-view treeview" expandOn="Click" (nodeClicked)="onNodeClicked($event)">
-                </ejs-treeview>                
+            <div id="sample"> 
+                <ejs-listview id="List" [dataSource]="data" headerTitle="Traffic Management System" showHeader="true">
+                    <ng-template #template let-data>
+                        <p [routerLink]="data.routerLink"><i [class]="data.iconCss"></i>   {{ data.name }}</p>
+                    </ng-template>
+                </ejs-listview>
             </div>
-        </div>
     </ejs-sidebar>
 
     <div>

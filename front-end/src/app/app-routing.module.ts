@@ -13,6 +13,9 @@ const routes: Routes = [
 { 
   path: '', component: AccidentFormComponent
 },
+{ 
+  path: 'home', component: AccidentFormComponent
+},
 {
   path : 'penalitytable' , component : PenalityGridComponent
 },
