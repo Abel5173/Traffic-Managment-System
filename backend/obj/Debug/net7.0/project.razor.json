@@ -13,15 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1759719987,
-=======
-        "HashCode": -741338212,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 971236718,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 708007863,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -105,15 +97,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2067077567,
-=======
-        "HashCode": -571854533,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1388991628,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1251030244,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -198,15 +182,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -796596185,
-=======
-        "HashCode": -1997225995,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1562766629,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1802773574,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -239,15 +215,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -258986226,
-=======
-        "HashCode": -316018379,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -2034967414,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 507052695,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -281,15 +249,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1050063087,
-=======
-        "HashCode": -1893331032,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1863005560,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 173899905,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -310,15 +270,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1451950310,
-=======
-        "HashCode": -1617276061,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1539627526,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1709975532,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -340,15 +292,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -613973912,
-=======
-        "HashCode": 731938059,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1560168081,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 401009065,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -453,15 +397,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 421273574,
-=======
-        "HashCode": 205882975,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1879821905,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1817456136,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -567,15 +503,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1234815028,
-=======
-        "HashCode": 1044010204,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1735537179,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1298009385,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -608,15 +536,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -328531765,
-=======
-        "HashCode": 661361574,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1401094868,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1221241085,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -650,15 +570,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1873790047,
-=======
-        "HashCode": -1463515500,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -973150390,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1632416678,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -691,15 +603,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2066997572,
-=======
-        "HashCode": -1348007757,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -956182222,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1662351602,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -733,15 +637,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1424031162,
-=======
-        "HashCode": 821852916,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 17003291,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 769317792,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -774,15 +670,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 113328839,
-=======
-        "HashCode": -769892293,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1023088289,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1830205025,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -816,15 +704,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1746739184,
-=======
-        "HashCode": -875512441,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -235959612,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 464888207,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -845,15 +725,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1570454021,
-=======
-        "HashCode": 1535994198,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1367885707,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1174188859,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -875,15 +747,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1453072227,
-=======
-        "HashCode": -1233635248,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1552045173,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1485550973,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -914,15 +778,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 985945270,
-=======
-        "HashCode": 165988161,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -218005271,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 63159732,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -954,15 +810,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1274082749,
-=======
-        "HashCode": -1379252675,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 924922031,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 862537073,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -983,15 +831,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -732286812,
-=======
-        "HashCode": 894711545,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 694844142,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2006315437,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -1013,15 +853,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1814070946,
-=======
-        "HashCode": 1798631221,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1326897749,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 46378693,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1096,15 +928,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1842673769,
-=======
-        "HashCode": 2134934645,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1261108002,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1734350862,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1180,15 +1004,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1049599607,
-=======
-        "HashCode": -2089687223,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1396893641,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -327915916,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1209,15 +1025,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1774367595,
-=======
-        "HashCode": 6924577,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 508871707,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2142528471,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1239,15 +1047,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1170344938,
-=======
-        "HashCode": 616964677,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -644336589,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 665850002,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1289,15 +1089,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 399206775,
-=======
-        "HashCode": -514820351,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -350897895,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2013112425,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1340,15 +1132,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1227912568,
-=======
-        "HashCode": -985080167,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -380023902,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1802829129,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1390,15 +1174,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -814935912,
-=======
-        "HashCode": -489141352,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1633044974,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1792033478,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1441,15 +1217,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1154575650,
-=======
-        "HashCode": -667195643,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -105877356,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -265984369,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1470,15 +1238,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1523382086,
-=======
-        "HashCode": -170379003,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 880091126,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1247199108,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1500,15 +1260,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -920856323,
-=======
-        "HashCode": -1582493874,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 436576909,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 406771147,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1550,15 +1302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 978660254,
-=======
-        "HashCode": 1430755137,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -162322246,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1247178494,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1601,15 +1345,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 292522927,
-=======
-        "HashCode": -953650644,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -266496334,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1662382957,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1717,15 +1453,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1932628589,
-=======
-        "HashCode": 2070765301,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -874612741,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1430244226,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1834,15 +1562,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1586719881,
-=======
-        "HashCode": 1954725200,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1777871450,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1621753567,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1863,15 +1583,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2112002805,
-=======
-        "HashCode": 1738239922,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1966308966,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1824337417,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1893,15 +1605,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1570647172,
-=======
-        "HashCode": 115151376,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -2111288046,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1680167892,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1934,15 +1638,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1092394164,
-=======
-        "HashCode": 331092461,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 422898849,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 742045002,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1976,15 +1672,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1743602302,
-=======
-        "HashCode": 835337018,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -2089946493,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -938009454,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -2005,15 +1693,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -294163609,
-=======
-        "HashCode": 990074683,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1138337079,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1326436058,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -2035,15 +1715,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1018559395,
-=======
-        "HashCode": -315903286,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1455770056,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -72939763,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -2062,15 +1734,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1960418461,
-=======
-        "HashCode": 257407525,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -283724656,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1314033457,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -2090,15 +1754,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1733091136,
-=======
-        "HashCode": -291287649,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 940459588,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -980565301,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2203,15 +1859,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -458920127,
-=======
-        "HashCode": 848863176,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1444917637,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -397233827,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2317,15 +1965,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -49806306,
-=======
-        "HashCode": 334144052,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -726922062,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2086460127,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2358,15 +1998,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 51965746,
-=======
-        "HashCode": 558159652,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1249633702,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1117584840,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2400,15 +2032,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 952785034,
-=======
-        "HashCode": 1749916386,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -198288666,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -210103174,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2480,15 +2104,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 239504328,
-=======
-        "HashCode": 1091497358,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -63693805,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1055054494,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2561,15 +2177,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1960049803,
-=======
-        "HashCode": -2134830025,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 999570512,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1029211986,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2677,15 +2285,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1439767414,
-=======
-        "HashCode": -551685249,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -530916035,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -964166112,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2794,15 +2394,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 237720209,
-=======
-        "HashCode": 197447019,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 495583943,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1804013820,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2844,15 +2436,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 184143820,
-=======
-        "HashCode": 1674558906,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1719928158,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1047050260,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2895,15 +2479,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1717168516,
-=======
-        "HashCode": 151406630,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1359873282,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 185166106,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3000,15 +2576,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2008692115,
-=======
-        "HashCode": 1735658413,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1376953616,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -874808111,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3106,15 +2674,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -698121894,
-=======
-        "HashCode": 595435922,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -621266529,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 56998927,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3178,15 +2738,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1035667754,
-=======
-        "HashCode": -397522061,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 923808089,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 445118576,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3251,15 +2803,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 574017017,
-=======
-        "HashCode": 980881614,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 911227373,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1112898388,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3367,15 +2911,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 604237945,
-=======
-        "HashCode": 1079518648,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -502168439,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1462667197,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3484,15 +3020,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 778842684,
-=======
-        "HashCode": 2033547962,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1177583198,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -952320532,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3513,15 +3041,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1693282541,
-=======
-        "HashCode": -1620811812,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1966331923,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 42065525,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3543,15 +3063,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2019182037,
-=======
-        "HashCode": 539605948,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 2022760565,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -118471916,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3649,15 +3161,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1734161162,
-=======
-        "HashCode": 1839563627,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1613569751,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1253726681,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3756,15 +3260,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -539926981,
-=======
-        "HashCode": 909693460,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 929385995,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -282850074,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3785,15 +3281,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1878943089,
-=======
-        "HashCode": -91787317,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 64095588,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 606196241,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3815,15 +3303,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -205103737,
-=======
-        "HashCode": 2021208784,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 328840918,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 763409282,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3895,15 +3375,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1433524609,
-=======
-        "HashCode": -822791656,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -452980696,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2086327657,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3976,15 +3448,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 400266720,
-=======
-        "HashCode": 489474276,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -117422844,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1279409543,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4056,15 +3520,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -641920097,
-=======
-        "HashCode": -690575756,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1128440844,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1715790994,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4137,15 +3593,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -734751229,
-=======
-        "HashCode": -2238387,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 902679425,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1321890156,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4199,15 +3647,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 531216132,
-=======
-        "HashCode": 1906930575,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1742530708,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1930451237,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4262,15 +3702,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1494672041,
-=======
-        "HashCode": 874163125,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 960280108,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1978415088,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4311,15 +3743,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2083488171,
-=======
-        "HashCode": 704146912,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1700484755,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2017348838,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4361,15 +3785,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1276997176,
-=======
-        "HashCode": 1584540479,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1871409264,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 632118667,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4410,15 +3826,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -701828537,
-=======
-        "HashCode": 997541035,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1800441244,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -49270605,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4460,15 +3868,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -769187016,
-=======
-        "HashCode": -1563858225,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 127447661,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1025924202,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4510,15 +3910,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1072593805,
-=======
-        "HashCode": 1437285508,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1219807009,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1637034502,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4561,15 +3953,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 651563754,
-=======
-        "HashCode": -542496127,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 83101711,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 706274960,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4632,15 +4016,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -356069675,
-=======
-        "HashCode": -1897940510,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1181309099,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2071280968,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4704,15 +4080,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1918935368,
-=======
-        "HashCode": -1350900726,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1003335106,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -610119527,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4733,15 +4101,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -481135705,
-=======
-        "HashCode": 424278316,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -481688241,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -200199827,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4763,15 +4123,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1384590478,
-=======
-        "HashCode": 382285301,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1264392251,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1671420722,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4803,15 +4155,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 245944337,
-=======
-        "HashCode": 123413432,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1018256888,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1812615877,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4844,15 +4188,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1813971260,
-=======
-        "HashCode": -1713391874,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -137333366,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -204534169,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4873,15 +4209,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1978479373,
-=======
-        "HashCode": 27730284,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1913107306,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1738044056,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4903,15 +4231,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1289974995,
-=======
-        "HashCode": -1211543951,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 113532848,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1072626793,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4930,15 +4250,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -829646408,
-=======
-        "HashCode": -55516188,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -828454408,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1117508161,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4958,15 +4270,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1295116195,
-=======
-        "HashCode": -1520321211,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 289076580,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1400014791,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4998,15 +4302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1079238430,
-=======
-        "HashCode": -325033166,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 54400979,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1680548404,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5039,15 +4335,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1053467856,
-=======
-        "HashCode": 121212407,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1201823348,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1642532981,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5068,15 +4356,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -868982666,
-=======
-        "HashCode": 541517583,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 937625512,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1965949078,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5098,15 +4378,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1831448596,
-=======
-        "HashCode": -1269537163,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1133756871,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -95935361,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5169,15 +4441,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 670247954,
-=======
-        "HashCode": -1965398222,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 96828684,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2035455139,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5241,15 +4505,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 896347371,
-=======
-        "HashCode": -857196761,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -2090381265,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1483811291,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5270,15 +4526,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2008070988,
-=======
-        "HashCode": -350021477,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -267522518,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 901247432,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5300,15 +4548,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1164031352,
-=======
-        "HashCode": 890976855,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1458861885,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -5887406,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5341,15 +4581,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1942946233,
-=======
-        "HashCode": 1235493922,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1822780935,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 346036080,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5383,15 +4615,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1446807325,
-=======
-        "HashCode": 2089368888,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -805668071,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1546723303,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5523,15 +4747,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1721249356,
-=======
-        "HashCode": 36250759,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 982804638,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1913703096,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5664,15 +4880,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1982264531,
-=======
-        "HashCode": -258623263,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1260506642,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 466927099,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5705,15 +4913,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -914942977,
-=======
-        "HashCode": 1685494583,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 399953542,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1436324398,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5747,15 +4947,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1753274404,
-=======
-        "HashCode": -415365176,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -192221600,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -465616502,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5788,15 +4980,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 205072080,
-=======
-        "HashCode": -465744477,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1016634259,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -906583880,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5830,15 +5014,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1543862481,
-=======
-        "HashCode": 80151785,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -394032080,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1222102464,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5871,15 +5047,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -846849665,
-=======
-        "HashCode": 691112039,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1851664305,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 853416755,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5913,15 +5081,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 70950891,
-=======
-        "HashCode": -1949490429,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1141995935,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -247824629,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6004,15 +5164,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1949967635,
-=======
-        "HashCode": 1484164828,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1781878575,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 4064998,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6095,15 +5247,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2145343073,
-=======
-        "HashCode": -1305466987,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 645940772,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1920469188,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6186,15 +5330,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 335408082,
-=======
-        "HashCode": -199226156,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1873592521,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1114668524,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6277,15 +5413,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1441928941,
-=======
-        "HashCode": 1083488258,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1681353899,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1948368196,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6368,15 +5496,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1594847579,
-=======
-        "HashCode": 1766322659,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 962281994,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1108441710,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6459,15 +5579,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1610871927,
-=======
-        "HashCode": 286319015,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1436966801,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1143710782,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6550,15 +5662,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2059013469,
-=======
-        "HashCode": -1662120093,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1812952510,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1814735757,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6641,15 +5745,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -78056720,
-=======
-        "HashCode": 766144404,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1352216651,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1349367020,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6732,15 +5828,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 967491052,
-=======
-        "HashCode": -1447286712,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1708378372,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -260202543,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6823,15 +5911,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1120988085,
-=======
-        "HashCode": 405156123,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -724350902,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -36942143,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6914,15 +5994,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 857385540,
-=======
-        "HashCode": -652182807,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -411804356,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 780344937,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7005,15 +6077,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1456537428,
-=======
-        "HashCode": 2040081676,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 561386085,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1127925309,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7096,15 +6160,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1836443269,
-=======
-        "HashCode": -1576922317,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1097739935,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 592709152,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7187,15 +6243,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1888971760,
-=======
-        "HashCode": -120289643,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1050956305,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1093217823,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7278,15 +6326,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1345037372,
-=======
-        "HashCode": 597948759,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 569507179,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1432367481,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7369,15 +6409,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -239025940,
-=======
-        "HashCode": -205738671,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 603798749,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1740928407,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7460,15 +6492,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 233295260,
-=======
-        "HashCode": 767368665,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1871986265,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -9242276,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7551,15 +6575,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -425149201,
-=======
-        "HashCode": 489153235,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1110149188,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -867157584,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7642,15 +6658,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -551194315,
-=======
-        "HashCode": -1753956742,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -426453895,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1821874861,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7733,15 +6741,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 158951131,
-=======
-        "HashCode": -861949950,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1378483826,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 347539857,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7824,15 +6824,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1427765404,
-=======
-        "HashCode": 168604988,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1046347142,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2106574029,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7915,15 +6907,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1358676163,
-=======
-        "HashCode": -906354388,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1480940706,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 619758162,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8006,15 +6990,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 36100701,
-=======
-        "HashCode": 929419323,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 435474025,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -33824404,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8097,15 +7073,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2091297417,
-=======
-        "HashCode": 417800513,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1183522505,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2083830710,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8188,15 +7156,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 991148761,
-=======
-        "HashCode": 826223895,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -394851142,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 679426293,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8279,15 +7239,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -247756911,
-=======
-        "HashCode": 1445998857,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1841351187,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -793802014,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8370,15 +7322,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1894729560,
-=======
-        "HashCode": 1159341766,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -473542923,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1522434687,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8461,15 +7405,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1506524750,
-=======
-        "HashCode": -1502763681,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1027732980,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1213656016,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8552,15 +7488,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -807139189,
-=======
-        "HashCode": 2097367105,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1264607193,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 356362129,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8643,15 +7571,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1207346040,
-=======
-        "HashCode": -684660265,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1445215050,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 684304945,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8734,15 +7654,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1873897932,
-=======
-        "HashCode": 853335595,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -465029828,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -765826641,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8825,15 +7737,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1862407176,
-=======
-        "HashCode": 2137279583,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -786060784,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1892419551,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8916,15 +7820,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 490732498,
-=======
-        "HashCode": -1126476455,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1846670379,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -60389805,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9007,15 +7903,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1213246197,
-=======
-        "HashCode": -778041292,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1536910824,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -967937568,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9098,15 +7986,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1543476113,
-=======
-        "HashCode": -1150749206,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1409302915,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1581811758,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9189,15 +8069,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1968350995,
-=======
-        "HashCode": 870556837,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -655637903,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 138814780,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9280,15 +8152,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1805772146,
-=======
-        "HashCode": -1133030994,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1362859931,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1630546832,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9371,15 +8235,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -256937926,
-=======
-        "HashCode": 1820957223,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -2124710660,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1234374973,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9462,15 +8318,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1823270054,
-=======
-        "HashCode": 1793897472,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -693988397,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1090966696,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9553,15 +8401,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1336831632,
-=======
-        "HashCode": -1266514773,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -731095760,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 8457594,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9644,15 +8484,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -85917943,
-=======
-        "HashCode": -351988220,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -301520030,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1113603195,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9735,15 +8567,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 559560332,
-=======
-        "HashCode": -226760775,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1684509326,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1151980207,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9826,15 +8650,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2014731023,
-=======
-        "HashCode": -1788835753,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1856604124,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1715126148,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9917,15 +8733,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1718813521,
-=======
-        "HashCode": 1896456473,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1673382327,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1720643637,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10008,15 +8816,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1039209457,
-=======
-        "HashCode": -2064032454,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 227165283,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1747067535,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10099,15 +8899,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -63505162,
-=======
-        "HashCode": 1068169409,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 731659391,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 665539776,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10190,15 +8982,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1598997555,
-=======
-        "HashCode": -11139125,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1165168525,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 798625998,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10281,15 +9065,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1888392272,
-=======
-        "HashCode": 1717853725,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -493388333,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1956348673,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10372,15 +9148,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2056475030,
-=======
-        "HashCode": -1918338450,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -568461299,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1993689980,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10463,15 +9231,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1257943015,
-=======
-        "HashCode": -1519833787,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 906160632,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 738076789,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10554,15 +9314,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1938066648,
-=======
-        "HashCode": 232822124,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1364770846,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 962037514,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10645,15 +9397,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1820703226,
-=======
-        "HashCode": 1062956416,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1304989595,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1380682052,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10736,15 +9480,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 515335461,
-=======
-        "HashCode": -244716077,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1555799698,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1090500329,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10827,15 +9563,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1025667450,
-=======
-        "HashCode": 601048390,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 662008814,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 354362884,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10918,15 +9646,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1262416651,
-=======
-        "HashCode": -2127918361,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1474743223,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -903918311,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11009,15 +9729,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2047648868,
-=======
-        "HashCode": 1286025999,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1607484302,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 373897794,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11100,15 +9812,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1999591929,
-=======
-        "HashCode": -1217527303,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -578130368,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -116168174,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11191,15 +9895,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 667749777,
-=======
-        "HashCode": 648535775,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 972384319,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -757744619,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11282,15 +9978,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -829416540,
-=======
-        "HashCode": -761633039,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1740980959,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -691958655,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11373,15 +10061,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 516958370,
-=======
-        "HashCode": -531568257,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -908305032,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1296819785,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11464,15 +10144,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1998885089,
-=======
-        "HashCode": 1628140887,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 739290081,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1767004356,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11555,15 +10227,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -102858443,
-=======
-        "HashCode": 150718602,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -211918211,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1105599642,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11646,15 +10310,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1539182093,
-=======
-        "HashCode": 2049068551,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -685919044,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -37188749,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11737,15 +10393,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 512117726,
-=======
-        "HashCode": 1705642246,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1476991203,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1196938173,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11828,15 +10476,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1450232510,
-=======
-        "HashCode": 12003851,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 820109391,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1306521655,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11919,15 +10559,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -368784801,
-=======
-        "HashCode": 465789071,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1784163859,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -760038510,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12010,15 +10642,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -789110187,
-=======
-        "HashCode": 377651192,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 2018127802,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1926590622,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12101,15 +10725,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -857798266,
-=======
-        "HashCode": 701414646,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1476432470,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -906619263,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12192,15 +10808,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1013149495,
-=======
-        "HashCode": -550055664,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1931076721,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -63841661,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12283,15 +10891,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1347801096,
-=======
-        "HashCode": 842410150,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 228087768,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 949427986,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12374,15 +10974,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 922019438,
-=======
-        "HashCode": -824104284,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -681940131,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -421034669,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12465,15 +11057,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -171952606,
-=======
-        "HashCode": -1138143833,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1740308932,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 263816699,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12556,15 +11140,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 632876151,
-=======
-        "HashCode": 144009025,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1577533067,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1207304618,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12647,15 +11223,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1505096086,
-=======
-        "HashCode": -860511932,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1469685088,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1408029233,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12738,15 +11306,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 837306633,
-=======
-        "HashCode": -1371479208,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -2143217027,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2083882988,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12829,15 +11389,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1195289134,
-=======
-        "HashCode": 466916302,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1082067687,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2120095213,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12920,15 +11472,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -399963012,
-=======
-        "HashCode": -1867047192,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1108667191,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1910394027,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13011,15 +11555,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2060326086,
-=======
-        "HashCode": -1672319174,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 48430023,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1011548777,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13102,15 +11638,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 729268219,
-=======
-        "HashCode": 129792726,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1330078205,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1631929515,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13193,15 +11721,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 994145624,
-=======
-        "HashCode": 1808882867,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 239823768,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 298747586,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13284,15 +11804,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1802950387,
-=======
-        "HashCode": -772822287,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1042880680,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1116310719,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13375,15 +11887,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1900858406,
-=======
-        "HashCode": -1099304438,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1589337165,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1196782926,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13466,15 +11970,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1030888912,
-=======
-        "HashCode": 1412435363,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1584816979,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -481220739,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13557,15 +12053,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1540759157,
-=======
-        "HashCode": 795898632,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1495650310,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2080522429,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13648,15 +12136,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1970682731,
-=======
-        "HashCode": -409973630,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1881543918,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1816896657,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13739,15 +12219,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2043121027,
-=======
-        "HashCode": 1512398002,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1200942815,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 284515513,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13830,15 +12302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1916614729,
-=======
-        "HashCode": 1765865332,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1783810543,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1272584240,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13921,15 +12385,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1382313786,
-=======
-        "HashCode": -52278731,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 699447759,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1318198237,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14012,15 +12468,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -620831240,
-=======
-        "HashCode": -1698344648,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1056015871,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2107501559,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14103,15 +12551,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -2122677177,
-=======
-        "HashCode": -1897747922,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 535449479,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2036903097,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14194,15 +12634,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 636132806,
-=======
-        "HashCode": 1300089446,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1982908224,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -899062561,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14285,15 +12717,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 838998314,
-=======
-        "HashCode": 1876613276,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1104140495,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1109976704,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14376,15 +12800,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -866973891,
-=======
-        "HashCode": 1287270298,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 357254510,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 674578291,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14467,15 +12883,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -885160421,
-=======
-        "HashCode": 943651575,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1683572105,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1928219207,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14514,15 +12922,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1206184485,
-=======
-        "HashCode": 2132199642,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1754582345,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 783796743,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -14839,15 +13239,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1879301442,
-=======
-        "HashCode": 1210065793,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1852122909,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1618652182,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15046,15 +13438,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1061460211,
-=======
-        "HashCode": 1345862215,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -669472571,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -258246863,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15183,15 +13567,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 979567374,
-=======
-        "HashCode": 148683445,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 2070038285,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1281567181,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15248,15 +13624,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1495354272,
-=======
-        "HashCode": -1651610632,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1993788587,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 148481043,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15390,15 +13758,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1789071113,
-=======
-        "HashCode": -1443308285,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1922197725,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -710588787,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15446,15 +13806,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 117382521,
-=======
-        "HashCode": -547102899,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1191604169,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 648755228,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15873,15 +14225,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 396481722,
-=======
-        "HashCode": 867015875,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 313590616,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1495086390,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15985,15 +14329,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 772544517,
-=======
-        "HashCode": 871085778,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -129303489,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -70302027,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16041,15 +14377,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1977140619,
-=======
-        "HashCode": -1147020999,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1258552483,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1222467462,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16121,15 +14449,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1723205297,
-=======
-        "HashCode": -938611281,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1148610522,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1818522844,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16164,15 +14484,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 264402838,
-=======
-        "HashCode": -863766922,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 520655148,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 33193096,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16370,15 +14682,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 13273500,
-=======
-        "HashCode": 1680702142,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1128433432,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1687633070,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16408,15 +14712,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1745302544,
-=======
-        "HashCode": 913618102,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -84316307,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -307094445,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16499,15 +14795,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -969551026,
-=======
-        "HashCode": 1968670629,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1281728327,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1479924758,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16538,15 +14826,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 644043678,
-=======
-        "HashCode": -1258645891,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 114039034,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1889854210,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16701,15 +14981,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1808475928,
-=======
-        "HashCode": 125675381,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 318086667,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2087641721,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16770,15 +15042,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1524998580,
-=======
-        "HashCode": -989951917,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1690984630,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1985237396,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16822,15 +15086,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 446333246,
-=======
-        "HashCode": 1873431371,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1730077874,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -2007072088,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16865,15 +15121,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1333164095,
-=======
-        "HashCode": -102293991,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1711557736,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1963898669,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16909,15 +15157,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 765612178,
-=======
-        "HashCode": 1497743177,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 463593499,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 890328517,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17013,15 +15253,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1743717779,
-=======
-        "HashCode": -1884384792,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1478893279,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1707829143,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17143,15 +15375,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1817424830,
-=======
-        "HashCode": -2130200106,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1626531656,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1043317984,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17273,15 +15497,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 526902595,
-=======
-        "HashCode": 201446219,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1380823460,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1864235668,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17414,15 +15630,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 816378656,
-=======
-        "HashCode": -1518962627,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1948229524,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1486993507,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17555,15 +15763,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1865590155,
-=======
-        "HashCode": -289110878,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -939772267,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1327277089,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17696,15 +15896,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1241011289,
-=======
-        "HashCode": -281843301,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 207712301,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1976011476,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17837,15 +16029,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -557688850,
-=======
-        "HashCode": -355424980,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 267402924,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1166136068,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17978,15 +16162,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -312963412,
-=======
-        "HashCode": -943214624,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 287295558,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2108571662,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18119,15 +16295,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1026306792,
-=======
-        "HashCode": 749242941,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 86328558,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1140082841,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18260,15 +16428,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1592770380,
-=======
-        "HashCode": -2098127881,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -972806766,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 65379118,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18401,15 +16561,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -976463828,
-=======
-        "HashCode": -29624693,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 621169810,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -566799175,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18542,15 +16694,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -705721249,
-=======
-        "HashCode": -975119841,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1129611565,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -620243116,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18683,15 +16827,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -811171228,
-=======
-        "HashCode": -583778219,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -99269549,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 610355553,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18824,15 +16960,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1868416557,
-=======
-        "HashCode": 1759186018,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1524782547,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 173317443,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18965,15 +17093,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -487945944,
-=======
-        "HashCode": 1049330029,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1127601443,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1860511437,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19095,15 +17215,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 28979039,
-=======
-        "HashCode": 52006264,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1737899500,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 2072140019,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19225,15 +17337,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 729970319,
-=======
-        "HashCode": -2035972192,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1854481453,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1637209174,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19320,15 +17424,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1450064979,
-=======
-        "HashCode": 1079248960,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1555569361,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1638047976,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19416,15 +17512,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -180323126,
-=======
-        "HashCode": 913197105,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -944636671,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1970430534,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19511,15 +17599,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1658913825,
-=======
-        "HashCode": -841942125,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -422657083,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 115869134,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19607,15 +17687,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -919734920,
-=======
-        "HashCode": -969889491,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1795687770,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1170364897,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19702,15 +17774,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 557309006,
-=======
-        "HashCode": 1684725775,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1033655422,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1503860622,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19798,15 +17862,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1825901401,
-=======
-        "HashCode": -317288988,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -887495214,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1369110706,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19893,15 +17949,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -626170009,
-=======
-        "HashCode": -1664565090,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -416140422,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1472894584,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19989,15 +18037,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -430888824,
-=======
-        "HashCode": 2109098065,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1491539491,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1886047697,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -20084,15 +18124,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 969789406,
-=======
-        "HashCode": 1404843721,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 1317540036,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1279547406,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -20180,15 +18212,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -1780907200,
-=======
-        "HashCode": 1894868539,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 261420759,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1731747006,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -20275,15 +18299,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1456140696,
-=======
-        "HashCode": -1785819136,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 626053274,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": 1549277261,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -20371,15 +18387,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -699950628,
-=======
-        "HashCode": -1124210796,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -927902540,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -493509608,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -20466,15 +18474,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 1679463635,
-=======
-        "HashCode": 2016167804,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -1461191118,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1378003217,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -20562,15 +18562,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": -940064235,
-=======
-        "HashCode": 992147269,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": -744236520,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1624042480,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20609,15 +18601,7 @@
         }
       },
       {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "HashCode": 2054566710,
-=======
-        "HashCode": 1437414736,
->>>>>>> a980408 (commited)
-=======
-        "HashCode": 483584837,
->>>>>>> e46e473 (vehicle table done)
+        "HashCode": -1269015246,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
