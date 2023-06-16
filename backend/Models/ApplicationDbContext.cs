@@ -3,6 +3,8 @@ using models.officer;
 using models.penalty;
 using models.driver ;
 using models.vehicle; 
+using models.vehicle_owner;
+using models.Accident_vehicle;
 
 namespace apidb2.Services;
 
@@ -20,8 +22,8 @@ public class ApplicationDbContext : DbContext {
     public DbSet<Driver> driver {get ; set ;}
     public DbSet<Vehicle> vehicle {get ; set ;}
 
-
-
+    public DbSet<vehicle_owner> vehicle_owner {get ; set ;}
+    public DbSet<Accident_vehicle> accident_vehicle {get ; set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Penalty>()
@@ -34,7 +36,11 @@ public class ApplicationDbContext : DbContext {
              .HasKey(p => p.license_no);
         modelBuilder.Entity<Vehicle>()
              .HasKey(p => p.plate_no); 
-    
+        modelBuilder.Entity<vehicle_owner>()
+             .HasKey(p => p.vehicle_owner_id);
+        modelBuilder.Entity<Accident_vehicle>()
+             .HasKey(p => p.accident_vehicle_id);
+                        
     }
 
     
