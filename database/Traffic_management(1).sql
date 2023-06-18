@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 06, 2023 at 09:08 AM
+-- Generation Time: Jun 18, 2023 at 10:43 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -32,7 +32,7 @@ CREATE TABLE `accident` (
   `accident_type` varchar(200) NOT NULL,
   `date` date NOT NULL,
   `reporter` int(255) NOT NULL,
-  `address` varchar(1000) NOT NULL,
+  `address` int(255) NOT NULL,
   `life_lost` int(255) NOT NULL,
   `major_injury` int(255) NOT NULL,
   `minor_injury` int(255) NOT NULL,
@@ -42,6 +42,13 @@ CREATE TABLE `accident` (
   `accident_vechile_id` int(200) NOT NULL,
   `accident_driver_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `accident`
+--
+
+INSERT INTO `accident` (`accident_id`, `accident_type`, `date`, `reporter`, `address`, `life_lost`, `major_injury`, `minor_injury`, `property_loss`, `property_loss_in_money`, `description`, `accident_vechile_id`, `accident_driver_id`) VALUES
+(2121, 'sdfe', '2023-06-22', 2121, 21, 33, 44, 444, 444, '231231', 'dfsdf', 2121, 221);
 
 -- --------------------------------------------------------
 
@@ -55,6 +62,13 @@ CREATE TABLE `accident_driver` (
   `driver_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `accident_driver`
+--
+
+INSERT INTO `accident_driver` (`accident_driver_id`, `accident_id`, `driver_id`) VALUES
+(221, 2321, 2121);
+
 -- --------------------------------------------------------
 
 --
@@ -66,6 +80,13 @@ CREATE TABLE `accident_vehicle` (
   `accident_id` int(255) NOT NULL,
   `vehicle_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `accident_vehicle`
+--
+
+INSERT INTO `accident_vehicle` (`accident_vehicle_id`, `accident_id`, `vehicle_id`) VALUES
+(2121, 2121, 2121);
 
 -- --------------------------------------------------------
 
@@ -81,6 +102,13 @@ CREATE TABLE `address` (
   `specific_location` varchar(1000) NOT NULL,
   `zone` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `address`
+--
+
+INSERT INTO `address` (`address_id`, `region`, `wereda`, `kebele`, `specific_location`, `zone`) VALUES
+(21, 'Amhara', 'machakel', '01', 'Amanuel', 'east gojjam');
 
 -- --------------------------------------------------------
 
@@ -98,6 +126,13 @@ CREATE TABLE `driver` (
   `penalty_driver_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `driver`
+--
+
+INSERT INTO `driver` (`fullName`, `phone_no`, `age`, `nationality`, `license_no`, `accident_driver_id`, `penalty_driver_id`) VALUES
+('bereket tadele', 909983, 22, 'Ethiopian', 42323, 221, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -111,6 +146,13 @@ CREATE TABLE `Officer` (
   `password` varchar(100) NOT NULL,
   `username` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `Officer`
+--
+
+INSERT INTO `Officer` (`officer_id`, `fullname`, `phone_no`, `password`, `username`) VALUES
+(2121, 'bbb', 333333, '11111', 'ttt');
 
 -- --------------------------------------------------------
 
@@ -129,6 +171,13 @@ CREATE TABLE `penalty` (
   `penalty_driver_id` int(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `penalty`
+--
+
+INSERT INTO `penalty` (`penalty_id`, `driver_license`, `driver_name`, `violation_type`, `date`, `penalty_leve`, `amount`, `penalty_driver_id`) VALUES
+(1, 1111, 'bereket', 'over speed', '2023-06-14', 'low', '2121', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -141,6 +190,13 @@ CREATE TABLE `penalty_driver` (
   `driver_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `penalty_driver`
+--
+
+INSERT INTO `penalty_driver` (`penalty_driver_id`, `penalty_id`, `driver_id`) VALUES
+(1, 1, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -151,11 +207,16 @@ CREATE TABLE `vehicle` (
   `plate_no` varchar(100) NOT NULL,
   `motor_no` varchar(100) NOT NULL,
   `purchased_date` date NOT NULL,
-  `owner_name` varchar(100) NOT NULL,
-  `owner_phone` int(100) NOT NULL,
   `accident_vehicle_id` int(100) NOT NULL,
   `vehicle_owner_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `vehicle`
+--
+
+INSERT INTO `vehicle` (`plate_no`, `motor_no`, `purchased_date`, `accident_vehicle_id`, `vehicle_owner_id`) VALUES
+('e3e3', '234', '2023-06-09', 2121, 1);
 
 -- --------------------------------------------------------
 
@@ -183,6 +244,13 @@ CREATE TABLE `vehicle_owner` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `vehicle_owner`
+--
+
+INSERT INTO `vehicle_owner` (`vehicle_owner_id`, `vehicle_id`, `fullname`, `phone`) VALUES
+(1, 32, 'bereket tadele', 9088383);
+
+--
 -- Indexes for dumped tables
 --
 
@@ -193,7 +261,8 @@ ALTER TABLE `accident`
   ADD PRIMARY KEY (`accident_id`),
   ADD KEY `accident_driver_id` (`accident_driver_id`),
   ADD KEY `accident_vechile_id` (`accident_vechile_id`),
-  ADD KEY `reporter` (`reporter`);
+  ADD KEY `reporter` (`reporter`),
+  ADD KEY `address` (`address`);
 
 --
 -- Indexes for table `accident_driver`
@@ -244,7 +313,8 @@ ALTER TABLE `penalty_driver`
 --
 ALTER TABLE `vehicle`
   ADD PRIMARY KEY (`plate_no`),
-  ADD KEY `vehicle_owner_id` (`vehicle_owner_id`);
+  ADD KEY `vehicle_owner_id` (`vehicle_owner_id`),
+  ADD KEY `accident_vehicle_id` (`accident_vehicle_id`);
 
 --
 -- Indexes for table `vehicle_driver`
@@ -268,7 +338,8 @@ ALTER TABLE `vehicle_owner`
 ALTER TABLE `accident`
   ADD CONSTRAINT `accident_ibfk_1` FOREIGN KEY (`accident_driver_id`) REFERENCES `accident_driver` (`accident_driver_id`),
   ADD CONSTRAINT `accident_ibfk_2` FOREIGN KEY (`accident_vechile_id`) REFERENCES `accident_vehicle` (`accident_vehicle_id`),
-  ADD CONSTRAINT `accident_ibfk_3` FOREIGN KEY (`reporter`) REFERENCES `Officer` (`officer_id`);
+  ADD CONSTRAINT `accident_ibfk_3` FOREIGN KEY (`reporter`) REFERENCES `Officer` (`officer_id`),
+  ADD CONSTRAINT `accident_ibfk_4` FOREIGN KEY (`address`) REFERENCES `address` (`address_id`);
 
 --
 -- Constraints for table `driver`
@@ -281,7 +352,8 @@ ALTER TABLE `driver`
 -- Constraints for table `vehicle`
 --
 ALTER TABLE `vehicle`
-  ADD CONSTRAINT `vehicle_ibfk_1` FOREIGN KEY (`vehicle_owner_id`) REFERENCES `vehicle_owner` (`vehicle_owner_id`);
+  ADD CONSTRAINT `vehicle_ibfk_1` FOREIGN KEY (`vehicle_owner_id`) REFERENCES `vehicle_owner` (`vehicle_owner_id`),
+  ADD CONSTRAINT `vehicle_ibfk_2` FOREIGN KEY (`accident_vehicle_id`) REFERENCES `accident_vehicle` (`accident_vehicle_id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

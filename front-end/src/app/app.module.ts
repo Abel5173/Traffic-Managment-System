@@ -27,6 +27,7 @@ import { DrivertableComponent } from './drivertable/drivertable.component';
 import { VehicletableComponent } from './vehicletable/vehicletable.component';
 import { OfficertableComponent } from './officertable/officertable.component';
 import { ListViewModule } from '@syncfusion/ej2-angular-lists';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ListViewModule } from '@syncfusion/ej2-angular-lists';
     PenaltyFormComponent,
     DrivertableComponent,
     VehicletableComponent,
-    OfficertableComponent
+    OfficertableComponent,
+    LoginComponent
   ],
   imports: [
     RouterLink,

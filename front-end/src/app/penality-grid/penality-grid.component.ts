@@ -22,7 +22,12 @@ export class PenalityGridComponent   implements OnInit{
 
   searchevent(){
 
-    this.penaltydata.searchPenalty(this.query).subscribe(data =>this.data=  data);
+    if(this.query === '')
+         this.penaltydata.getdata().subscribe(data => this.data = data);
+         
+  this.penaltydata.searchPenalty(this.query).subscribe(data =>this.data=  data);
+   
+     
   }
 
   public headerTemplate: any = (field: any, headerText: any, column: any) => {
