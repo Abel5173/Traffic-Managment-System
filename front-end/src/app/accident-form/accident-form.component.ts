@@ -9,6 +9,12 @@ import { AccidentFormService } from '../Services/accident-form.service';
 })
 export class AccidentFormComponent implements OnInit {
   accidentForm!: FormGroup;
+  vehicles: any[] = [];
+  drivers: any[] = [];
+  accidentType: string[] = ['Over speed', 'No belt', 'Phone While Driving', 'Red light'];
+  region: string[] = ['Region1', 'Region2', 'Region3', 'Region4', 'Region5'];
+  zone: string[] = ['Zone1', 'Zone2', 'Zone3', 'Zone4', 'Zone5'];
+  wereda: string[] = ['Wereda1', 'Wereda2', 'Wereda3', 'Wereda4', 'Wereda5'];
 
   constructor(
     private formBuilder: FormBuilder,
@@ -46,10 +52,36 @@ export class AccidentFormComponent implements OnInit {
     });
   }
 
-  onSubmit(): void {
+  addVehicle(): void {
+    if (this.accidentForm.get('vehicles.vehicle')?.valid) {
+      const vehicleData = this.accidentForm.get('vehicles.vehicle')?.value;
+      this.vehicles.push(vehicleData);
+      this.accidentForm.get('vehicles.vehicle')?.reset();
+    }
+  }
+
+  getVehicles(): any[] {
+    return this.vehicles;
+  }
+
+  addDriver(): void {
+    if (this.accidentForm.get('drivers.driver')?.valid) {
+      const driverData = this.accidentForm.get('drivers.driver')?.value;
+      this.drivers.push(driverData);
+      this.accidentForm.get('drivers.driver')?.reset();
+    }
+  }
+
+  getDrivers(): any[] {
+    return this.drivers;
+  }
+
+  submitForm(): void {
     if (this.accidentForm.valid) {
       const formData = this.accidentForm.value;
       // Call the service to submit the form
+      console.log(formData);
+
       this.accidentFormService.submitAccidentForm(formData).subscribe(
         (response) => {
           console.log('Form submitted successfully:', response);
@@ -63,7 +95,6 @@ export class AccidentFormComponent implements OnInit {
     }
   }
 
-  // Helper method to access form controls easily in the template
   getFormControls(section: string): any {
     const control = this.accidentForm.get(section);
     if (control instanceof FormGroup) {
@@ -71,5 +102,4 @@ export class AccidentFormComponent implements OnInit {
     }
     return null;
   }
-  
 }
