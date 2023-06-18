@@ -21,6 +21,17 @@ public class officerController:ControllerBase{
 
     }
 
+        [HttpGet("search")]
+public ActionResult<IEnumerable<Accident>> SearchOfficer(string query)
+{
+    // Connect to your data source (e.g., a database) and perform the search query
+    var searchResults = _context.Officer
+                          .Where(o => o.fullname.Contains(query) || o.officer_id.ToString().Contains(query))
+                          .ToList();
+
+    return Ok(searchResults);
+}
+
 
    
 

@@ -11,7 +11,7 @@ export class AccidentTableComponent  implements OnInit{
   constructor(private accidentdata : AccidentFormService){}
 
   data : any ;
-
+  query  :any ;
 
   ngOnInit() {
 
@@ -25,5 +25,10 @@ export class AccidentTableComponent  implements OnInit{
     }
     return headerText;
   };
+
+  searchevent(){
+
+    this.accidentdata.searchAccident(this.query).subscribe(data =>this.data=  data);
+  }
 
 }

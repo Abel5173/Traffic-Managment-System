@@ -25,4 +25,17 @@ public class DriverController:ControllerBase{
     }
 
 
+    [HttpGet("search")]
+public ActionResult<IEnumerable<Accident>> SearchDriver(string query)
+{
+    // Connect to your data source (e.g., a database) and perform the search query
+    var searchResults = _context.driver
+                          .Where(d => d.license_no.ToString().Contains(query) || d.fullName.Contains(query))
+                          .ToList();
+
+    return Ok(searchResults);
+}
+
+
+
 }

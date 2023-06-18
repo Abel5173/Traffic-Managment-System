@@ -11,12 +11,17 @@ export class OfficertableComponent implements OnInit {
   constructor(private officer : OfficerService){}
 
   data : any;
+  query :  any ;
 
   ngOnInit() {
 
     this.officer.getdata().subscribe(data => this.data = data) ;
   }
 
+  searchevent(){
+
+    this.officer.searchOfficer(this.query).subscribe(data =>this.data=  data);
+  }
 
 
 }

@@ -11,11 +11,17 @@ export class DrivertableComponent implements OnInit {
   constructor(private driverdata : DriverService){}
 
   data : any  ;
+  query : any ;
 
   ngOnInit() {
 
     this.driverdata.getdata().subscribe(data => this.data = data);
 
+  }
+
+  searchevent(){
+
+    this.driverdata.searchDriver(this.query).subscribe(data =>this.data=  data);
   }
 
 

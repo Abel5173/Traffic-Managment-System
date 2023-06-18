@@ -47,6 +47,17 @@ public IActionResult GetJoinedData()
             return Ok(result);
         }
 
+                [HttpGet("search")]
+public ActionResult<IEnumerable<Accident>> SearchOfficer(string query)
+{
+    // Connect to your data source (e.g., a database) and perform the search query
+    var searchResults = _context.vehicle
+                          .Where(v => v.plate_no.Contains(query))
+                          .ToList();
+
+    return Ok(searchResults);
+}
+
 
 
    

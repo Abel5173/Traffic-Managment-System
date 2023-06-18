@@ -14,6 +14,11 @@ export class OfficerService {
     return this.http.get<IofficerData[]>('http://localhost:5275/api/officer')
   }
 
+  searchOfficer(query: string): Observable<any[]> {
+    const params = { query: query };
+    return this.http.get<any[]>('http://localhost:5275/api/officer/search', {params});
+  }
+
 }
 export interface IofficerData {
 

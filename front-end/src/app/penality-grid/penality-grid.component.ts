@@ -10,7 +10,8 @@ export class PenalityGridComponent   implements OnInit{
 
   constructor(private penaltydata:PenaltyService){}
   
-  data : any
+  data : any;
+  query : any ;
 
   ngOnInit() {
 
@@ -19,6 +20,10 @@ export class PenalityGridComponent   implements OnInit{
 
   
 
+  searchevent(){
+
+    this.penaltydata.searchPenalty(this.query).subscribe(data =>this.data=  data);
+  }
 
   public headerTemplate: any = (field: any, headerText: any, column: any) => {
     

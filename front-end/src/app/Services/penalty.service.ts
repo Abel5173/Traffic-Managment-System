@@ -15,6 +15,11 @@ export class PenaltyService {
       return this.http.get<IpenaltyData[]>('http://localhost:5275/api/penalty');
   }
 
+  searchPenalty(query: string): Observable<any[]> {
+    const params = { query: query };
+    return this.http.get<any[]>('http://localhost:5275/api/penalty/search', {params});
+  }
+
 }
 export interface IpenaltyData {
   

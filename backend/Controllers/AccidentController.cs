@@ -14,14 +14,17 @@ public class AccidentController:ControllerBase{
     {
         this._context = context ;
     }
+    
+    [HttpGet("search")]
+public ActionResult<IEnumerable<Accident>> SearchAccidents(string query)
+{
+    // Connect to your data source (e.g., a database) and perform the search query
+    var searchResults = _context.accident
+                          .Where(a => a.accident_id.ToString().Contains(query) || a.accident_vechile_id.ToString().Contains(query))
+                          .ToList();
 
-    // [HttpGet]
-    // public ActionResult<IEnumerable<Accident>> get()
-    // {
-
-    //     return _context.accident.ToArray();
-
-    // }
+    return Ok(searchResults);
+}
 
         [HttpGet]
 

@@ -17,7 +17,7 @@ import { CategoryService, LegendService, TooltipService } from '@syncfusion/ej2-
 import { DataLabelService, LineSeriesService} from '@syncfusion/ej2-angular-charts';
 import { RouterModule, RouterLink } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-
+import { FormsModule } from '@angular/forms';
 import { PenalityGridComponent } from './penality-grid/penality-grid.component';
 import { AccidentFormComponent } from './accident-form/accident-form.component';
 import { GridModule } from '@syncfusion/ej2-angular-grids';
@@ -57,6 +57,7 @@ import { ListViewModule } from '@syncfusion/ej2-angular-lists';
     ChartModule,
     DropDownListModule,
     HttpClientModule,
+    FormsModule,
 
     
   ],

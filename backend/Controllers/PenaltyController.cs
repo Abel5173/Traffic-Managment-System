@@ -24,6 +24,18 @@ public class penaltyController:ControllerBase{
     }
 
 
+    [HttpGet("search")]
+public ActionResult<IEnumerable<Accident>> Searchpenalty(string query)
+{
+    // Connect to your data source (e.g., a database) and perform the search query
+    var searchResults = _context.penalty
+                          .Where(d => d.driver_name.Contains(query) || d.driver_license.ToString().Contains(query))
+                          .ToList();
+
+    return Ok(searchResults);
+}
+
+
    
 
 }
