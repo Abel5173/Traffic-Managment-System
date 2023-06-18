@@ -13,9 +13,7 @@ export class DashboardComponent implements OnInit {
   public primaryXAxis!: Object;
   public chartData!: Object[];
   public primaryYAxis!: Object;
-  public title!: string;
-  // public panels: any = [{ "sizeX": 1, "sizeY": 1, "row": 0, "col": 0 }  ]
-  // public width = "290";
+  public title!: string; 
   ngOnInit(): void {
       this.piedata = pieData;
        this.legendSettings = {

@@ -21,6 +21,7 @@ export class AppComponent {
     { name: 'Vehicle', routerLink: '/vehicletable', iconCss: 'custom-icon-color fa fa-car' },
     { name: 'Accident', routerLink: '/accidenttable', iconCss: 'custom-icon-color fas fa-car-crash' },
     { name: 'Penality', routerLink: '/penalitytable', iconCss: 'custom-icon-color fas fa-balance-scale' },
+    { name: 'Officer', routerLink: '/penalitytable', iconCss: 'custom-icon-color fas fa-user-secret ' },
   ];
 
   constructor(private router: Router) { }
