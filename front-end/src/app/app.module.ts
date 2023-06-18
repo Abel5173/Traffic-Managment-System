@@ -28,6 +28,8 @@ import { VehicletableComponent } from './vehicletable/vehicletable.component';
 import { OfficertableComponent } from './officertable/officertable.component';
 import { ListViewModule } from '@syncfusion/ej2-angular-lists';
 import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -43,6 +45,7 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
+    ReactiveFormsModule,
     RouterLink,
     RouterModule,
     ListViewModule,

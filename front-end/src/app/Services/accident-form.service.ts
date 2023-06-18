@@ -11,7 +11,6 @@ export class AccidentFormService {
 
 
   getdata (){
-
     return this.http.get('http://localhost:5275/api/accident')
   }
 

@@ -2,7 +2,7 @@
     <ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [width]="width" (created)="onCreated($event)" style="visibility: hidden"
     [mediaQuery]="mediaQuery" (close)="onClose($event)">
             <div id="sample"> 
-                <ejs-listview id="List" [dataSource]="data" headerTitle="Traffic Management System" showHeader="true">
+                <ejs-listview id="List" [dataSource]="data" headerTitle="Traffic Accident Management System" showHeader="true">
                     <ng-template #template let-data>
                         <p [routerLink]="data.routerLink"><i [class]="data.iconCss"></i>   {{ data.name }}</p>
                     </ng-template>

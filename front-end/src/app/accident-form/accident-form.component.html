@@ -1,144 +1,77 @@
-<div class="control-section">
-    <h1>Accident</h1>
-    <div class="block">
+<form [formGroup]="accidentForm">
+    <div class="control-section">
+      <h1>Accident</h1>
+      <!-- General -->
+      <div class="block">
         <div class="header-bar">
-            <div class="black-bg"></div>
-            <h1 class="header-text">General</h1>
-        </div> 
-        <div class="forms">
-            <div class="form">
-                <label for="date">Date</label>
-                <input class="e-input" type="text" placeholder="Enter name">
-            </div>
-            <div class="form">
-                <label for="date">Accident Type</label>
-                <ejs-dropdownlist id='ddlelement1' [dataSource]='data' placeholder="Accident Type" popupHeight="200px" popupWidth="250px" width="250px"></ejs-dropdownlist>            </div>
-            <div class="form">
-                <label for="date">Reported By</label>
-                <input class="e-input" type="text" placeholder="Enter name">
-            </div>
+          <div class="black-bg"></div>
+          <h1 class="header-text">General</h1>
         </div>
-    </div>
-            
-    <div class="block">
+        <div class="forms">
+          <div class="form">
+            <label for="date">Date</label>
+            <input class="e-input" type="text" formControlName="date" placeholder="Enter date">
+          </div>
+          <div class="form">
+            <label for="accidentType">Accident Type</label>
+            <select class="e-input" formControlName="accidentType">
+              <option value="" disabled selected>Select accident type</option>
+              <option value="Type 1">Type 1</option>
+              <option value="Type 2">Type 2</option>
+              <option value="Type 3">Type 3</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="reportedBy">Reported By</label>
+            <input class="e-input" type="text" formControlName="reportedBy" placeholder="Enter name">
+          </div>
+        </div>
+      </div>
+  
+      <!-- Address -->
+      <div class="block">
         <div class="header-bar">
-            <div class="black-bg"></div>
-            <h1 class="header-text">Address</h1>
-        </div> 
+          <div class="black-bg"></div>
+          <h1 class="header-text">Address</h1>
+        </div>
         <div class="forms">
-            <div class="form">
-                <label for="date">Region</label>
-                <ejs-dropdownlist id='ddlelement1' [dataSource]='data' placeholder="Accident Type" popupHeight="200px" popupWidth="250px" width="250px"></ejs-dropdownlist>            
-            </div>
-            <div class="form">
-                <label for="date">Zone</label>
-                <ejs-dropdownlist id='ddlelement1' [dataSource]='data' placeholder="Accident Type" popupHeight="200px" popupWidth="250px" width="250px"></ejs-dropdownlist>            
-            </div>
-            <div class="form">
-                <label for="date">Wereda</label>
-                <ejs-dropdownlist id='ddlelement1' [dataSource]='data' placeholder="Accident Type" popupHeight="200px" popupWidth="250px" width="250px"></ejs-dropdownlist>            
-            </div>
-            <div class="form">
-                <label for="date">Kebele</label>
-                <input class="e-input" type="number" placeholder="Enter Kebele Number">
-            </div>
-            <div class="form">
-                <label for="date">Specific location</label>
-                <input class="e-input" type="text" placeholder="Enter name">
-            </div>
+          <div class="form">
+            <label for="region">Region</label>
+            <select class="e-input" formControlName="region">
+              <option value="" disabled selected>Select region</option>
+              <option value="Region 1">Region 1</option>
+              <option value="Region 2">Region 2</option>
+              <option value="Region 3">Region 3</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="zone">Zone</label>
+            <select class="e-input" formControlName="zone">
+              <option value="" disabled selected>Select zone</option>
+              <option value="Zone 1">Zone 1</option>
+              <option value="Zone 2">Zone 2</option>
+              <option value="Zone 3">Zone 3</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="wereda">Wereda</label>
+            <select class="e-input" formControlName="wereda">
+              <option value="" disabled selected>Select wereda</option>
+              <option value="Wereda 1">Wereda 1</option>
+              <option value="Wereda 2">Wereda 2</option>
+              <option value="Wereda 3">Wereda 3</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="kebele">Kebele</label>
+            <input class="e-input" type="number" formControlName="kebele" placeholder="Enter kebele number">
+          </div>
+          <div class="form">
+            <label for="specificLocation">Specific Location</label>
+            <input class="e-input" type="text" formControlName="specificLocation" placeholder="Enter specific location">
+          </div>
         </div>
+      </div>
     </div>
-
-    <div class="block">
-        <div class="header-bar">
-            <div class="black-bg"></div>
-            <h1 class="header-text">Vehicles</h1>
-        </div> 
-        <div class="forms">
-            <div class="form">
-                <label for="date">Vehicle</label>
-                <input class="e-input" type="text" placeholder="Enter Vehicle name">
-            </div>
-            <div class="form">
-                <button ejs-button class="vehicle">Add</button>
-            </div>
-        </div>
-        <div>
-            <ejs-grid [dataSource]='data'>
-                <e-columns>
-                    <e-column field='No' headerText='No.' textAlign='Right' width=90></e-column>
-                    <e-column field='PlateNumber' headerText='Plate number' width=120></e-column>
-                    <e-column field='MotorNumber' headerText='Motor Number' textAlign='Right' format='C2' width=90></e-column>
-                    <e-column field='PurchasedDate' headerText='Purchased date' textAlign='Right' format='yMd' width=120></e-column>
-                    <e-column field='OwnerName' headerText='Owner Name' textAlign='Right' width=120></e-column>
-                    <e-column field='OwnerPhone' headerText='Owner Phone' textAlign='Right' width=120></e-column>
-                </e-columns>
-            </ejs-grid>
-        </div>
-    </div>
-
-    <div class="block">
-        <div class="header-bar">
-            <div class="black-bg"></div>
-            <h1 class="header-text">Drivers</h1>
-        </div> 
-        <div class="forms">
-            <div class="form">
-                <label for="date">Driver</label>
-                <input class="e-input" type="text" placeholder="Enter Driver name">
-            </div>
-            <div class="form">
-                <button ejs-button class="drivers">Add</button>
-            </div>
-        </div>
-        <div>
-            <ejs-grid [dataSource]='data'>
-                <e-columns>
-                    <e-column field='No' headerText='No.' textAlign='Right' width=90></e-column>
-                    <e-column field='FullName' headerText='Full Name' width=120></e-column>
-                    <e-column field='LicenceNumber' headerText='Licence Number' textAlign='Right' format='C2' width=90></e-column>
-                    <e-column field='Age' headerText='Age' textAlign='Right' format='yMd' width=120></e-column>
-                    <e-column field='phone' headerText='phone' textAlign='Right' width=120></e-column>
-                    <e-column field='Nationality' headerText='Nationality' textAlign='Right' width=120></e-column>
-                </e-columns>
-            </ejs-grid>
-        </div>
-    </div>
-
-    <div class="block">
-        <div class="header-bar">
-            <div class="black-bg"></div>
-            <h1 class="header-text">Accident Detail</h1>
-        </div> 
-        <div class="forms">
-            <div class="form">
-                <label for="date">Life Lost</label>
-                <input class="e-input" type="number" placeholder="Enter number of Life Lost">
-            </div>
-            <div class="form">
-                <label for="date">Major Injury</label>
-                <input class="e-input" type="number" placeholder="Enter number of Major Injury">
-            </div>
-            <div class="form">
-                <label for="date">Minor Injury</label>
-                <input class="e-input" type="number" placeholder="Enter number of Minor Injury">
-            </div>
-            <div class="form">
-                <label for="date">property loss count</label>
-                <input class="e-input" type="number" placeholder="Enter property loss count">
-            </div>
-            <div class="form">
-                <label for="date">property loss in money</label>
-                <input class="e-input" type="number" placeholder="Enter money">
-            </div>
-            <div class="form">
-                <label for="date">Description</label>
-                    <input class="e-input" type="text" placeholder="Enter name">
-            </div> 
-        </div>
-    </div>
-  </div>
-<div class="btns">
-    <button class="btn" ejs-button cssClass="e-success">Submit</button>
-    <button class="btn" ejs-button cssClass="e-danger">Cancel</button>
-</div>
+  </form>
+  
