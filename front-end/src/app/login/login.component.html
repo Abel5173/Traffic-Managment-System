@@ -1,1 +1,11 @@
-<p>login works!</p>
+<div class="login-container">
+  <div class="login-box">
+    <label for="username">Username:</label>
+    <input type="text" id="username" [(ngModel)]="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="password">
+    <button (click)="login()">Login</button>
+  </div>
+</div>
+
+  

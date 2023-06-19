@@ -8,6 +8,7 @@ import { AccidentTableComponent } from './accident-table/accident-table.componen
 import { DrivertableComponent } from './drivertable/drivertable.component';
 import { OfficertableComponent } from './officertable/officertable.component';
 import { VehicletableComponent } from './vehicletable/vehicletable.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
 { 
@@ -40,6 +41,9 @@ const routes: Routes = [
 },
 {
   path : 'vehicletable' , component : VehicletableComponent
+}
+,{
+  path : 'login' ,component : LoginComponent
 }
 ];
 

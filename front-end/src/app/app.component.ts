@@ -1,14 +1,15 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { NodeClickEventArgs } from '@syncfusion/ej2-angular-navigations';
 import { SidebarComponent, TreeViewComponent } from '@syncfusion/ej2-angular-navigations';
 import { Router } from '@angular/router';
+import { AuthService } from './Services/auth.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent  implements OnInit{
   @ViewChild('sidebarTreeviewInstance') sidebarTreeviewInstance!: SidebarComponent;
   @ViewChild('treeviewInstance') treeviewInstance!: TreeViewComponent;
 
@@ -24,7 +25,24 @@ export class AppComponent {
     { name: 'Officer', routerLink: '/penalitytable', iconCss: 'custom-icon-color fas fa-user-secret ' },
   ];
 
-  constructor(private router: Router) { }
+  
+
+  constructor(private router: Router, public logindata : AuthService ) { }
+
+  ngOnInit(): void {
+
+    if(! this.logindata.islogin ){
+
+      
+        this.sidebarTreeviewInstance.hide();
+        this.treeviewInstance.collapseAll();
+
+        if (this.treeviewInstance) {
+          this.treeviewInstance.collapseAll();
+        }
+
+    }
+  }
 
   public onCreated(args: any) {
     // this.sidebarTreeviewInstance.hide();

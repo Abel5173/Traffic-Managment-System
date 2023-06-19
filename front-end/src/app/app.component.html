@@ -1,4 +1,4 @@
-<div>
+<div [ngClass]="{'login' : !this.logindata.islogin}">
     <ejs-sidebar id="sidebar-treeview" class="dock-menu" #sidebarTreeviewInstance [width]="width" (created)="onCreated($event)" style="visibility: hidden"
     [mediaQuery]="mediaQuery" (close)="onClose($event)">
             <div id="sample"> 
@@ -10,7 +10,7 @@
             </div>
     </ejs-sidebar>
 
-    <div>
+    <div [ngClass]="{'login' : !this.logindata.islogin}">
         <ejs-appbar>
             <button #defaultButtonMenu ejs-button cssClass="e-inherit"  (click)="openClick()">
                 <span class="e-icons e-large e-menu"></span>
@@ -18,10 +18,14 @@
             <div class="e-appbar-spacer"></div>
             <button ejs-button cssClass="e-inherit">
                 <span class="fa fa-user fa-lg username"></span>
-                UserName
+                {{logindata.username}}
             </button>        
         </ejs-appbar>
         <router-outlet></router-outlet>
     </div>
+</div>
+
+<div [ngClass]="{'login container': this.logindata.islogin}">
+    <app-login></app-login>
 </div>
 

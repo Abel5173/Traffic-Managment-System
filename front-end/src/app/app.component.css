@@ -52,3 +52,17 @@ h2{
     color:rgb(170, 238, 212);
     background-color: rgb(64, 104, 94);
 }
+.login{
+
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: 250px;
+    position: absolute;
+  }
+  
