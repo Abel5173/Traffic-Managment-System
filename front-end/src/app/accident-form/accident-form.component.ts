@@ -24,30 +24,31 @@ export class AccidentFormComponent implements OnInit {
   ngOnInit(): void {
     this.accidentForm = this.formBuilder.group({
       general: this.formBuilder.group({
-        date: ['', Validators.required],
-        accidentType: ['', Validators.required],
-        reportedBy: ['', Validators.required]
+        date: [''],
+        accidentType: [''],
+        reportedBy: ['']
       }),
       address: this.formBuilder.group({
-        region: ['', Validators.required],
-        zone: ['', Validators.required],
-        wereda: ['', Validators.required],
-        kebele: ['', Validators.required],
-        specificLocation: ['', Validators.required]
+        region: [],
+        zone: [],
+        wereda: [],
+        kebele: [],
+        specificLocation: []
       }),
+      
       vehicles: this.formBuilder.group({
-        vehicle: ['', Validators.required]
+        vehicle: ['']
       }),
       drivers: this.formBuilder.group({
-        driver: ['', Validators.required]
+        driver: ['']
       }),
       accidentDetail: this.formBuilder.group({
-        lifeLost: ['', Validators.required],
-        majorInjury: ['', Validators.required],
-        minorInjury: ['', Validators.required],
-        propertyLossCount: ['', Validators.required],
-        propertyLossMoney: ['', Validators.required],
-        description: ['', Validators.required]
+        lifeLost: [''],
+        majorInjury: [''],
+        minorInjury: [''],
+        propertyLossCount: [''],
+        propertyLossMoney: [''],
+        description: ['']
       })
     });
   }
