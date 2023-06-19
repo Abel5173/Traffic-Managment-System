@@ -16,15 +16,19 @@ export class LoginComponent {
   constructor(private authService: AuthService, private router: Router) { }
 
   login(): void {
+    
     this.authService.login(this.username, this.password).subscribe(
       (response) => {
-        // Handle successful login response
+        
+       sessionStorage.setItem('islogin', "true");
+       console.log( sessionStorage.setItem('islogin', "true"))
+        
+        this.authService.islogin = true ;
         console.log(response);
-        // Navigate to the dashboard upon successful login
-        this.router.navigate(['/officertable']);
+        this.router.navigate(['/dashboard']);
       },
       (error) => {
-        // Handle login error
+      
         console.log(error);
       }
     );

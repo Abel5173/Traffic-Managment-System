@@ -11,8 +11,11 @@ import { VehicletableComponent } from './vehicletable/vehicletable.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
+  { 
+    path: '', component: LoginComponent
+  },
 { 
-  path: '', component: DashboardComponent
+  path: 'dashboard', component: DashboardComponent
 },
 { 
   path: 'home', component: DashboardComponent
@@ -42,9 +45,9 @@ const routes: Routes = [
 {
   path : 'vehicletable' , component : VehicletableComponent
 }
-,{
-  path : 'login' ,component : LoginComponent
-}
+
+
+
 ];
 
 @NgModule({

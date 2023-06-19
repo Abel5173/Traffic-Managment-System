@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { pieData } from './datasource';
+import { AuthService } from '../Services/auth.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -14,7 +15,11 @@ export class DashboardComponent implements OnInit {
   public chartData!: Object[];
   public primaryYAxis!: Object;
   public title!: string; 
+
+  constructor(private authservice : AuthService){}
   ngOnInit(): void {
+
+    console.log(this.authservice.sessionValue);
       this.piedata = pieData;
        this.legendSettings = {
           visible: false
