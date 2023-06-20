@@ -40,3 +40,15 @@
 
     padding:10px;
 }
+#update{
+
+    font-size: 19px;
+    color: green;
+    padding-right: 30px;
+}
+#delete{
+
+    font-size: 19px;
+    color: red;
+
+}

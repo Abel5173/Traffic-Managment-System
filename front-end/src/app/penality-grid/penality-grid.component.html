@@ -28,7 +28,14 @@
         <e-column field='penalty_leve' headerText='penalty_leve' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='amount' headerText='amount' textAlign='Right' format='yMd' width=120></e-column>
         <!-- <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column> -->
-        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120>
+            <ng-template #template let-data>
+        <div class="div">
+          <i id="update" class="fa-sharp fa-solid fa-pen"></i>
+          <i id="delete" class="fa-sharp fa-solid fa-trash"></i>
+        </div>
+      </ng-template>
+        </e-column>
     </e-columns>
 </ejs-grid>
 </div>

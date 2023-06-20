@@ -37,7 +37,16 @@
         <e-column field='PropertyLoss' headerText='Property_Loss' textAlign='Right'  width=120></e-column>
         <e-column field='PropertyLossInMoney' headerText='Property_Loss_in_Mony' textAlign='Right'  width=120></e-column>
         <e-column field='Description' headerText='Description' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120>
+            <ng-template #template let-data>
+                <div class="div">
+                  <i id="update" class="fa-sharp fa-solid fa-pen"></i>
+                  <i id="delete" class="fa-sharp fa-solid fa-trash"></i>
+                </div>
+              </ng-template>
+        </e-column>
+
+
     </e-columns>
 </ejs-grid>
 </div>

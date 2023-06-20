@@ -40,3 +40,22 @@
 
     padding:10px;
 }
+.div{
+    
+    padding-left : 40px;
+
+    display: flex;
+    
+}
+#update{
+
+    font-size: 19px;
+    color: green;
+    padding-right: 30px;
+}
+#delete{
+
+    font-size: 19px;
+    color: red;
+
+}
