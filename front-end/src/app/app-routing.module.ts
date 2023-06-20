@@ -20,9 +20,6 @@ const routes: Routes = [
 { 
   path: 'home', component: DashboardComponent
 },
-{ 
-  path: 'accidentForm', component: AccidentFormComponent
-},
 {
   path : 'penalitytable' , component : PenalityGridComponent
 },

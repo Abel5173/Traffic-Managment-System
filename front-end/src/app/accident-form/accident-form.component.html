@@ -1,71 +1,73 @@
 <!-- General -->
-<div class="block" [formGroup]="accidentForm">
-  <div class="header-bar">
-    <div class="black-bg"></div>
-    <h1 class="header-text">General</h1>
+<div class="block">
+  <form [formGroup]="accidentFormGroup" (ngSubmit)="onSubmit()">
+    <div class="header-bar">
+      <div class="black-bg"></div>
+      <h1 class="header-text">Accident</h1>
+    </div>
+    <div class="forms">
+      <div class="form">
+        <label for="date">Date</label>
+          <input class="e-input" type="date" placeholder="Enter name" formControlName="date">
+      </div>
+      <div class="form">
+        <label for="date">Accident Type</label>
+        <ejs-dropdownlist id='ddlelement0' [dataSource]='accidentType' placeholder="Accident Type" popupHeight="200px" popupWidth="250px" width="250px" formControlName="accidentType"></ejs-dropdownlist>
+      </div>
+      <div class="form">
+        <label for="date">Reported By</label>
+        <input class="e-input" type="text" placeholder="Enter name" formControlName="reportedBy">
+      </div>
+    </div>
+    
+    <!-- Address -->
+    <div class="block">
+    <div class="header-bar">
+      <div class="black-bg"></div>
+      <h1 class="header-text">Address</h1>
+    </div>
+    <div class="forms">
+      <div class="form">
+        <label for="date">Region</label>
+        <ejs-dropdownlist id='ddlelement1' [dataSource]='region' popupHeight="200px" popupWidth="250px" width="250px" formControlName="region"></ejs-dropdownlist>
+      </div>
+      <div class="form">
+        <label for="date">Zone</label>
+        <ejs-dropdownlist id='ddlelement2' [dataSource]='zone' popupHeight="200px" popupWidth="250px" width="250px" formControlName="zone"></ejs-dropdownlist>
+      </div>
+      <div class="form">
+        <label for="date">Wereda</label>
+        <ejs-dropdownlist id='ddlelement3' [dataSource]='wereda' popupHeight="200px" popupWidth="250px" width="250px" formControlName="wereda"></ejs-dropdownlist>
+      </div>
+      <div class="form">
+        <label for="date">Kebele</label>
+        <input class="e-input" type="number" placeholder="Enter Kebele Number" formControlName="kebele">
+      </div>
+      <div class="form">
+        <label for="date">Specific location</label>
+        <input class="e-input" type="text" placeholder="Enter name" formControlName="specificLocation">
+      </div>
+    </div>
   </div>
-  <div class="forms">
-    <div class="form">
-      <label for="date">Date</label>
-      <input class="e-input" type="date" placeholder="Enter name" formControlName="general.date">
-    </div>
-    <div class="form">
-      <label for="date">Accident Type</label>
-      <ejs-dropdownlist id='ddlelement1' [dataSource]='accidentType' placeholder="Accident Type" popupHeight="200px" popupWidth="250px" width="250px" formControlName="general.accidentType"></ejs-dropdownlist>
-    </div>
-    <div class="form">
-      <label for="date">Reported By</label>
-      <input class="e-input" type="text" placeholder="Enter name" formControlName="general.reportedBy">
-    </div>
-  </div>
-  
-  <!-- Address -->
-  <div class="block">
-  <div class="header-bar">
-    <div class="black-bg"></div>
-    <h1 class="header-text">Address</h1>
-  </div>
-  <div class="forms">
-    <div class="form">
-      <label for="date">Region</label>
-      <ejs-dropdownlist id='ddlelement1' [dataSource]='region' popupHeight="200px" popupWidth="250px" width="250px" formControlName="address.region"></ejs-dropdownlist>
-    </div>
-    <div class="form">
-      <label for="date">Zone</label>
-      <ejs-dropdownlist id='ddlelement1' [dataSource]='zone' popupHeight="200px" popupWidth="250px" width="250px" formControlName="address.zone"></ejs-dropdownlist>
-    </div>
-    <div class="form">
-      <label for="date">Wereda</label>
-      <ejs-dropdownlist id='ddlelement1' [dataSource]='wereda' popupHeight="200px" popupWidth="250px" width="250px" formControlName="address.wereda"></ejs-dropdownlist>
-    </div>
-    <div class="form">
-      <label for="date">Kebele</label>
-      <input class="e-input" type="number" placeholder="Enter Kebele Number" formControlName="address.kebele">
-    </div>
-    <div class="form">
-      <label for="date">Specific location</label>
-      <input class="e-input" type="text" placeholder="Enter name" formControlName="address.specificLocation">
-    </div>
-  </div>
+
   <!-- Vehicles -->
   <div class="block">
-    <div class="header-bar">
+    <div class="header-bar">  
       <div class="black-bg"></div>
       <h1 class="header-text">Vehicles</h1>
     </div>
     <div class="forms">
       <div class="form">
         <label for="date">Vehicle</label>
-        <input class="e-input" type="text" placeholder="Enter Vehicle name" formControlName="vehicles.vehicle">
+        <input class="e-input" type="text" placeholder="Enter Vehicle name" formControlName="vehicle">
       </div>
       <div class="form">
-        <button ejs-button class="vehicle" (click)="addVehicle()">Add</button>
+        <button ejs-button class="vehicle" >Add</button>
       </div>
     </div>
-    <div>
+    <!-- <div>
       <ejs-grid [dataSource]='getVehicles()'>
         <e-columns>
-          <!-- column definitions -->
           <e-column field='No' headerText='No.' textAlign='Right' width=90></e-column>
           <e-column field='PlateNumber' headerText='Plate number' width=120></e-column>
           <e-column field='MotorNumber' headerText='Motor Number' textAlign='Right' format='C2' width=90></e-column>
@@ -74,7 +76,7 @@
           <e-column field='OwnerPhone' headerText='Owner Phone' textAlign='Right' width=120></e-column>
         </e-columns>
       </ejs-grid>
-    </div>
+    </div> -->
   </div>
 
   <!-- Drivers -->
@@ -86,16 +88,15 @@
     <div class="forms">
       <div class="form">
         <label for="date">Driver</label>
-        <input class="e-input" type="text" placeholder="Enter Driver name" formControlName="drivers.driver">
+        <input class="e-input" type="text" placeholder="Enter Driver name" formControlName="driver">
       </div>
       <div class="form">
-        <button ejs-button class="drivers" (click)="addDriver()">Add</button>
+        <button ejs-button class="drivers" >Add</button>
       </div>
     </div>
-    <div>
+    <!-- <div>
       <ejs-grid [dataSource]='getDrivers()'>
         <e-columns>
-          <!-- column definitions -->
           <e-column field='No' headerText='No.' textAlign='Right' width=90></e-column>
           <e-column field='FullName' headerText='Full Name' width=120></e-column>
           <e-column field='LicenceNumber' headerText='Licence Number' textAlign='Right' format='C2' width=90></e-column>
@@ -104,7 +105,7 @@
           <e-column field='Nationality' headerText='Nationality' textAlign='Right' width=120></e-column>
         </e-columns>
       </ejs-grid>
-    </div>
+    </div> -->
   </div>
 
   <!-- Accident Detail -->
@@ -116,34 +117,35 @@
     <div class="forms">
       <div class="form">
         <label for="date">Life Lost</label>
-        <input class="e-input" type="number" placeholder="Enter number of Life Lost" formControlName="accidentDetail.lifeLost">
+        <input class="e-input" type="number" placeholder="Enter number of Life Lost" formControlName="lifeLost">
       </div>
       <div class="form">
         <label for="date">Major Injury</label>
-        <input class="e-input" type="number" placeholder="Enter number of Major Injury" formControlName="accidentDetail.majorInjury">
+        <input class="e-input" type="number" placeholder="Enter number of Major Injury" formControlName="majorInjury">
       </div>
       <div class="form">
         <label for="date">Minor Injury</label>
-        <input class="e-input" type="number" placeholder="Enter number of Minor Injury" formControlName="accidentDetail.minorInjury">
+        <input class="e-input" type="number" placeholder="Enter number of Minor Injury" formControlName="minorInjury">
       </div>
       <div class="form">
         <label for="date">Property loss count</label>
-        <input class="e-input" type="number" placeholder="Enter property loss count" formControlName="accidentDetail.propertyLossCount">
+        <input class="e-input" type="number" placeholder="Enter property loss count" formControlName="propertyLossCount">
       </div>
       <div class="form">
         <label for="date">Property loss in money</label>
-        <input class="e-input" type="number" placeholder="Enter money" formControlName="accidentDetail.propertyLossMoney">
+        <input class="e-input" type="number" placeholder="Enter money" formControlName="propertyLossMoney">
       </div>
       <div class="form">
         <label for="date">Description</label>
-        <input class="e-input" type="text" placeholder="Enter name" formControlName="accidentDetail.description">
+        <input class="e-input" type="text" placeholder="Enter name" formControlName="description">
       </div>
     </div>
   </div>
 
   <!-- Buttons -->
   <div class="btns">
-    <button class="btn e-success" ejs-button type="submit" (click)="submitForm()" routerLink="/home">Submit</button>
+    <button class="btn e-success"  ejs-button type="submit">Submit</button>
     <button class="btn e-danger" ejs-button type="button">Cancel</button>
   </div>
+  </form>
 </div>
