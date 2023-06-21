@@ -13,11 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-<<<<<<< HEAD
-        "HashCode": 1007426635,
-=======
-        "HashCode": 527422525,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 900314159,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -101,11 +97,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -999565303,
-=======
-        "HashCode": 647626883,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1990201375,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -190,11 +182,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2015265874,
-=======
-        "HashCode": -387768128,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 279446478,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -227,11 +215,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -465516894,
-=======
-        "HashCode": 1911673363,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1124110235,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -265,11 +249,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1813021849,
-=======
-        "HashCode": -1515079509,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1391767198,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -290,11 +270,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1534759365,
-=======
-        "HashCode": 218798376,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 57351297,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -316,11 +292,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 641116184,
-=======
-        "HashCode": -1963170348,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -47100925,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -425,11 +397,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -734669502,
-=======
-        "HashCode": 214176887,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -784006683,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -535,11 +503,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 719468934,
-=======
-        "HashCode": 1484964863,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 827905781,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -572,11 +536,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 862772723,
-=======
-        "HashCode": 1983112817,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -787229794,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -610,11 +570,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1079526455,
-=======
-        "HashCode": -1710804512,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 15695647,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -647,11 +603,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1507778157,
-=======
-        "HashCode": 1962632814,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1595406812,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.NotAuthorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -685,11 +637,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1216690334,
-=======
-        "HashCode": 1101183749,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -475371810,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -722,11 +670,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1269646064,
-=======
-        "HashCode": -1035460179,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 758680852,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorized",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -760,11 +704,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -602619745,
-=======
-        "HashCode": 80786955,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2019822969,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -785,11 +725,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1032924843,
-=======
-        "HashCode": -400539563,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 163323263,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeView.Authorizing",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -811,11 +747,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -906253462,
-=======
-        "HashCode": 1544096502,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1796860124,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -846,11 +778,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2066847266,
-=======
-        "HashCode": -1360194540,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1234359176,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -882,11 +810,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1361490776,
-=======
-        "HashCode": -669481416,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1881572043,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -907,11 +831,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -641214636,
-=======
-        "HashCode": 1152975967,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 571185950,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Authorization",
@@ -933,11 +853,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1268028817,
-=======
-        "HashCode": -2020183114,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -232227044,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1012,11 +928,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2114323620,
-=======
-        "HashCode": -1756883109,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -917404154,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1092,11 +1004,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -567827131,
-=======
-        "HashCode": 591521114,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1654021201,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1117,11 +1025,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2052673888,
-=======
-        "HashCode": 247873328,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -228475634,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1143,11 +1047,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1552051152,
-=======
-        "HashCode": -1325369030,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1132794533,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1189,11 +1089,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1875665434,
-=======
-        "HashCode": 386484947,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1115472519,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1236,11 +1132,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -465572967,
-=======
-        "HashCode": 132478224,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1911358231,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1282,11 +1174,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 401793270,
-=======
-        "HashCode": -27005880,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2014784205,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.LayoutView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1329,11 +1217,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1651859586,
-=======
-        "HashCode": -1135900530,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1722268047,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1354,11 +1238,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1092908826,
-=======
-        "HashCode": 53623096,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1774132878,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1380,11 +1260,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -611063238,
-=======
-        "HashCode": 1545059571,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1554533602,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1426,11 +1302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1823468073,
-=======
-        "HashCode": 602439452,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1092818405,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.RouteView",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1473,11 +1345,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1972462026,
-=======
-        "HashCode": -1265406790,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1363994162,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1585,11 +1453,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1390566560,
-=======
-        "HashCode": -1692573287,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1133298818,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1698,11 +1562,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -316356592,
-=======
-        "HashCode": 676219254,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -398194692,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1723,11 +1583,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1193306306,
-=======
-        "HashCode": 991868575,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 247271963,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1749,11 +1605,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1288485526,
-=======
-        "HashCode": 360478975,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -555107072,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1786,11 +1638,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2128392228,
-=======
-        "HashCode": -431151048,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1571656056,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1824,11 +1672,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 786620923,
-=======
-        "HashCode": -1448898223,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -957256157,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1849,11 +1693,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1482779256,
-=======
-        "HashCode": 160772889,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1731610204,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -1875,11 +1715,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1036953808,
-=======
-        "HashCode": -1316238949,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1158434828,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1898,11 +1734,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -913115442,
-=======
-        "HashCode": 587915947,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1888692193,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -1922,11 +1754,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 119627324,
-=======
-        "HashCode": -1339237774,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 488271552,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2031,11 +1859,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 970547204,
-=======
-        "HashCode": 890837473,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 545872957,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2141,11 +1965,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1032883914,
-=======
-        "HashCode": 1613142303,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 690439582,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2178,11 +1998,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -18920393,
-=======
-        "HashCode": 280030061,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1857804767,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2216,11 +2032,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1838618731,
-=======
-        "HashCode": 830375898,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1612711589,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2292,11 +2104,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1188819584,
-=======
-        "HashCode": 1560335895,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 50789481,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2369,11 +2177,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 960145510,
-=======
-        "HashCode": 182913835,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1602377817,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2481,11 +2285,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 995147816,
-=======
-        "HashCode": -65239803,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2001672118,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2594,11 +2394,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 950434644,
-=======
-        "HashCode": 367817125,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 206551483,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2640,11 +2436,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -376206888,
-=======
-        "HashCode": -1702911848,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2037108964,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2687,11 +2479,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1757466972,
-=======
-        "HashCode": 937729939,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 301991538,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2788,11 +2576,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 255286054,
-=======
-        "HashCode": -2075558414,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 399468089,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2890,11 +2674,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1985322814,
-=======
-        "HashCode": 397406229,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -122873669,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2958,11 +2738,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2053993431,
-=======
-        "HashCode": 1249299783,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1828483330,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3027,11 +2803,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1341658277,
-=======
-        "HashCode": 1003428608,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1739928074,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3139,11 +2911,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -52396639,
-=======
-        "HashCode": 1834101176,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 925592552,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3252,11 +3020,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -265828433,
-=======
-        "HashCode": 700066549,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -524621233,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3277,11 +3041,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1485633215,
-=======
-        "HashCode": 413464845,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1613087943,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3303,11 +3063,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 35760265,
-=======
-        "HashCode": 1178719383,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1758735199,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3405,11 +3161,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -105731981,
-=======
-        "HashCode": 442800516,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -363440828,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3508,11 +3260,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1970296620,
-=======
-        "HashCode": 1211460716,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -933053521,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3533,11 +3281,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2049479290,
-=======
-        "HashCode": 955032961,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1476162073,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3559,11 +3303,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1163070347,
-=======
-        "HashCode": 38517438,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -628329141,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3635,11 +3375,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2085410886,
-=======
-        "HashCode": 1805493370,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1311198335,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3712,11 +3448,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1228364063,
-=======
-        "HashCode": -1039281543,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 241557559,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3788,11 +3520,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2041200069,
-=======
-        "HashCode": -82602844,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1084470477,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3865,11 +3593,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 818543499,
-=======
-        "HashCode": 199267998,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1526407315,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3923,11 +3647,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -625065314,
-=======
-        "HashCode": 943225271,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1868713810,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3982,11 +3702,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 483078989,
-=======
-        "HashCode": -1174378761,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1924273055,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4027,11 +3743,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1142841558,
-=======
-        "HashCode": -395406595,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 315661690,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4073,11 +3785,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -841636670,
-=======
-        "HashCode": 1372583450,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 243515472,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4118,11 +3826,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -656823051,
-=======
-        "HashCode": -1964060010,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -860011501,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4164,11 +3868,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -568228774,
-=======
-        "HashCode": 401982631,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1382739905,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4210,11 +3910,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1223158246,
-=======
-        "HashCode": -1227851966,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1573949915,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4257,11 +3953,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 627287649,
-=======
-        "HashCode": 2005692304,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1283333293,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4324,11 +4016,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 400155852,
-=======
-        "HashCode": -1128043936,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1327886993,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4392,11 +4080,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 34919506,
-=======
-        "HashCode": -1254376623,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1344353243,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4417,11 +4101,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -188117199,
-=======
-        "HashCode": 723783597,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1172910804,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4443,11 +4123,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1350789989,
-=======
-        "HashCode": 1451351230,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1584546564,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4479,11 +4155,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1561546389,
-=======
-        "HashCode": -1609983546,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 211417305,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4516,11 +4188,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -706181452,
-=======
-        "HashCode": 749533938,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1677692414,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4541,11 +4209,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 578396473,
-=======
-        "HashCode": 1872146978,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 30481256,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4567,11 +4231,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -901071236,
-=======
-        "HashCode": -1286581381,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -210732988,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4590,11 +4250,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 471423037,
-=======
-        "HashCode": -74761033,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 956406134,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4614,11 +4270,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1767833676,
-=======
-        "HashCode": 919737447,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1674379891,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4650,11 +4302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -995398580,
-=======
-        "HashCode": 842126117,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1788411488,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4687,11 +4335,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2065890034,
-=======
-        "HashCode": -565802486,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -101115670,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4712,11 +4356,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -453850701,
-=======
-        "HashCode": 2137477713,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1999761844,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4738,11 +4378,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2081780771,
-=======
-        "HashCode": 94120050,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -639343747,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4805,11 +4441,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -245984356,
-=======
-        "HashCode": 475510322,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -767060831,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4873,11 +4505,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1376805603,
-=======
-        "HashCode": 1862454389,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 26376252,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4898,11 +4526,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -284353281,
-=======
-        "HashCode": 1879283203,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1996558863,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4924,11 +4548,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 445205480,
-=======
-        "HashCode": -1701129779,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -680585168,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4961,11 +4581,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -795188242,
-=======
-        "HashCode": 817305877,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 712489490,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -4999,11 +4615,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -646622463,
-=======
-        "HashCode": 897665223,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 107798587,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5135,11 +4747,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -736893029,
-=======
-        "HashCode": -849041372,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -607634168,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5272,11 +4880,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 551072694,
-=======
-        "HashCode": 1795552821,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1270882782,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5309,11 +4913,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1755918800,
-=======
-        "HashCode": -1557539585,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1611277659,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5347,11 +4947,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1568511058,
-=======
-        "HashCode": 1455691385,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1702357051,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5384,11 +4980,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1390142593,
-=======
-        "HashCode": 1002448242,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1816412855,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5422,11 +5014,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1441653396,
-=======
-        "HashCode": 224437700,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -256933736,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5459,11 +5047,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1602328562,
-=======
-        "HashCode": 1864151227,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1169298089,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -5497,11 +5081,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1214687804,
-=======
-        "HashCode": 845370560,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 158837656,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5584,11 +5164,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -277272290,
-=======
-        "HashCode": -1980006921,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1775922200,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5671,11 +5247,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2131918592,
-=======
-        "HashCode": -242410006,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1698901941,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5758,11 +5330,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -969092164,
-=======
-        "HashCode": 757426475,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1286677673,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5845,11 +5413,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1315675570,
-=======
-        "HashCode": -1629100718,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1706993232,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5932,11 +5496,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -785564581,
-=======
-        "HashCode": 682733539,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 723452955,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6019,11 +5579,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 749521535,
-=======
-        "HashCode": 646060850,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1719204436,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6106,11 +5662,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1693071238,
-=======
-        "HashCode": -1055816283,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1546142613,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6193,11 +5745,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1910204759,
-=======
-        "HashCode": -548970718,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -153400111,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6280,11 +5828,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -315578132,
-=======
-        "HashCode": 628067389,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1860808092,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6367,11 +5911,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -488712442,
-=======
-        "HashCode": -427048917,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1754556175,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6454,11 +5994,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1543468268,
-=======
-        "HashCode": 1331705629,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 480815015,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6541,11 +6077,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1994657719,
-=======
-        "HashCode": 1226052059,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 529667180,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6628,11 +6160,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -383602296,
-=======
-        "HashCode": 1426095586,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 367854438,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6715,11 +6243,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -788707639,
-=======
-        "HashCode": 877524236,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1785593170,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6802,11 +6326,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 717366331,
-=======
-        "HashCode": 840416756,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1490740380,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6889,11 +6409,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -697319519,
-=======
-        "HashCode": -141171262,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1710705952,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6976,11 +6492,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -732760940,
-=======
-        "HashCode": 1352255777,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 78760377,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7063,11 +6575,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 679387267,
-=======
-        "HashCode": -1975145718,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1778308154,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7150,11 +6658,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 822415627,
-=======
-        "HashCode": -2106424923,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1451099127,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7237,11 +6741,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -999490747,
-=======
-        "HashCode": 1618820120,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1253586659,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7324,11 +6824,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -309419467,
-=======
-        "HashCode": 1429666280,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1422770391,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7411,11 +6907,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 592121838,
-=======
-        "HashCode": -1621028686,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1098631908,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7498,11 +6990,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2005281678,
-=======
-        "HashCode": 1043046999,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 657429859,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7585,11 +7073,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 244357864,
-=======
-        "HashCode": 1516536339,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 145080414,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7672,11 +7156,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1515598697,
-=======
-        "HashCode": -634428398,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1115843005,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7759,11 +7239,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1645424476,
-=======
-        "HashCode": 1570612851,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1988199427,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7846,11 +7322,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2055179032,
-=======
-        "HashCode": 327166835,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1305674771,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7933,11 +7405,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -38751822,
-=======
-        "HashCode": 663549065,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2022896997,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8020,11 +7488,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 640198274,
-=======
-        "HashCode": -2084499640,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1151677840,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8107,11 +7571,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -389376522,
-=======
-        "HashCode": -772856675,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -458522729,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8194,11 +7654,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1246075352,
-=======
-        "HashCode": -819777051,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 708989973,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8281,11 +7737,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -821914824,
-=======
-        "HashCode": 1642432593,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1625407818,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8368,11 +7820,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1004634441,
-=======
-        "HashCode": -1704756907,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -445210871,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8455,11 +7903,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -174619641,
-=======
-        "HashCode": 1080587304,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -815223845,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8542,11 +7986,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1620927925,
-=======
-        "HashCode": -626426059,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -432990717,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8629,11 +8069,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1582085322,
-=======
-        "HashCode": 1865699535,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1583231846,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8716,11 +8152,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1618380700,
-=======
-        "HashCode": -137834059,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -2017498509,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8803,11 +8235,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1060961976,
-=======
-        "HashCode": 752998357,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1750650956,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8890,11 +8318,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -485709549,
-=======
-        "HashCode": 356135243,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1379019919,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8977,11 +8401,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1051805128,
-=======
-        "HashCode": -3852415,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1936546087,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9064,11 +8484,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1489179612,
-=======
-        "HashCode": -1227563552,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 33924146,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9151,11 +8567,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -54251953,
-=======
-        "HashCode": -35827663,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -83271191,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9238,11 +8650,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -59403339,
-=======
-        "HashCode": -107511618,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1670853903,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9325,11 +8733,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1419929607,
-=======
-        "HashCode": 2092322656,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 852644562,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9412,11 +8816,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1314685776,
-=======
-        "HashCode": 628339122,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1581029533,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9499,11 +8899,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2105320724,
-=======
-        "HashCode": -1347260605,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -729023976,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9586,11 +8982,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 593230453,
-=======
-        "HashCode": 562009539,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1803692775,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9673,11 +9065,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1785433732,
-=======
-        "HashCode": 774948289,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 207377740,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9760,11 +9148,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2094541484,
-=======
-        "HashCode": -1311337923,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1810960726,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9847,11 +9231,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1569285299,
-=======
-        "HashCode": -730905841,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -649495098,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9934,11 +9314,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2141333469,
-=======
-        "HashCode": -192398353,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -27527679,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10021,11 +9397,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1344432877,
-=======
-        "HashCode": -1565673181,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -86739514,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10108,11 +9480,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -324119270,
-=======
-        "HashCode": -1351230432,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -588888332,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10195,11 +9563,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 961226549,
-=======
-        "HashCode": -380303849,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -2081003609,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10282,11 +9646,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -392725494,
-=======
-        "HashCode": 1436351237,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 572937588,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10369,11 +9729,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1776974561,
-=======
-        "HashCode": -1100920284,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -558490416,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10456,11 +9812,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -863550197,
-=======
-        "HashCode": 187842705,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 986574570,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10543,11 +9895,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2088374532,
-=======
-        "HashCode": 1745769447,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1492564716,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10630,11 +9978,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2135104548,
-=======
-        "HashCode": 423473787,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1397994990,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10717,11 +10061,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1784585320,
-=======
-        "HashCode": -28465394,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 420874068,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10804,11 +10144,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1178487753,
-=======
-        "HashCode": -739017197,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 961952411,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10891,11 +10227,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -149909256,
-=======
-        "HashCode": 2027820584,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1261206723,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10978,11 +10310,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -340784252,
-=======
-        "HashCode": 709361173,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 448696996,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11065,11 +10393,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 9843043,
-=======
-        "HashCode": 391719134,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1882795806,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11152,11 +10476,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1078580233,
-=======
-        "HashCode": 1424693768,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -373818275,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11239,11 +10559,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1230142809,
-=======
-        "HashCode": -1067135287,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1129349733,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11326,11 +10642,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1840255325,
-=======
-        "HashCode": 200262649,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -2061903449,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11413,11 +10725,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -54788763,
-=======
-        "HashCode": -1456035651,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 557474106,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11500,11 +10808,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 27654021,
-=======
-        "HashCode": 31299425,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -442911189,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11587,11 +10891,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -693159248,
-=======
-        "HashCode": 1458079829,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 367345043,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11674,11 +10974,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -139706956,
-=======
-        "HashCode": -282030934,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1518995686,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11761,11 +11057,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -448759326,
-=======
-        "HashCode": 1385048132,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -947845228,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11848,11 +11140,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1792172308,
-=======
-        "HashCode": 993639302,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1652173830,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11935,11 +11223,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 801236950,
-=======
-        "HashCode": 756039923,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -2116952846,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12022,11 +11306,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 589703893,
-=======
-        "HashCode": 1220976424,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 550190618,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12109,11 +11389,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -519655676,
-=======
-        "HashCode": 961938233,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 26622771,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12196,11 +11472,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -191454145,
-=======
-        "HashCode": 1042456940,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 739302282,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12283,11 +11555,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -215681003,
-=======
-        "HashCode": 649573218,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1549174283,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12370,11 +11638,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2144246987,
-=======
-        "HashCode": -1355062185,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -420997507,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12457,11 +11721,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -262859057,
-=======
-        "HashCode": -30321771,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1967402811,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12544,11 +11804,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1866272244,
-=======
-        "HashCode": -915282227,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1944724986,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12631,11 +11887,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -756058200,
-=======
-        "HashCode": 1495729380,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1914060080,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12718,11 +11970,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 420343673,
-=======
-        "HashCode": 738460264,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1118396760,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12805,11 +12053,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2132355088,
-=======
-        "HashCode": 1927924984,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -359992608,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12892,11 +12136,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -250772914,
-=======
-        "HashCode": -2092809939,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1102277851,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12979,11 +12219,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 270809243,
-=======
-        "HashCode": 441487215,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1526507958,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13066,11 +12302,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1167673882,
-=======
-        "HashCode": 1065768029,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -291081279,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13153,11 +12385,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2040662206,
-=======
-        "HashCode": 1265294211,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1665556774,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13240,11 +12468,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1893069715,
-=======
-        "HashCode": 1864508552,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1471986650,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13327,11 +12551,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -140878830,
-=======
-        "HashCode": -279550672,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -214327836,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13414,11 +12634,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1239461123,
-=======
-        "HashCode": -1100181169,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1309816871,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13501,11 +12717,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -256328221,
-=======
-        "HashCode": -1711215721,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1622844832,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13588,11 +12800,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 294480796,
-=======
-        "HashCode": 1480067645,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1370990930,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13675,11 +12883,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1496780082,
-=======
-        "HashCode": -1011193549,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 973299670,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13718,11 +12922,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1617240691,
-=======
-        "HashCode": 231549449,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1216140124,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
@@ -14039,11 +13239,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1897860887,
-=======
-        "HashCode": -1101286575,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1041102969,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14242,11 +13438,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1394744671,
-=======
-        "HashCode": 524990076,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -175318730,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14375,11 +13567,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1415022010,
-=======
-        "HashCode": -1501390767,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1160561118,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14436,11 +13624,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -390834222,
-=======
-        "HashCode": 891616024,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 518855606,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14574,11 +13758,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 835427855,
-=======
-        "HashCode": 577557601,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1455169532,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -14626,11 +13806,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2125075986,
-=======
-        "HashCode": 2120537722,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 789710496,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15049,11 +14225,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -554072239,
-=======
-        "HashCode": 399745145,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -138600554,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15157,11 +14329,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1619961064,
-=======
-        "HashCode": 1594014813,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1573222588,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15209,11 +14377,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1190824490,
-=======
-        "HashCode": -1265560930,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1085959197,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15285,11 +14449,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1205396546,
-=======
-        "HashCode": -1572658989,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 434524213,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15324,11 +14484,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1394866987,
-=======
-        "HashCode": -1673581811,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -328788238,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15526,11 +14682,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -702389927,
-=======
-        "HashCode": -690369551,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -113292698,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15560,11 +14712,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1555046229,
-=======
-        "HashCode": 57187243,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1386880108,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15647,11 +14795,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1884874369,
-=======
-        "HashCode": -145553573,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -97578279,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PersistComponentStateTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15682,11 +14826,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -535647685,
-=======
-        "HashCode": -1932182905,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -451269417,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15841,11 +14981,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 562230111,
-=======
-        "HashCode": -196662140,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -555814717,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15906,11 +15042,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 904518456,
-=======
-        "HashCode": -1681459571,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 493782433,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15954,11 +15086,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1021865990,
-=======
-        "HashCode": 233511483,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -394225326,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -15993,11 +15121,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2074347693,
-=======
-        "HashCode": 574213683,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -869443854,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -16033,11 +15157,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 491066238,
-=======
-        "HashCode": -1788694234,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1446152998,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16133,11 +15253,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1626583475,
-=======
-        "HashCode": 2145367256,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1947813394,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16259,11 +15375,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1043807294,
-=======
-        "HashCode": -918689119,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1230124566,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16385,11 +15497,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1315813948,
-=======
-        "HashCode": 185277792,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1237794059,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16522,11 +15630,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -529587487,
-=======
-        "HashCode": -985853094,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1009074057,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16659,11 +15763,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1309278490,
-=======
-        "HashCode": -661662153,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 318710847,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16796,11 +15896,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -978558027,
-=======
-        "HashCode": 1796605995,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1994251429,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -16933,11 +16029,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1819716516,
-=======
-        "HashCode": 1626669263,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -177106272,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17070,11 +16162,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1082969659,
-=======
-        "HashCode": -727909717,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 615718215,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17207,11 +16295,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 109553865,
-=======
-        "HashCode": -767664687,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -305069537,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17344,11 +16428,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 65353103,
-=======
-        "HashCode": -405550096,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2137413263,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17481,11 +16561,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1679479035,
-=======
-        "HashCode": 999781323,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1247899367,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17618,11 +16694,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2126408525,
-=======
-        "HashCode": -361679319,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 116971802,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17755,11 +16827,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1229938349,
-=======
-        "HashCode": -539818985,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1736819975,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -17892,11 +16960,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1434277044,
-=======
-        "HashCode": -957285562,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1822934659,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18029,11 +17093,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 929905486,
-=======
-        "HashCode": 1988843734,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -377479721,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18155,11 +17215,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 566076143,
-=======
-        "HashCode": -1127253908,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 477672667,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -18281,11 +17337,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1702369422,
-=======
-        "HashCode": 1940394508,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1591452352,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18372,11 +17424,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1597918674,
-=======
-        "HashCode": -737735991,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 538417957,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18464,11 +17512,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -2094787938,
-=======
-        "HashCode": 495498203,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1611029251,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18555,11 +17599,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1499292657,
-=======
-        "HashCode": -605132409,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -2024982412,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18647,11 +17687,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1602044520,
-=======
-        "HashCode": 235203776,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1060679230,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18738,11 +17774,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -155174285,
-=======
-        "HashCode": -1437991756,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1027151559,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18830,11 +17862,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1941373184,
-=======
-        "HashCode": -542678007,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 879594109,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -18921,11 +17949,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -1177578833,
-=======
-        "HashCode": -497120240,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 302544572,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19013,11 +18037,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 427031608,
-=======
-        "HashCode": 890083483,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1415436404,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19104,11 +18124,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 1052619164,
-=======
-        "HashCode": 447251397,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 499373971,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19196,11 +18212,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -242215577,
-=======
-        "HashCode": -1754163413,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1821769313,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19287,11 +18299,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 65809926,
-=======
-        "HashCode": 1999219414,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1097964819,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19379,11 +18387,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 404097685,
-=======
-        "HashCode": -1284389702,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1978011405,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19470,11 +18474,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": -897081588,
-=======
-        "HashCode": -1518299709,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": -1496509985,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -19562,11 +18562,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 678332178,
-=======
-        "HashCode": -139096829,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 2051380847,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -19605,11 +18601,7 @@
         }
       },
       {
-<<<<<<< HEAD
-        "HashCode": 2141531173,
-=======
-        "HashCode": -67425002,
->>>>>>> e50e929 (delete and edit button added)
+        "HashCode": 1354455342,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",

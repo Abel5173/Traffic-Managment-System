@@ -13,7 +13,7 @@
             <span>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </span>
-           <input class="e-input" name="" placeholder="Search ..." id="">
+           <input (keyup)="searchevent()" [(ngModel)]="query" class="e-input" name="" placeholder="Search ..." id="" >
            
         </div>
     </div>

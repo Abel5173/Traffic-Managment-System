@@ -26,8 +26,7 @@ public class VehicleController:ControllerBase{
 
     // }
     [HttpGet]
-
-public IActionResult GetJoinedData()
+    public IActionResult GetJoinedData()
         {
             var query = from vehicle_owner in _context.vehicle_owner
                         join vehicle in _context.vehicle on vehicle_owner.vehicle_owner_id equals vehicle.vehicle_owner_id
@@ -47,7 +46,7 @@ public IActionResult GetJoinedData()
             return Ok(result);
         }
 
-                [HttpGet("search")]
+    [HttpGet("search")]
 public ActionResult<IEnumerable<Accident>> SearchOfficer(string query)
 {
     // Connect to your data source (e.g., a database) and perform the search query

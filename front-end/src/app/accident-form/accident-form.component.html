@@ -58,25 +58,24 @@
     </div>
     <div class="forms">
       <div class="form">
-        <label for="date">Vehicle</label>
+        <label for="date">Vehicle License Plate Number</label>
         <input class="e-input" type="text" placeholder="Enter Vehicle name" formControlName="vehicle">
       </div>
       <div class="form">
-        <button ejs-button class="vehicle" >Add</button>
+        <button ejs-button class="vehicle" (click)="addVehicle()" >Add</button>
       </div>
     </div>
-    <!-- <div>
-      <ejs-grid [dataSource]='getVehicles()'>
+    <div>
+      <ejs-grid [dataSource]="getVehicles()">
         <e-columns>
-          <e-column field='No' headerText='No.' textAlign='Right' width=90></e-column>
-          <e-column field='PlateNumber' headerText='Plate number' width=120></e-column>
-          <e-column field='MotorNumber' headerText='Motor Number' textAlign='Right' format='C2' width=90></e-column>
-          <e-column field='PurchasedDate' headerText='Purchased date' textAlign='Right' format='yMd' width=120></e-column>
-          <e-column field='OwnerName' headerText='Owner Name' textAlign='Right' width=120></e-column>
-          <e-column field='OwnerPhone' headerText='Owner Phone' textAlign='Right' width=120></e-column>
+          <e-column field="accident_vehicle_id" headerText="Accident Vehicle Id" textAlign="Right" width="90"></e-column>
+          <e-column field="plate_no" headerText="Plate number" width="120"></e-column>
+          <e-column field="motor_no" headerText="Motor Number" textAlign="Right" format="C2" width="90"></e-column>
+          <e-column field="purchased_date" headerText="Purchased date" textAlign="Right" format="yMd" width="120"></e-column>
+          <e-column field="vehicle_owner_id" headerText="Owner Id" textAlign="Right" width="120"></e-column>
         </e-columns>
-      </ejs-grid>
-    </div> -->
+      </ejs-grid>      
+    </div>
   </div>
 
   <!-- Drivers -->
@@ -87,14 +86,14 @@
     </div>
     <div class="forms">
       <div class="form">
-        <label for="date">Driver</label>
+        <label for="date">Driver License</label>
         <input class="e-input" type="text" placeholder="Enter Driver name" formControlName="driver">
       </div>
       <div class="form">
-        <button ejs-button class="drivers" >Add</button>
+        <button ejs-button class="drivers" type="button" >Add</button>
       </div>
     </div>
-    <!-- <div>
+    <div>
       <ejs-grid [dataSource]='getDrivers()'>
         <e-columns>
           <e-column field='No' headerText='No.' textAlign='Right' width=90></e-column>
@@ -105,7 +104,7 @@
           <e-column field='Nationality' headerText='Nationality' textAlign='Right' width=120></e-column>
         </e-columns>
       </ejs-grid>
-    </div> -->
+    </div>
   </div>
 
   <!-- Accident Detail -->

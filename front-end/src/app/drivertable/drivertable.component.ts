@@ -20,12 +20,7 @@ export class DrivertableComponent implements OnInit {
   }
 
   searchevent(){
-
     this.driverdata.searchDriver(this.query).subscribe(data =>this.data=  data);
   }
-
-
- 
-
 
 }
