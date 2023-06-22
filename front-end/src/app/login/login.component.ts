@@ -21,9 +21,8 @@ export class LoginComponent {
       (response) => {
         
        sessionStorage.setItem('islogin', "true");
-       console.log( sessionStorage.setItem('islogin', "true"))
-        
         this.authService.islogin = true ;
+      
         console.log(response);
         this.router.navigate(['/dashboard']);
       },

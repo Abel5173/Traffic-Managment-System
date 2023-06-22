@@ -63,6 +63,23 @@ public IActionResult GetJoinedData()
             return Ok(result);
         }
 
+           [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var selecteditem = await _context.accident.FindAsync(id);
+        if (selecteditem != null)
+        {
+
+           _context.accident.Remove(selecteditem);
+         await _context.SaveChangesAsync();
+
+         return Ok();
+        }
+
+           return BadRequest() ;
+    }
+      
+
 
    
 

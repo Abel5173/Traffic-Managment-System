@@ -22,4 +22,9 @@ export class AccidentFormService {
     const params = { query: query };
     return this.http.get<any[]>('http://localhost:5275/api/accident/search', {params});
   }
+
+  deletAccident(id: number){
+
+    return this.http.delete(`http://localhost:5275/api/accident/${id}`)
+  }
 }

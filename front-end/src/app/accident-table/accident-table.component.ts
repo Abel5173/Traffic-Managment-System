@@ -31,4 +31,9 @@ export class AccidentTableComponent  implements OnInit{
     this.accidentdata.searchAccident(this.query).subscribe(data =>this.data=  data);
   }
 
+  deleteAccident(id : number){
+
+    this.accidentdata.deletAccident(id).subscribe(response => console.log('deleted successfully',response),(error) => console.log(error) )
+  }
+
 }

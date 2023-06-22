@@ -38,4 +38,9 @@ export class PenalityGridComponent   implements OnInit{
     return headerText;
   };
 
+  deletepenalty(id : number){
+
+    this.penaltydata.deletePenalty(id);
+  }
+
 }

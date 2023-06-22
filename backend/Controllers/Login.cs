@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
     [Route("api/auth")]
     [ApiController]
     public class AuthController : ControllerBase
-    {
+{
 
           private readonly ApplicationDbContext _context ;
     public AuthController( ApplicationDbContext context)
@@ -31,12 +31,12 @@ using Microsoft.EntityFrameworkCore;
             return Unauthorized(new { message = "Invalid credentials" });
         }
 
-           public class LoginModel
+    public class LoginModel
     {
         public string Username { get; set; }
         public string Password { get; set; }
     }
-    }
+}
 
   
     

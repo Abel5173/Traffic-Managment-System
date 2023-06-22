@@ -36,6 +36,22 @@ public ActionResult<IEnumerable<Accident>> Searchpenalty(string query)
 }
 
 
+           [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var selecteditem = await _context.penalty.FindAsync(id);
+        if (selecteditem != null)
+        {
+
+           _context.penalty.Remove(selecteditem);
+         await _context.SaveChangesAsync();
+
+         return Ok();
+        }
+
+           return BadRequest() ;
+    }
+
    
 
 }

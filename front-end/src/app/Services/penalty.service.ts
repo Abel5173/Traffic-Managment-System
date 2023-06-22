@@ -20,6 +20,11 @@ export class PenaltyService {
     return this.http.get<any[]>('http://localhost:5275/api/penalty/search', {params});
   }
 
+  deletePenalty(id : number){
+
+    return this.http.delete(`http://localhost:5275/api/penalty/${id}`);
+  }
+
 }
 export interface IpenaltyData {
   
