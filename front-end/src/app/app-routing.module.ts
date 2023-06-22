@@ -9,38 +9,39 @@ import { DrivertableComponent } from './drivertable/drivertable.component';
 import { OfficertableComponent } from './officertable/officertable.component';
 import { VehicletableComponent } from './vehicletable/vehicletable.component';
 import { LoginComponent } from './login/login.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
   { 
     path: '', component: LoginComponent
   },
 { 
-  path: 'dashboard', component: DashboardComponent
+  path: 'dashboard', component: DashboardComponent,canActivate: [AuthGuard] 
 },
 { 
-  path: 'home', component: DashboardComponent
+  path: 'home', component: DashboardComponent,canActivate: [AuthGuard] 
 },
 {
-  path : 'penalitytable' , component : PenalityGridComponent
+  path : 'penalitytable' , component : PenalityGridComponent,canActivate: [AuthGuard] 
 },
 {
-  path : 'penalityform' , component : PenaltyFormComponent
+  path : 'penalityform' , component : PenaltyFormComponent,canActivate: [AuthGuard] 
 },
 
 {
-  path : 'accidenttable' , component : AccidentTableComponent
+  path : 'accidenttable' , component : AccidentTableComponent,canActivate: [AuthGuard] 
 },
 {
-  path : 'accidentform' , component : AccidentFormComponent
+  path : 'accidentform' , component : AccidentFormComponent,canActivate: [AuthGuard] 
 },
 {
-  path : 'drivertable' , component : DrivertableComponent
+  path : 'drivertable' , component : DrivertableComponent,canActivate: [AuthGuard] 
 },
 {
-  path : 'officertable' , component : OfficertableComponent
+  path : 'officertable' , component : OfficertableComponent,canActivate: [AuthGuard] 
 },
 {
-  path : 'vehicletable' , component : VehicletableComponent
+  path : 'vehicletable' , component : VehicletableComponent,canActivate: [AuthGuard] 
 }
 
 

@@ -19,6 +19,11 @@ export class OfficerService {
     return this.http.get<any[]>('http://localhost:5275/api/officer/search', {params});
   }
 
+  delettraffic(id:number, data:object){
+
+    return this.http.put(`http://localhost:5275/api/officer/${id}`,data)
+  }
+
 }
 export interface IofficerData {
 

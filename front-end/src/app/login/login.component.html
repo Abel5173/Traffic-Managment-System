@@ -1,11 +1,16 @@
 <div class="login-container">
   <div class="login-box">
+    <h3>Traffic Accident Management System.</h3>
     <label for="username">Username:</label>
     <input type="text" id="username" [(ngModel)]="username">
     <label for="password">Password:</label>
     <input type="password" id="password" [(ngModel)]="password">
+    
+
+      <span *ngIf="this.authService.islogin" class="errormsg">username or password is incorrect ! please try agin</span>
     <button (click)="login()">Login</button>
   </div>
+
 </div>
 
   

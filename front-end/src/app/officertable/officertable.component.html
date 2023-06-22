@@ -32,7 +32,7 @@
             <ng-template #template let-data>
                 <div class="div">
                   <i id="update" class="fa-sharp fa-solid fa-pen"></i>
-                  <i id="delete" class="fa-sharp fa-solid fa-trash"></i>
+                  <i (click)="deletofficer(this.data.officer_id, this.data)"  id="delete" class="fa-sharp fa-solid fa-trash"></i>
                 </div>
               </ng-template>
         </e-column>

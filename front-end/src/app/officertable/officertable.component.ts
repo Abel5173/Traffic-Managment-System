@@ -23,5 +23,13 @@ export class OfficertableComponent implements OnInit {
     this.officer.searchOfficer(this.query).subscribe(data =>this.data=  data);
   }
 
+  deletofficer(id : number,data : object ){
+
+    this.officer.delettraffic(id ,data).subscribe(response => 
+      console.log(response)
+      )
+    console.log(id)
+  }
+
 
 }

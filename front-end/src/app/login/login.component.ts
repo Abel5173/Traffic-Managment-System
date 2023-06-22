@@ -13,7 +13,7 @@ export class LoginComponent {
   username: any;
   password: any;
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor(protected authService: AuthService, private router: Router) { }
 
   login(): void {
     
@@ -30,6 +30,7 @@ export class LoginComponent {
       (error) => {
       
         console.log(error);
+        this.authService.islogin = true ;
       }
     );
   }
