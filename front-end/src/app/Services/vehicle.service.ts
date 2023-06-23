@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class VehicleService {
+  [x: string]: any;
 
   constructor(private http : HttpClient) { }
 

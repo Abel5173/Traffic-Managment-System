@@ -57,16 +57,61 @@ export class AccidentFormComponent {
     // console.log(this.accidentFormGroup.value);
     this.accidentFormService.submitAccidentForm(this.accidentFormGroup.value);
   }
+
   addDriver() {
-    const driveValue = this.accidentFormGroup.get('driver').value;
+    const driverValue = this.accidentFormGroup.get('driver').value;
+    this.driverService.searchDriver(driverValue).subscribe((response) => {
+      const newDrivers = response.filter((driver) => {
+        return !this.drivers.some(
+          (existingDriver) => existingDriver.driver_id === driver.driver_id
+        );
+      });
+      this.drivers.push(...newDrivers);
+      console.log(response[0]);
+      this.accidentFormGroup.get('driver').setValue('');
+      this.refreshDriverGridData();
+    });
   }
+
   getDrivers() {
-    this.drivers.push();
+    return this.drivers;
+  }
+
+  refreshDriverGridData() {
+    const grid = document.getElementById('driver-grid'); // Replace 'driver-grid' with the ID of your driver ejs-grid element
+    if (grid) {
+      const gridObj = (grid as any).ej2_instances[0];
+      gridObj.dataSource = this.getDrivers();
+      gridObj.refresh();
+    }
   }
 
   addVehicle() {
-      
+    const vehicleValue = this.accidentFormGroup.get('vehicle').value;
+    this.vehicleService.searchVehicle(vehicleValue).subscribe((response) => {
+      const newVehicles = response.filter((vehicle) => {
+        return !this.vehicles.some(
+          (existingVehicle) =>
+            existingVehicle.accident_vehicle_id === vehicle.accident_vehicle_id
+        );
+      });
+      this.vehicles.push(...newVehicles);
+      console.log(response[0]);
+      this.accidentFormGroup.get('vehicle').setValue('');
+      this.refreshGridData();
+    });
   }
 
-  getVehicles() {}
+  getVehicles() {
+    return this.vehicles;
+  }
+
+  refreshGridData() {
+    const grid = document.getElementById('ejs-grid'); // Replace 'ejs-grid' with the ID of your ejs-grid element
+    if (grid) {
+      const gridObj = (grid as any).ej2_instances[0];
+      gridObj.dataSource = this.getVehicles();
+      gridObj.refresh();
+    }
+  }
 }
