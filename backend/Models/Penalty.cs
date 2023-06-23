@@ -10,7 +10,6 @@ public class Penalty {
     public int?  driver_license { get; set; }
 
     //  [Required(ErrorMessage =" id field is required ")]
-    public string? driver_name { get; set; }
     public string? violation_type  { get; set; }
     public System.DateTime? date  { get; set; }
     public string? penalty_leve  { get; set; }

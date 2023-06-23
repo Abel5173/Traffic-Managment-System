@@ -13,7 +13,7 @@
             <span>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </span>
-           <input class="e-input" [(ngModel)]="query" (keyup)="searchevent()" name="" placeholder="Search ..." id="">
+           <input class="e-input" [(ngModel)]="query" (keyup)="searchevent()" name="" placeholder="Enter Driver license_no" id="">
            
         </div>
     </div>
@@ -21,13 +21,14 @@
 <ejs-grid [dataSource]='data'>
     <e-columns class="col" >
         <e-column field='penalty_id' headerText='penalty_id' textAlign='Right' width=90></e-column>
-        <e-column field='driver_license' headerText='Driver License' width=120></e-column>
-        <e-column field='driver_name' headerText='driver_name' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field='license_no' headerText='driver_license' width=120></e-column>
+        <e-column field='fullName' headerText='driver_name' textAlign='Right' format='C2' width=90></e-column>
         <e-column field='violation_type' headerText='violation_type' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='date' headerText='date' textAlign='Right' format='yMd' width=120></e-column>   
         <e-column field='penalty_leve' headerText='penalty_leve' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='amount' headerText='amount' textAlign='Right' format='yMd' width=120></e-column>
-        <!-- <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column> -->
+        
+     
         <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120>
             <ng-template #template let-data>
         <div class="div">

@@ -1,6 +1,5 @@
 using apidb2.Services;
 using Microsoft.AspNetCore.Mvc;
-using models.vehicle;
 using  models.vehicle_owner;
 
 

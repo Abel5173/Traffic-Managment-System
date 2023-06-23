@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 18, 2023 at 10:43 AM
+-- Generation Time: Jun 23, 2023 at 04:01 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -48,7 +48,7 @@ CREATE TABLE `accident` (
 --
 
 INSERT INTO `accident` (`accident_id`, `accident_type`, `date`, `reporter`, `address`, `life_lost`, `major_injury`, `minor_injury`, `property_loss`, `property_loss_in_money`, `description`, `accident_vechile_id`, `accident_driver_id`) VALUES
-(2121, 'sdfe', '2023-06-22', 2121, 21, 33, 44, 444, 444, '231231', 'dfsdf', 2121, 221);
+(2121, 'car', '2023-06-14', 2121, 21, 1, 2, 3, 3, '4322', 'asdf jklbhjdf', 2121, 221);
 
 -- --------------------------------------------------------
 
@@ -144,15 +144,16 @@ CREATE TABLE `Officer` (
   `fullname` varchar(200) NOT NULL,
   `phone_no` int(200) NOT NULL,
   `password` varchar(100) NOT NULL,
-  `username` varchar(100) NOT NULL
+  `username` varchar(100) NOT NULL,
+  `status` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `Officer`
 --
 
-INSERT INTO `Officer` (`officer_id`, `fullname`, `phone_no`, `password`, `username`) VALUES
-(2121, 'bbb', 333333, '11111', 'ttt');
+INSERT INTO `Officer` (`officer_id`, `fullname`, `phone_no`, `password`, `username`, `status`) VALUES
+(2121, 'bbb', 333333, '11111', 'ttt', 'Left');
 
 -- --------------------------------------------------------
 
@@ -163,7 +164,6 @@ INSERT INTO `Officer` (`officer_id`, `fullname`, `phone_no`, `password`, `userna
 CREATE TABLE `penalty` (
   `penalty_id` int(200) NOT NULL,
   `driver_license` int(200) NOT NULL,
-  `driver_name` varchar(200) NOT NULL,
   `violation_type` varchar(200) NOT NULL,
   `date` date NOT NULL,
   `penalty_leve` varchar(100) NOT NULL,
@@ -175,8 +175,8 @@ CREATE TABLE `penalty` (
 -- Dumping data for table `penalty`
 --
 
-INSERT INTO `penalty` (`penalty_id`, `driver_license`, `driver_name`, `violation_type`, `date`, `penalty_leve`, `amount`, `penalty_driver_id`) VALUES
-(1, 1111, 'bereket', 'over speed', '2023-06-14', 'low', '2121', 1);
+INSERT INTO `penalty` (`penalty_id`, `driver_license`, `violation_type`, `date`, `penalty_leve`, `amount`, `penalty_driver_id`) VALUES
+(1, 42323, 'over speed', '2023-06-14', 'low', '2121', 1);
 
 -- --------------------------------------------------------
 
@@ -300,7 +300,9 @@ ALTER TABLE `Officer`
 -- Indexes for table `penalty`
 --
 ALTER TABLE `penalty`
-  ADD PRIMARY KEY (`penalty_id`);
+  ADD PRIMARY KEY (`penalty_id`),
+  ADD KEY `driver_license` (`driver_license`),
+  ADD KEY `penalty_driver_id` (`penalty_driver_id`);
 
 --
 -- Indexes for table `penalty_driver`
@@ -347,6 +349,13 @@ ALTER TABLE `accident`
 ALTER TABLE `driver`
   ADD CONSTRAINT `driver_ibfk_1` FOREIGN KEY (`accident_driver_id`) REFERENCES `accident_driver` (`accident_driver_id`),
   ADD CONSTRAINT `driver_ibfk_2` FOREIGN KEY (`penalty_driver_id`) REFERENCES `penalty_driver` (`penalty_driver_id`);
+
+--
+-- Constraints for table `penalty`
+--
+ALTER TABLE `penalty`
+  ADD CONSTRAINT `penalty_ibfk_1` FOREIGN KEY (`driver_license`) REFERENCES `driver` (`license_no`),
+  ADD CONSTRAINT `penalty_ibfk_2` FOREIGN KEY (`penalty_driver_id`) REFERENCES `penalty_driver` (`penalty_driver_id`);
 
 --
 -- Constraints for table `vehicle`

@@ -19,20 +19,55 @@ public class penaltyController:ControllerBase{
     public ActionResult<IEnumerable<Penalty>> get()
     {
 
-        return _context.penalty.ToArray();
+        // return _context.penalty.ToArray();
+
+         var query = from Driver in _context.driver 
+                        join penalty in _context.penalty on Driver.license_no equals penalty.driver_license
+                      
+                        select new
+                        {
+                            Driver.fullName,
+                            Driver.license_no,
+                            penalty.amount,
+                            penalty.date,
+                            penalty.penalty_leve,
+                            penalty.violation_type,
+                            penalty.penalty_id,
+                            penalty.penalty_driver_id
+                        };
+
+            var result = query.ToList();
+
+            // Process and return the result
+            return Ok(result);
 
     }
 
 
     [HttpGet("search")]
-public ActionResult<IEnumerable<Accident>> Searchpenalty(string query)
+public ActionResult<IEnumerable<Penalty>> Searchpenalty(string query)
 {
     // Connect to your data source (e.g., a database) and perform the search query
-    var searchResults = _context.penalty
-                          .Where(d => d.driver_name.Contains(query) || d.driver_license.ToString().Contains(query))
-                          .ToList();
+    
 
-    return Ok(searchResults);
+
+         var search = from Driver in _context.driver 
+                        join penalty in _context.penalty on Driver.license_no equals penalty.driver_license  
+
+                             select new
+                        {
+                            Driver.fullName,
+                            Driver.license_no,
+                            penalty.amount,
+                            penalty.date,
+                            penalty.penalty_leve,
+                            penalty.violation_type,
+                            penalty.penalty_id
+                        };   
+
+                         
+
+    return Ok(search.Where(a => a.license_no.ToString().Contains(query) ));
 }
 
 

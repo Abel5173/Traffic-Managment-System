@@ -13,7 +13,7 @@
             <span>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </span>
-           <input class="e-input" [(ngModel)]="query" (keyup)="searchevent()" name="" placeholder="Search ..." id="">
+           <input class="e-input" [(ngModel)]="query" (keyup)="searchevent()" name="" placeholder="Enter Driver license_no" id="">
            
         </div>
     </div>
@@ -22,7 +22,7 @@
     <e-columns class="col" >
         <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
         <e-column field='AccidentType' headerText='Accident_Type' width=120></e-column>
-        <e-column field='date' headerText='Date' textAlign='Right' format='ymd' width=90></e-column>
+        <e-column field='data' headerText='Date' textAlign='Right' format='ymd' width=90></e-column>
         <e-column field='OfficerFullName' headerText='reporter' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='region' headerText='Region' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='zone' headerText='Zone' textAlign='Right' format='yMd' width=120></e-column>       
@@ -30,13 +30,14 @@
         <e-column field='kebele' headerText='Kebele' textAlign='Right' format='yMd' width=120></e-column>   
         <e-column field='specific_location' headerText='Specific_Location' textAlign='Right' format='yMd' width=120></e-column> 
         <e-column field='VehiclePlateNo' headerText='Vehicle' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='DriverFullName' headerText='Driver' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='driverFullName' headerText='Driver license_no' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='LifeLost' headerText='Life_Lost' textAlign='Right'  width=120></e-column>
         <e-column field='MajorInjury' headerText='Major_Injury' textAlign='Right'  width=120></e-column>
         <e-column field='MinorInjury' headerText='Minor_Injury' textAlign='Right'  width=120></e-column>
         <e-column field='PropertyLoss' headerText='Property_Loss' textAlign='Right'  width=120></e-column>
         <e-column field='PropertyLossInMoney' headerText='Property_Loss_in_Mony' textAlign='Right'  width=120></e-column>
         <e-column field='Description' headerText='Description' textAlign='Right' format='yMd' width=120></e-column>
+     
         <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120>
             <ng-template #template let-data>
                 <div class="div">
@@ -62,4 +63,4 @@
                  Address = address,
                  VehiclePlateNo = vehicle.plate_no,
                  DriverFullName = driver.fullName,
-                 OfficerFullName = officer.fullname -->
+                 OfficerFullName = officer.fullname   accident_driver_id -->
