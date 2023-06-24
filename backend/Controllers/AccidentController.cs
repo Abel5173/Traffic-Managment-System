@@ -6,15 +6,15 @@ using models.penalty;
 
 [ApiController]
 [Route("api/Accident")]
-public class AccidentController:ControllerBase{
+public class AccidentController : ControllerBase
+{
+    private readonly ApplicationDbContext _context;
 
-
-  private readonly ApplicationDbContext _context ;
-    public AccidentController( ApplicationDbContext context)
+    public AccidentController(ApplicationDbContext context)
     {
-        this._context = context ;
+        this._context = context;
     }
-    
+
     [HttpGet("search")]
 public ActionResult<IEnumerable<Accident>> SearchAccidents(string query)
 {
@@ -23,34 +23,7 @@ public ActionResult<IEnumerable<Accident>> SearchAccidents(string query)
                           .Where(a => a.accident_id.ToString().Contains(query) || a.accident_vechile_id.ToString().Contains(query))
                           .ToList();
 
-                          var searchResults = from accident in _context.accident
-             join address in _context.address on accident.address equals address.address_id
-             join vehicle in _context.vehicle on accident.accident_vechile_id equals vehicle.accident_vehicle_id
-             join driver in _context.driver  on accident.accident_driver_id equals driver.accident_driver_id
-             join officer in _context.Officer on accident.reporter equals officer.officer_id
-             select new
-             {
-                 AccidentId = accident.accident_id,
-                 AccidentType = accident.accident_type,
-                 PropertyLossInMoney = accident.property_loss_in_money,
-                 PropertyLoss = accident.property_loss,
-                 data = accident.date,
-                 MajorInjury = accident.major_injury,
-                 MinorInjury = accident.minor_injury,
-                 LifeLost = accident.life_lost,
-                 Description = accident.description,
-                 address.region,
-                 address.zone,
-                 address.wereda,
-                 address.kebele,
-                 address.specific_location,
-                 VehiclePlateNo = vehicle.plate_no,
-                 license_no = driver.license_no,
-                 OfficerFullName = officer.fullname,
-                 accident.accident_driver_id
-             };
-
-    return Ok(searchResults.Where(a => a.license_no.ToString().Contains(query) ));
+    return Ok(searchResults2);
 }
 
         [HttpGet]
@@ -79,36 +52,45 @@ public IActionResult GetJoinedData()
                  address.kebele,
                  address.specific_location,
                  VehiclePlateNo = vehicle.plate_no,
-                 DriverFullName = driver.license_no,
-                 OfficerFullName = officer.fullname,
-                 accident.accident_driver_id
+                 DriverFullName = driver.fullName,
+                 OfficerFullName = officer.fullname
              };
 
+        var result = query.ToList();
 
-            var result = query.ToList();
+        // Process and return the result
+        return Ok(result);
+    }
 
-            // Process and return the result
-            return Ok(result);
+    [HttpPost]
+    public async Task<IActionResult> CreateAccident(Accident accident)
+    {
+        try
+        {
+            _context.accident.Add(accident);
+            await _context.SaveChangesAsync();
+
+            return Ok();
         }
+        catch (Exception ex)
+        {
+            // Handle exception and return appropriate response
+            return BadRequest("Error creating accident: " + ex.Message);
+        }
+    }
 
-           [HttpDelete("{id}")]
+    [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
         var selecteditem = await _context.accident.FindAsync(id);
         if (selecteditem != null)
         {
+            _context.accident.Remove(selecteditem);
+            await _context.SaveChangesAsync();
 
-           _context.accident.Remove(selecteditem);
-         await _context.SaveChangesAsync();
-
-         return Ok();
+            return Ok();
         }
 
-           return BadRequest() ;
+        return BadRequest();
     }
-      
-
-
-   
-
 }

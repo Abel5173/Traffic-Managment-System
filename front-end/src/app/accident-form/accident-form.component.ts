@@ -54,8 +54,19 @@ export class AccidentFormComponent {
     description: ['', Validators.required],
   });
   onSubmit() {
-    // console.log(this.accidentFormGroup.value);
-    this.accidentFormService.submitAccidentForm(this.accidentFormGroup.value);
+    console.log(this.accidentFormGroup.value);
+    const accidentData = {
+      ...this.accidentFormGroup.value,
+      accidentDriverIds: this.drivers.map(
+        (driver) => driver.accident_driver_id
+      ),
+      accidentVehicleIds: this.vehicles.map(
+        (vehicle) => vehicle.accident_vehicle_id
+      ),
+    };
+    console.log(accidentData);
+    
+    this.accidentFormService.submitAccidentForm(accidentData);
   }
 
   addDriver() {
@@ -63,7 +74,8 @@ export class AccidentFormComponent {
     this.driverService.searchDriver(driverValue).subscribe((response) => {
       const newDrivers = response.filter((driver) => {
         return !this.drivers.some(
-          (existingDriver) => existingDriver.driver_id === driver.driver_id
+          (existingDriver) =>
+            existingDriver.accident_driver_id === driver.accident_driver_id
         );
       });
       this.drivers.push(...newDrivers);
@@ -78,7 +90,7 @@ export class AccidentFormComponent {
   }
 
   refreshDriverGridData() {
-    const grid = document.getElementById('driver-grid'); // Replace 'driver-grid' with the ID of your driver ejs-grid element
+    const grid = document.getElementById('driver-grid');
     if (grid) {
       const gridObj = (grid as any).ej2_instances[0];
       gridObj.dataSource = this.getDrivers();
@@ -96,7 +108,7 @@ export class AccidentFormComponent {
         );
       });
       this.vehicles.push(...newVehicles);
-      console.log(response[0]);
+      console.log(this.drivers);
       this.accidentFormGroup.get('vehicle').setValue('');
       this.refreshGridData();
     });
@@ -107,7 +119,7 @@ export class AccidentFormComponent {
   }
 
   refreshGridData() {
-    const grid = document.getElementById('ejs-grid'); // Replace 'ejs-grid' with the ID of your ejs-grid element
+    const grid = document.getElementById('ejs-grid');
     if (grid) {
       const gridObj = (grid as any).ej2_instances[0];
       gridObj.dataSource = this.getVehicles();

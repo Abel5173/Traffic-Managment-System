@@ -116,7 +116,14 @@
           />
         </div>
         <div class="form">
-          <button ejs-button class="vehicle" (click)="addVehicle()" type="button">Add</button>
+          <button
+            ejs-button
+            class="vehicle"
+            (click)="addVehicle()"
+            type="button"
+          >
+            Add
+          </button>
         </div>
       </div>
       <ejs-grid id="ejs-grid" [dataSource]="getVehicles()">
@@ -173,46 +180,58 @@
           />
         </div>
         <div class="form">
-          <button ejs-button class="driver" (click)="addDriver()" type="button">Add</button>
+          <button
+            ejs-button
+            class="drivers"
+            (click)="addDriver()"
+            type="button"
+          >
+            Add
+          </button>
         </div>
       </div>
       <div>
-        <ejs-grid id="ejs-grid-driver" [dataSource]="getDrivers()">
+        <ejs-grid id="driver-grid" [dataSource]="getDrivers()">
           <e-columns>
             <e-column
-              field="No"
-              headerText="No."
+              field="fullName"
+              headerText="Full Name"
               textAlign="Right"
               width="90"
             ></e-column>
             <e-column
-              field="FullName"
-              headerText="Full Name"
+              field="phone_no"
+              headerText="Phone No."
               width="120"
             ></e-column>
             <e-column
-              field="LicenceNumber"
-              headerText="Licence Number"
+              field="nationality"
+              headerText="Nationality"
               textAlign="Right"
               format="C2"
               width="90"
             ></e-column>
             <e-column
-              field="Age"
+              field="age"
               headerText="Age"
               textAlign="Right"
-              format="yMd"
               width="120"
             ></e-column>
             <e-column
-              field="phone"
-              headerText="phone"
+              field="license_no"
+              headerText="License No."
               textAlign="Right"
               width="120"
             ></e-column>
             <e-column
-              field="Nationality"
-              headerText="Nationality"
+              field="accident_driver_id"
+              headerText="Accident Driver Id"
+              textAlign="Right"
+              width="120"
+            ></e-column>
+            <e-column
+              field="penalty_driver_id"
+              headerText="Penalty Driver Id"
               textAlign="Right"
               width="120"
             ></e-column>
