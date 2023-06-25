@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "q0iWGiyAF/Hl55Pg/xmaIGPQh3ovyqtF08Y3W0bUqVT8ArabTJeUZ3vsclMlLZENoUetIyhYVoa0yK9P/LcvDg==",
+=======
+  "dgSpecHash": "SeQ+nFxQzUwnRQjIT2ds0xcGxznsX8IuUOxJFXYNznVRnb8S55GIWO1Pz36gInbA1Fm6WrcpJxBZXtNOq6xyKQ==",
+>>>>>>> dcbf8b1 (dashboard backend done)
   "success": true,
   "projectFilePath": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj",
   "expectedPackageFiles": [
