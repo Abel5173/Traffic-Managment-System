@@ -44,6 +44,7 @@ export class DashBoardService {
   }
 
   getnobelt() {
+    
     return this.http.get<number>('http://localhost:5275/api/dashboard/nobelt');
   }
 
@@ -51,15 +52,15 @@ export class DashBoardService {
     return this.http.get<number>('http://localhost:5275/api/dashboard/phonewhiledriving');
   }
 
-  getdrinkdriver() {
-    return this.http.get<number>('http://localhost:5275/api/dashboard/drink');
-  }
+  // getdrinkdriver() {
+  //   return this.http.get<number>('http://localhost:5275/api/dashboard/drink');
+  // }
 
   getredlight() {
     return this.http.get<number>('http://localhost:5275/api/dashboard/red');
   }
 
-  gettotalpenalty() {
+  gettotalpenalty()  {
     return this.http.get<number>('http://localhost:5275/api/dashboard/totalpenalty');
   }
 

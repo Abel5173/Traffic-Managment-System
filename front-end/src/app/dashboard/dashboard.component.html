@@ -71,7 +71,7 @@
             <div class="chart-container-1">
               <ejs-accumulationchart [id]="'chart-container'" [legendSettings]="legendSettings" width="200px">
                 <e-accumulation-series-collection>
-                  <e-accumulation-series [dataSource]="piedata" xName="x" yName="y" innerRadius="70%" [palettes]="palette"></e-accumulation-series>
+                  <e-accumulation-series [dataSource]="this.pieData" xName="x" yName="y" innerRadius="70%" [palettes]="palette"></e-accumulation-series>
                 </e-accumulation-series-collection>
               </ejs-accumulationchart> 
             </div> 
@@ -94,6 +94,7 @@
                 <div class="color-box4"></div>
                 <span class="color">Red light</span> 
               </div>
+              
             </div>
           </span>
         </div>

@@ -86,7 +86,7 @@ public class DashboardController:ControllerBase{
     public ActionResult<int> vehioverseed()
     {
 
-      var overspeed  = _context.penalty.Where( a=> a.violation_type.Contains("over")).Count();
+      var overspeed  = _context.penalty.Where( a=> a.violation_type.Contains("Over")).Count();
         return overspeed;
 
     }
