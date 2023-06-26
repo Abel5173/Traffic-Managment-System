@@ -1,22 +1,23 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace models.driver;
-public class Driver {
-    
-     [Required(ErrorMessage =" fullname field is required ")]
-    public string? fullName  { get; set; }
+namespace Models.Driver
+{
+    public class Driver
+    {
+        [Required(ErrorMessage = "fullName field is required")]
+        public string? FullName { get; set; }
 
-    //  [Required(ErrorMessage =" Operationid field is required ")]
-    public int?  phone_no { get; set; }
+        public int? PhoneNo { get; set; }
 
-    //  [Required(ErrorMessage =" id field is required ")]
-    public int? age { get; set; }
-    public string? nationality  { get; set; }
-    public int? license_no  { get; set; }
-    public int? accident_driver_id  { get; set; }
+        public int? Age { get; set; }
 
-    public int? penalty_driver_id  { get; set; }
-   
+        public string? Nationality { get; set; }
 
+        [Required(ErrorMessage = "license_no field is required")]
+        public string? LicenseNo { get; set; }
 
+        public int? AccidentDriverId { get; set; }
+
+        public int? PenaltyDriverId { get; set; }
+    }
 }

@@ -1,18 +1,15 @@
 using System.ComponentModel.DataAnnotations;
-namespace models.vehicle_owner;
-public class vehicle_owner {
-    
-     [Required(ErrorMessage =" vehicle_owner_id field is required ")]
-    public int? vehicle_owner_id  { get; set; }
 
-    //  [Required(ErrorMessage =" Operationid field is required ")]
-    public int?  vehicle_id { get; set; }
+namespace Models.vehicle_owner
+{
+    public class VehicleOwner
+    {
+        [Required(ErrorMessage = "vehicle_owner_id field is required")]
+        public int? VehicleOwnerId { get; set; }
+        public string? VehicleId { get; set; }
 
-    //  [Required(ErrorMessage =" id field is required ")]
-    public string? fullname { get; set; }
-    public int? phone  { get; set; }
+        public string? Fullname { get; set; }
 
-   
-
-
+        public string? Phone { get; set; }
+    }
 }
