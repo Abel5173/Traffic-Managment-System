@@ -51,7 +51,7 @@ namespace apidb2.Services
             modelBuilder.Entity<penalty_driver>()
                 .HasKey(p => p.penalty_driver_id);
             modelBuilder.Entity<VehicleOwner>()
-                .HasKey(p => p.VehicleOwnerId);
+                .HasKey(p => p.vehicle_owner_id);
             modelBuilder.Entity<Accident_vehicle>()
                 .HasKey(p => p.accident_vehicle_id);
             modelBuilder.Entity<Accident_driver>()

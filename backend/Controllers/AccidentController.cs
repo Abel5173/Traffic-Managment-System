@@ -15,23 +15,31 @@ using apidb2.Services;
         [HttpGet("search")]
         public ActionResult<IEnumerable<Accident>> SearchAccidents(string query)
         {
-            var searchResults = _context.accident
-                .Where(a => a.accident_id.ToString().Contains(query))
-                .ToList();
+            int queryId;
+            if (int.TryParse(query, out queryId))
+            {
+                var searchResults = _context.accident
+                    .Where(a => a.accident_id == queryId)
+                    .ToList();
 
-            return Ok(searchResults);
+                return Ok(searchResults);
+            }
+
+            return BadRequest("Invalid query input.");
         }
+
 
         [HttpGet]
         public IActionResult GetJoinedData()
         {
             var query = from accident in _context.accident
-                        join address in _context.address on accident.address equals address.address_id
                         join accidentVehicle in _context.accident_vehicle on accident.accident_id equals accidentVehicle.accident_id
                         join accidentDriver in _context.accident_driver on accident.accident_id equals accidentDriver.accident_id
                         join vehicle in _context.vehicle on accidentVehicle.vehicle_id equals vehicle.plate_no
                         join driver in _context.driver on accidentDriver.driver_id equals driver.license_no
-                        join officer in _context.Officer on accident.reporter equals officer.officer_id
+                        join reporterAddress in _context.reporter_address on accident.accident_id equals reporterAddress.accident_id
+                        join address in _context.address on reporterAddress.address_id equals address.address_id
+                        join officer in _context.Officer on reporterAddress.reporter_id equals officer.officer_id
                         select new
                         {
                             AccidentId = accident.accident_id,

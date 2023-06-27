@@ -19,10 +19,11 @@ public class penaltyController : ControllerBase
     public ActionResult<IEnumerable<Penalty>> Get()
     {
         var query = from driver in _context.driver
-                    join penalty in _context.penalty on driver.license_no equals penalty.driver_license
+                    join penaltyDriver in _context.penalty_driver on driver.license_no equals penaltyDriver.driver_id
+                    join penalty in _context.penalty on penaltyDriver.penalty_id equals penalty.penalty_id
                     select new
                     {
-                        driver.FullName,
+                        driver.fullname,
                         driver.license_no,
                         penalty.amount,
                         penalty.date,
@@ -43,7 +44,7 @@ public class penaltyController : ControllerBase
                      join penalty in _context.penalty on driver.license_no equals penalty.driver_license
                      select new
                      {
-                         driver.FullName,
+                         driver.fullname,
                          driver.license_no,
                          penalty.amount,
                          penalty.date,
