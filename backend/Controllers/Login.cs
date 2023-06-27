@@ -17,7 +17,7 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginModel model)
     {
-        var officer = await _context.Officers.FirstOrDefaultAsync(o => o.username == model.Username);
+        var officer = await _context.Officer.FirstOrDefaultAsync(o => o.username == model.Username);
 
         if (officer != null && officer.password == model.Password)
         {

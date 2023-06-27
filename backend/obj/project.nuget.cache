@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q0iWGiyAF/Hl55Pg/xmaIGPQh3ovyqtF08Y3W0bUqVT8ArabTJeUZ3vsclMlLZENoUetIyhYVoa0yK9P/LcvDg==",
+  "dgSpecHash": "uXXIq375eVpaDwC71XvfHRU7MztSBM+wzzg+tX0ztyehWfUjGfM8rHrnZLbVMJlvdndqRclZLKwB0JKcEH+dMw==",
   "success": true,
   "projectFilePath": "/home/abel/Desktop/Workspace/Traffic-Managment-System/backend/apidb2.csproj",
   "expectedPackageFiles": [
@@ -34,12 +34,5 @@
     "/home/abel/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/abel/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/abel/Desktop/Workspace/Traffic-Managment-System/backend/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

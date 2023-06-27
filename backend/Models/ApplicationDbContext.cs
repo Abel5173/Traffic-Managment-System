@@ -8,27 +8,30 @@ using Models.vehicle_owner;
 using Microsoft.EntityFrameworkCore;
 using Models.vehicle;
 using Models.ReporterAddress;
+using Models.penalty_driver;
+using Models.vehicle_driver;
 
 namespace apidb2.Services
 {
     public class ApplicationDbContext : DbContext
     {
-        internal IEnumerable<object> Penalty;
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
-        public DbSet<Penalty> Penalties { get; set; }
-        public DbSet<Accident> Accidents { get; set; }
-        public DbSet<Officer> Officers { get; set; }
-        public DbSet<Driver> Drivers { get; set; }
-        public DbSet<Vehicle> Vehicles { get; set; }
-        public DbSet<VehicleOwner> VehicleOwners { get; set; }
-        public DbSet<Accident_vehicle> AccidentVehicles { get; set; }
-        public DbSet<Accident_driver> Accident_Drivers { get; set; }
-        public DbSet<Address> Addresses { get; set; }
-          public DbSet<ReporterAddress> ReporterAddresses { get; set; }
+        public DbSet<Officer> Officer { get; set; }
+        public DbSet<Address> address { get; set; }
+        public DbSet<Accident> accident { get; set; }
+        public DbSet<Driver> driver { get; set; }
+        public DbSet<Vehicle> vehicle { get; set; }
+        public DbSet<Penalty> penalty { get; set; }
+        public DbSet<Accident_driver> accident_driver { get; set; }
+        public DbSet<Accident_vehicle> accident_vehicle { get; set; }
+        public DbSet<penalty_driver> penalty_driver { get; set; }
+        public DbSet<vehicle_driver> vehicle_driver { get; set; }
+        public DbSet<VehicleOwner> vehicle_owner { get; set; }
+        public DbSet<ReporterAddress> reporter_address { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -43,14 +46,20 @@ namespace apidb2.Services
                 .HasKey(p => p.LicenseNo);
             modelBuilder.Entity<Vehicle>()
                 .HasKey(p => p.plate_no);
+            modelBuilder.Entity<vehicle_driver>()
+                .HasKey(p => p.vehicle_driver_id);
+            modelBuilder.Entity<penalty_driver>()
+                .HasKey(p => p.penalty_driver_id);
             modelBuilder.Entity<VehicleOwner>()
                 .HasKey(p => p.VehicleOwnerId);
             modelBuilder.Entity<Accident_vehicle>()
                 .HasKey(p => p.accident_vehicle_id);
+            modelBuilder.Entity<Accident_driver>()
+                .HasKey(p => p.accident_driver_id);
             modelBuilder.Entity<Address>()
                 .HasKey(p => p.address_id);
-          modelBuilder.Entity<ReporterAddress>()
-            .HasKey(ra => ra.Id);
+            modelBuilder.Entity<ReporterAddress>()
+                .HasKey(ra => ra.Id);
         }
     }
 }

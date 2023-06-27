@@ -15,7 +15,7 @@ using apidb2.Services;
         [HttpGet("search")]
         public ActionResult<IEnumerable<Accident>> SearchAccidents(string query)
         {
-            var searchResults = _context.Accidents
+            var searchResults = _context.accident
                 .Where(a => a.accident_id.ToString().Contains(query))
                 .ToList();
 
@@ -25,13 +25,13 @@ using apidb2.Services;
         [HttpGet]
         public IActionResult GetJoinedData()
         {
-            var query = from accident in _context.Accidents
-                        join address in _context.Addresses on accident.address equals address.address_id
-                        join accidentVehicle in _context.AccidentVehicles on accident.accident_id equals accidentVehicle.accident_id
-                        join accidentDriver in _context.Accident_Drivers on accident.accident_id equals accidentDriver.accident_id
-                        join vehicle in _context.Vehicles on accidentVehicle.vehicle_id equals vehicle.plate_no
-                        join driver in _context.Drivers on accidentDriver.driver_id equals driver.LicenseNo
-                        join officer in _context.Officers on accident.reporter equals officer.officer_id
+            var query = from accident in _context.accident
+                        join address in _context.address on accident.address equals address.address_id
+                        join accidentVehicle in _context.accident_vehicle on accident.accident_id equals accidentVehicle.accident_id
+                        join accidentDriver in _context.accident_driver on accident.accident_id equals accidentDriver.accident_id
+                        join vehicle in _context.vehicle on accidentVehicle.vehicle_id equals vehicle.plate_no
+                        join driver in _context.driver on accidentDriver.driver_id equals driver.LicenseNo
+                        join officer in _context.Officer on accident.reporter equals officer.officer_id
                         select new
                         {
                             AccidentId = accident.accident_id,
@@ -126,11 +126,11 @@ using apidb2.Services;
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var accident = await _context.Accidents.FindAsync(id);
+            var accident = await _context.accident.FindAsync(id);
 
             if (accident != null)
             {
-                _context.Accidents.Remove(accident);
+                _context.accident.Remove(accident);
                 await _context.SaveChangesAsync();
                 return Ok();
             }

@@ -18,8 +18,8 @@ public class penaltyController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<Penalty>> Get()
     {
-        var query = from driver in _context.Drivers
-                    join penalty in _context.Penalties on driver.LicenseNo equals penalty.driver_license
+        var query = from driver in _context.driver
+                    join penalty in _context.penalty on driver.LicenseNo equals penalty.driver_license
                     select new
                     {
                         driver.FullName,
@@ -39,8 +39,8 @@ public class penaltyController : ControllerBase
     [HttpGet("search")]
     public ActionResult<IEnumerable<Penalty>> SearchPenalty(string query)
     {
-        var search = from driver in _context.Drivers
-                     join penalty in _context.Penalties on driver.LicenseNo equals penalty.driver_license
+        var search = from driver in _context.driver
+                     join penalty in _context.penalty on driver.LicenseNo equals penalty.driver_license
                      select new
                      {
                          driver.FullName,
@@ -61,7 +61,7 @@ public class penaltyController : ControllerBase
         try
         {
             // Add the penalty to the context
-            _context.Penalties.Add(penalty);
+            _context.penalty.Add(penalty);
             await _context.SaveChangesAsync();
 
             return Ok();
@@ -76,10 +76,10 @@ public class penaltyController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var selecteditem = await _context.Penalties.FindAsync(id);
+        var selecteditem = await _context.penalty.FindAsync(id);
         if (selecteditem != null)
         {
-            _context.Penalties.Remove(selecteditem);
+            _context.penalty.Remove(selecteditem);
             await _context.SaveChangesAsync();
 
             return Ok();

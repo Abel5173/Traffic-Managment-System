@@ -18,14 +18,14 @@ public class DriverController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<Driver>> Get()
     {
-        var drivers = _context.Drivers.ToList();
+        var drivers = _context.driver.ToList();
         return Ok(drivers);
     }
 
     [HttpGet("search")]
     public ActionResult<IEnumerable<Driver>> SearchDriver(string query)
     {
-        var searchResults = _context.Drivers
+        var searchResults = _context.driver
             .Where(d => d.LicenseNo.ToString().Contains(query) || d.FullName.Contains(query))
             .ToList();
 

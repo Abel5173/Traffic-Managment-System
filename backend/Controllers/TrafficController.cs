@@ -16,7 +16,7 @@ public class OfficerController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<Officer>> Get()
     {
-        var searchResults = _context.Officers
+        var searchResults = _context.Officer
                             .Where(o => o.status.StartsWith("Active"))
                             .ToList();
 
@@ -26,7 +26,7 @@ public class OfficerController : ControllerBase
     [HttpGet("search")]
     public ActionResult<IEnumerable<Officer>> SearchOfficer(string query)
     {
-        var searchResults = _context.Officers
+        var searchResults = _context.Officer
                             .Where(o => o.fullname.Contains(query) || o.officer_id.ToString().Contains(query))
                             .ToList();
 
@@ -36,13 +36,13 @@ public class OfficerController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var selecteditem = await _context.Officers.FindAsync(id);
+        var selecteditem = await _context.Officer.FindAsync(id);
         if (selecteditem == null)
         {
             return NotFound();
         }
 
-        _context.Officers.Remove(selecteditem);
+        _context.Officer.Remove(selecteditem);
         await _context.SaveChangesAsync();
 
         return NoContent();
@@ -56,7 +56,7 @@ public class OfficerController : ControllerBase
             return BadRequest();
         }
 
-        var todoItem = await _context.Officers.FindAsync(id);
+        var todoItem = await _context.Officer.FindAsync(id);
         if (todoItem == null)
         {
             return NotFound();
