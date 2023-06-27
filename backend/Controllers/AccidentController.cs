@@ -13,19 +13,12 @@ using apidb2.Services;
         }
 
         [HttpGet("search")]
-        public ActionResult<IEnumerable<Accident>> SearchAccidents(string query)
+        public ActionResult<IEnumerable<Accident>> SearchAccidents(int query)
         {
-            int queryId;
-            if (int.TryParse(query, out queryId))
-            {
                 var searchResults = _context.accident
-                    .Where(a => a.accident_id == queryId)
+                    .Where(a => a.accident_id == query)
                     .ToList();
-
                 return Ok(searchResults);
-            }
-
-            return BadRequest("Invalid query input.");
         }
 
 
