@@ -43,7 +43,7 @@ namespace apidb2.Services
             modelBuilder.Entity<Officer>()
                 .HasKey(p => p.officer_id);
             modelBuilder.Entity<Driver>()
-                .HasKey(p => p.LicenseNo);
+                .HasKey(p => p.license_no);
             modelBuilder.Entity<Vehicle>()
                 .HasKey(p => p.plate_no);
             modelBuilder.Entity<vehicle_driver>()

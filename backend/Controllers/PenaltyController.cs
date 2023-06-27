@@ -19,11 +19,11 @@ public class penaltyController : ControllerBase
     public ActionResult<IEnumerable<Penalty>> Get()
     {
         var query = from driver in _context.driver
-                    join penalty in _context.penalty on driver.LicenseNo equals penalty.driver_license
+                    join penalty in _context.penalty on driver.license_no equals penalty.driver_license
                     select new
                     {
                         driver.FullName,
-                        driver.LicenseNo,
+                        driver.license_no,
                         penalty.amount,
                         penalty.date,
                         penalty.penalty_leve,
@@ -40,11 +40,11 @@ public class penaltyController : ControllerBase
     public ActionResult<IEnumerable<Penalty>> SearchPenalty(string query)
     {
         var search = from driver in _context.driver
-                     join penalty in _context.penalty on driver.LicenseNo equals penalty.driver_license
+                     join penalty in _context.penalty on driver.license_no equals penalty.driver_license
                      select new
                      {
                          driver.FullName,
-                         driver.LicenseNo,
+                         driver.license_no,
                          penalty.amount,
                          penalty.date,
                          penalty.penalty_leve,
@@ -52,7 +52,7 @@ public class penaltyController : ControllerBase
                          penalty.penalty_id
                      };
 
-        return Ok(search.Where(a => a.LicenseNo.ToString().Contains(query)));
+        return Ok(search.Where(a => a.license_no.ToString().Contains(query)));
     }
 
     [HttpPost]

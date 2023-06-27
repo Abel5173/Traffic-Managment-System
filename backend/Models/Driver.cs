@@ -13,8 +13,8 @@ namespace Models.Driver
 
         public string? Nationality { get; set; }
 
-        [Required(ErrorMessage = "license_no field is required")]
-        public string? LicenseNo { get; set; }
+        // [Required(ErrorMessage = "license_no field is required")]
+        public string? license_no { get; set; }
 
         public int? AccidentDriverId { get; set; }
 

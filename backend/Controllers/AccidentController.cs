@@ -30,7 +30,7 @@ using apidb2.Services;
                         join accidentVehicle in _context.accident_vehicle on accident.accident_id equals accidentVehicle.accident_id
                         join accidentDriver in _context.accident_driver on accident.accident_id equals accidentDriver.accident_id
                         join vehicle in _context.vehicle on accidentVehicle.vehicle_id equals vehicle.plate_no
-                        join driver in _context.driver on accidentDriver.driver_id equals driver.LicenseNo
+                        join driver in _context.driver on accidentDriver.driver_id equals driver.license_no
                         join officer in _context.Officer on accident.reporter equals officer.officer_id
                         select new
                         {
@@ -50,7 +50,7 @@ using apidb2.Services;
                             address.specific_location,
                             OfficerFullName = officer.fullname,
                             VehiclePlateNo = vehicle.plate_no,
-                            DriverLicenseNo = driver.LicenseNo
+                            DriverLicenseNo = driver.license_no
                         };
 
             var result = query.ToList();

@@ -26,7 +26,7 @@ public class DriverController : ControllerBase
     public ActionResult<IEnumerable<Driver>> SearchDriver(string query)
     {
         var searchResults = _context.driver
-            .Where(d => d.LicenseNo.ToString().Contains(query) || d.FullName.Contains(query))
+            .Where(d => d.license_no.ToString().Contains(query) || d.FullName.Contains(query))
             .ToList();
 
         return Ok(searchResults);
