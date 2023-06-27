@@ -1,35 +1,33 @@
 using apidb2.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Models;
 
-
-
-    [Route("api/auth")]
-    [ApiController]
-    public class AuthController : ControllerBase
+[Route("api/auth")]
+[ApiController]
+public class AuthController : ControllerBase
 {
+    private readonly ApplicationDbContext _context;
 
-          private readonly ApplicationDbContext _context ;
-    public AuthController( ApplicationDbContext context)
+    public AuthController(ApplicationDbContext context)
     {
-        this._context = context ;
+        _context = context;
     }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginModel model)
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] LoginModel model)
+    {
+        var officer = await _context.Officers.FirstOrDefaultAsync(o => o.username == model.Username);
+
+        if (officer != null && officer.password == model.Password)
         {
-        
-            var officer = await _context.Officer.FirstOrDefaultAsync(o => o.username == model.Username);
-
-            if (officer != null && officer.password == model.Password)
-            {
-                // Authentication successful
-                return Ok(new { message = "Login successful" });
-            }
-
-            // Authentication failed
-            return Unauthorized(new { message = "Invalid credentials" });
+            // Authentication successful
+            return Ok(new { message = "Login successful" });
         }
+
+        // Authentication failed
+        return Unauthorized(new { message = "Invalid credentials" });
+    }
 
     public class LoginModel
     {
@@ -37,9 +35,3 @@ using Microsoft.EntityFrameworkCore;
         public string Password { get; set; }
     }
 }
-
-  
-    
-
-
-

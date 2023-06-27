@@ -1,69 +1,62 @@
 using apidb2.Services;
 using Microsoft.AspNetCore.Mvc;
-using models.officer;
+using Models.officer;
 
 [ApiController]
 [Route("api/officer")]
-public class officerController:ControllerBase{
+public class OfficerController : ControllerBase
+{
+    private readonly ApplicationDbContext _context;
 
-
-  private readonly ApplicationDbContext _context ;
-    public officerController( ApplicationDbContext context)
+    public OfficerController(ApplicationDbContext context)
     {
-        this._context = context ;
+        this._context = context;
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Officer>> get()
+    public ActionResult<IEnumerable<Officer>> Get()
     {
- 
-
-         var searchResults = _context.Officer
+        var searchResults = _context.Officers
                             .Where(o => o.status.StartsWith("Active"))
                             .ToList();
 
         return Ok(searchResults);
-        // return _context.Officer.ToArray();
-
     }
 
-        [HttpGet("search")]
-    public ActionResult<IEnumerable<Accident>> SearchOfficer(string query)
+    [HttpGet("search")]
+    public ActionResult<IEnumerable<Officer>> SearchOfficer(string query)
     {
-        var searchResults = _context.Officer
+        var searchResults = _context.Officers
                             .Where(o => o.fullname.Contains(query) || o.officer_id.ToString().Contains(query))
                             .ToList();
 
         return Ok(searchResults);
     }
+
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteTodoItem(int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        var selecteditem = await _context.Officer.FindAsync(id);
+        var selecteditem = await _context.Officers.FindAsync(id);
         if (selecteditem == null)
         {
             return NotFound();
         }
 
-        _context.Officer.Remove(selecteditem);
+        _context.Officers.Remove(selecteditem);
         await _context.SaveChangesAsync();
 
         return NoContent();
     }
 
-       [HttpPut("{id}")]
-    public async Task<IActionResult> Puttraffic(int id, Officer officer)
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Put(int id, Officer officer)
     {
-
-
         if (id != officer.officer_id)
-
         {
-            Console.Write(id);
             return BadRequest();
         }
 
-        var todoItem = await _context.Officer.FindAsync(id);
+        var todoItem = await _context.Officers.FindAsync(id);
         if (todoItem == null)
         {
             return NotFound();
@@ -71,15 +64,8 @@ public class officerController:ControllerBase{
 
         todoItem.status = "Left";
 
-
         await _context.SaveChangesAsync();
-        
-
 
         return NoContent();
     }
-
-
-   
-
 }

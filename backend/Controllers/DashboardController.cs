@@ -1,148 +1,106 @@
-using System.Collections;
-using System.Globalization;
 using apidb2.Services;
 using Microsoft.AspNetCore.Mvc;
 
-
-
 [ApiController]
 [Route("api/dashboard")]
-public class DashboardController:ControllerBase{
+public class DashboardController : ControllerBase
+{
+    private readonly ApplicationDbContext _context;
 
-
-  private readonly ApplicationDbContext _context ;
-
-    public DashboardController( ApplicationDbContext context)
+    public DashboardController(ApplicationDbContext context)
     {
-            this._context = context ;
-         
-        
+        _context = context;
     }
 
     [HttpGet("lifelost")]
-    public ActionResult<int> getlifelost()
+    public ActionResult<int> GetLifeLost()
     {
-
-      var totallifelost  = _context.accident.Sum(a=>a.life_lost);
-        return totallifelost;
-
+        var totalLifeLost = _context.Accidents.Sum(a => a.life_lost);
+        return totalLifeLost;
     }
 
-        [HttpGet("majorphysicalinjury")]
-    public ActionResult<int> getmajorphysicalinjury()
+    [HttpGet("majorphysicalinjury")]
+    public ActionResult<int> GetMajorPhysicalInjury()
     {
-
-      var majorphysicalinjury  = _context.accident.Sum(a=>a.major_injury);
-        return majorphysicalinjury;
-
+        var majorPhysicalInjury = _context.Accidents.Sum(a => a.major_injury);
+        return majorPhysicalInjury;
     }
 
-        [HttpGet("minorphysicalinjury")]
-    public ActionResult<int> getminorphysicalinjury()
+    [HttpGet("minorphysicalinjury")]
+    public ActionResult<int> GetMinorPhysicalInjury()
     {
-
-      var getminorphysicalinjury  = _context.accident.Sum(a=>a.minor_injury);
-        return getminorphysicalinjury;
-
+        var minorPhysicalInjury = _context.Accidents.Sum(a => a.minor_injury);
+        return minorPhysicalInjury;
     }
 
-           [HttpGet("totalaccident")]
-    public ActionResult<int> totalaccident()
+    [HttpGet("totalaccident")]
+    public ActionResult<int> GetTotalAccident()
     {
-
-      var getminorphysicalinjury  = _context.accident.Count();
-        return getminorphysicalinjury;
-
+        var totalAccident = _context.Accidents.Count();
+        return totalAccident;
     }
 
-             [HttpGet("totaldriver")]
-    public ActionResult<int> Driver()
+    [HttpGet("totaldriver")]
+    public ActionResult<int> GetTotalDriver()
     {
-
-      var driver  = _context.driver.Count();
-        return driver;
-
+        var totalDriver = _context.Drivers.Count();
+        return totalDriver;
     }
 
-             [HttpGet("totalofficer")]
-    public ActionResult<int> officer()
+    [HttpGet("totalofficer")]
+    public ActionResult<int> GetTotalOfficer()
     {
-
-      var officer  = _context.Officer.Count();
-        return officer;
-
+        var totalOfficer = _context.Officers.Count();
+        return totalOfficer;
     }
 
-             [HttpGet("totalvehicle")]
-    public ActionResult<int> vehicle()
+    [HttpGet("totalvehicle")]
+    public ActionResult<int> GetTotalVehicle()
     {
-
-      var vehicle  = _context.vehicle.Count();
-        return vehicle;
-
+        var totalVehicle = _context.Vehicles.Count();
+        return totalVehicle;
     }
 
-               [HttpGet("overspeed")]
-    public ActionResult<int> vehioverseed()
+    [HttpGet("overspeed")]
+    public ActionResult<int> GetOverSpeed()
     {
-
-      var overspeed  = _context.penalty.Where( a=> a.violation_type.Contains("over")).Count();
-        return overspeed;
-
+        var overSpeed = _context.Penalties.Where(a => a.violation_type.Contains("over"))
+            .Count();
+        return overSpeed;
     }
 
-
-                   [HttpGet("phonewhiledriving")]
-    public ActionResult<int> phonewhiledriving()
+    [HttpGet("phonewhiledriving")]
+    public ActionResult<int> GetPhoneWhileDriving()
     {
-
-      var phone  = _context.penalty.Where( a=> a.violation_type.Contains("phone")).Count();
-        return phone;
-
+        var phoneWhileDriving = _context.Penalties.Where(a => a.violation_type.Contains("phone")).Count();
+        return phoneWhileDriving;
     }
 
-
-                       [HttpGet("nobelt")]
-    public ActionResult<int> nobelt()
+    [HttpGet("nobelt")]
+    public ActionResult<int> GetNoBelt()
     {
-
-      var belt  = _context.penalty.Where( a=> a.violation_type.Contains("no")).Count();
-        return belt;
-
+        var noBelt = _context.Penalties.Where(a => a.violation_type.Contains("no")).Count();
+        return noBelt;
     }
 
-                          [HttpGet("drink")]
-    public ActionResult<int> drink()
+    [HttpGet("drink")]
+    public ActionResult<int> GetDrink()
     {
-
-      var drink  = _context.penalty.Where( a=> a.violation_type.Contains("drink")).Count();
+        var drink = _context.Penalties.Where(a => a.violation_type.Contains("drink")).Count();
         return drink;
-
     }
 
-                             [HttpGet("red")]
-    public ActionResult<int> red()
+    [HttpGet("red")]
+    public ActionResult<int> GetRed()
     {
-
-      var red  = _context.penalty.Where( a=> a.violation_type.Contains("red")).Count();
+        var red = _context.Penalties.Where(a => a.violation_type.Contains("red")).Count();
         return red;
-
     }
 
-                               [HttpGet("totalpenalty")]
-    public ActionResult<int> totalpenalty()
+    [HttpGet("totalpenalty")]
+    public ActionResult<int> GetTotalPenalty()
     {
-
-      var penalty  = _context.penalty.Count();
-        return penalty;
-
+        var totalPenalty = _context.Penalty.Count();
+        return totalPenalty;
     }
-
-      
-  
-
-
-
-   
-
 }

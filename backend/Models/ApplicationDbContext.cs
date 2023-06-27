@@ -1,5 +1,4 @@
 using Models.Accident_vehicle;
-using Models.Accident;
 using Models.Accident_driver;
 using Models.Address;
 using Models.Driver;
@@ -14,6 +13,8 @@ namespace apidb2.Services
 {
     public class ApplicationDbContext : DbContext
     {
+        internal IEnumerable<object> Penalty;
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }

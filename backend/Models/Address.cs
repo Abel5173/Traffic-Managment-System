@@ -1,5 +1,3 @@
-using System;
-
 namespace Models.Address
 {
     public class Address
