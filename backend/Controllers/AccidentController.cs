@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using apidb2.Services;
+using Models.Accident_vehicle;
+using Models.Accident_driver;
+using Models.Address;
+using Models.ReporterAddress;
 
 [ApiController]
     [Route("api/Accident")]
@@ -59,70 +63,84 @@ using apidb2.Services;
             return Ok(result);
         }
 
-        // [HttpPost]
-        // public async Task<IActionResult> CreateAccident(Accident accident)
-        // {
-        //     try
-        //     {
-        //         // Add the accident to the context
-        //         _context.Accidents.Add(accident);
-        //         await _context.SaveChangesAsync();
+       [HttpPost]
+        public async Task<IActionResult> CreateAccident(AccidentInputModel input)
+        {
+            try
+            {
+                var accident = new Accident
+                {
+                    accident_type = input.AccidentType,
+                    date = input.Date,
+                    life_lost = input.LifeLost,
+                    major_injury = input.MajorInjury,
+                    minor_injury = input.MinorInjury,
+                    property_loss = input.PropertyLoss,
+                    property_loss_in_money = input.PropertyLossInMoney,
+                    description = input.Description
+                };
 
-        //         // Associate the vehicles with the accident
-        //         if (accident.AccidentVehicles != null && accident.AccidentVehicles.Count > 0)
-        //         {
-        //             foreach (var vehicle in accident.AccidentVehicles)
-        //             {
-        //                 var accidentVehicle = new AccidentVehicle
-        //                 {
-        //                     accident_id = accident.accident_id,
-        //                     vehicle_id = vehicle.vehicle_id
-        //                 };
+                _context.accident.Add(accident);
+                await _context.SaveChangesAsync();
 
-        //                 _context.AccidentVehicle.Add(accidentVehicle);
-        //             }
+                foreach (var plateNo in input.VehiclePlateNos)
+                {
+                    var vehicle = await _context.vehicle.FindAsync(plateNo);
+                    if (vehicle != null)
+                    {
+                        var accidentVehicle = new Accident_vehicle
+                        {
+                            accident_id = accident.accident_id,
+                            vehicle_id = plateNo
+                        };
+                        _context.accident_vehicle.Add(accidentVehicle);
+                    }
+                }
 
-        //             await _context.SaveChangesAsync();
-        //         }
+                foreach (var licenseNo in input.DriverLicenseNos)
+                {
+                    var driver = await _context.driver.FindAsync(licenseNo);
+                    if (driver != null)
+                    {
+                        var accidentDriver = new Accident_driver
+                        {
+                            accident_id = accident.accident_id,
+                            driver_id = licenseNo
+                        };
+                        _context.accident_driver.Add(accidentDriver);
+                    }
+                }
 
-        //         // Associate the drivers with the accident
-        //         if (accident.AccidentDrivers != null && accident.AccidentDrivers.Count > 0)
-        //         {
-        //             foreach (var driver in accident.AccidentDrivers)
-        //             {
-        //                 var accidentDriver = new AccidentDriver
-        //                 {
-        //                     accident_id = accident.accident_id,
-        //                     driver_id = driver.driver_id
-        //                 };
+                var address = new Address
+                {
+                    region = input.Region,
+                    wereda = input.Wereda,
+                    kebele = input.Kebele,
+                    specific_location = input.SpecificLocation,
+                    zone = input.Zone
+                };
 
-        //                 _context.AccidentDriver.Add(accidentDriver);
-        //             }
+                _context.address.Add(address);
+                await _context.SaveChangesAsync();
 
-        //             await _context.SaveChangesAsync();
-        //         }
+                var reporterAddress = new ReporterAddress
+                {
+                    address_id = address.address_id,
+                    accident_id = accident.accident_id,
+                    reporter_id = input.officer_id
+                };
 
-        //         // Associate the reporter address with the accident
-        //         if (accident.ReporterAddress != null)
-        //         {
-        //             var reporterAddress = new ReporterAddress
-        //             {
-        //                 reporter_id = accident.ReporterAddress.reporter_id,
-        //                 address_id = accident.ReporterAddress.address_id,
-        //                 accident_id = accident.accident_id
-        //             };
+                _context.reporter_address.Add(reporterAddress);
+                await _context.SaveChangesAsync();
 
-        //             _context.ReporterAddresses.Add(reporterAddress);
-        //             await _context.SaveChangesAsync();
-        //         }
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest("Error creating accident: " + ex.Message);
+            }
+        }
 
-        //         return Ok();
-        //     }
-        //     catch (Exception ex)
-        //     {
-        //         return BadRequest("Error creating accident: " + ex.Message);
-        //     }
-        // }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)

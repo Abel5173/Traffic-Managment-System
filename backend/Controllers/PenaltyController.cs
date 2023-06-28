@@ -65,7 +65,6 @@ public class penaltyController : ControllerBase
         {
             Penalty penalty = new Penalty
             {
-                penalty_id = penaltyInput.PenaltyId,
                 violation_type = penaltyInput.ViolationType,
                 date = penaltyInput.Date,
                 penalty_leve = penaltyInput.PenaltyLevel,
@@ -77,7 +76,7 @@ public class penaltyController : ControllerBase
 
             penalty_driver penaltyDriver = new penalty_driver
             {
-                penalty_id = penaltyInput.PenaltyId,
+                penalty_id = penalty.penalty_id,
                 driver_id = penaltyInput.DriverId
             };
 
