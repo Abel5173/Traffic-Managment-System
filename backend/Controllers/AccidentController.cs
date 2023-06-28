@@ -17,12 +17,46 @@ using Models.ReporterAddress;
         }
 
         [HttpGet("search")]
-        public ActionResult<IEnumerable<Accident>> SearchAccidents(int query)
+        public ActionResult<IEnumerable<Accident>> SearchAccidents(string query1)
         {
-                var searchResults = _context.accident
-                    .Where(a => a.accident_id == query)
-                    .ToList();
-                return Ok(searchResults);
+                // var searchResults = _context.accident
+                //     .Where(a => a.accident_id == query)
+                //     .ToList();
+                // return Ok(searchResults);
+
+
+                var query = from accident in _context.accident
+                        join accidentVehicle in _context.accident_vehicle on accident.accident_id equals accidentVehicle.accident_id
+                        join accidentDriver in _context.accident_driver on accident.accident_id equals accidentDriver.accident_id
+                        join vehicle in _context.vehicle on accidentVehicle.vehicle_id equals vehicle.plate_no
+                        join driver in _context.driver .Where(a => a.license_no.Contains (query1))  on accidentDriver.driver_id equals driver.license_no
+                        join reporterAddress in _context.reporter_address on accident.accident_id equals reporterAddress.accident_id
+                        join address in _context.address on reporterAddress.address_id equals address.address_id
+                        join officer in _context.Officer on reporterAddress.reporter_id equals officer.officer_id
+                        select new
+                        {
+                            AccidentId = accident.accident_id,
+                            AccidentType = accident.accident_type,
+                            PropertyLossInMoney = accident.property_loss_in_money,
+                            PropertyLoss = accident.property_loss,
+                            Date = accident.date,
+                            MajorInjury = accident.major_injury,
+                            MinorInjury = accident.minor_injury,
+                            LifeLost = accident.life_lost,
+                            Description = accident.description,
+                            address.region,
+                            address.zone,
+                            address.wereda,
+                            address.kebele,
+                            address.specific_location,
+                            OfficerFullName = officer.fullname,
+                            VehiclePlateNo = vehicle.plate_no,
+                            DriverLicenseNo = driver.license_no
+                        };
+
+            var result = query.ToList();
+
+            return Ok(result);
         }
 
 

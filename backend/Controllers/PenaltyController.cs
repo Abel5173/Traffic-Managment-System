@@ -41,7 +41,7 @@ public class penaltyController : ControllerBase
     [HttpGet("search")]
     public ActionResult<IEnumerable<Penalty>> SearchPenalty(string query)
     {
-        var search = from driver in _context.driver
+        var search = from driver in _context.driver.Where(a => a.license_no.Contains(query))
                     join penaltyDriver in _context.penalty_driver on driver.license_no equals penaltyDriver.driver_id
                     join penalty in _context.penalty on penaltyDriver.penalty_id equals penalty.penalty_id
                     select new
@@ -55,7 +55,8 @@ public class penaltyController : ControllerBase
                         penalty.penalty_id
                     };
 
-        return Ok(search.Where(a => a.license_no.ToString().Contains(query)));
+          var result = search.ToList();
+        return Ok(result);
     }
 
     [HttpPost]

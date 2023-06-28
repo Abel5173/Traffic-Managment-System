@@ -40,11 +40,23 @@ public class VehicleController : ControllerBase
     [HttpGet("search")]
     public ActionResult<IEnumerable<Vehicle>> SearchVehicle(string query)
     {
-        var searchResults = _context.vehicle
-                              .Where(v => v.plate_no.Contains(query))
-                              .ToList();
+     
 
-        return Ok(searchResults);
+        var result = from vehicle_owner in _context.vehicle_owner
+                    join vehicle in _context.vehicle.Where(v => v.plate_no.Contains(query)) on vehicle_owner.vehicle_id equals vehicle.plate_no
+                    join accident_vehicle in _context.accident_vehicle on vehicle.plate_no equals accident_vehicle.vehicle_id
+                    select new
+                    {
+                        vehicle.motor_no,
+                        vehicle.plate_no,
+                        vehicle.purchased_date,
+                        vehicle_owner.fullname,
+                        accident_vehicle.accident_vehicle_id
+                    };
+
+
+        // Process and return the result
+        return Ok(result);
     }
 
 }

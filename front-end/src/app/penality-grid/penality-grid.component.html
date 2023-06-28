@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-<div class="body">
-
-
-    <div><h1>Penality</h1></div>
-<div class="container">
-    <div class="space">
-        <button routerLink="/penalityform"on Class="add-btn"><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i>
-        </span>Add New</button>
-    </div>
-    <div class="wrap">
-        <div class="e-input-group e-corner">
-            
-            <span>
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </span>
-           <input class="e-input" [(ngModel)]="query" (keyup)="searchevent()" name="" placeholder="Enter Driver license_no" id="">
-           
-=======
 <div class="container">
     <button ejs-button cssClass="e-primary">Add New</button>
     <div class="space"></div>
@@ -24,53 +5,26 @@
         <div class="e-input-group">
            <input class="e-input" name="" id="">
            <span class="e-input-group-icon e-input-popup-date"></span>
->>>>>>> 6441e3e (form and penality grid)
         </div>
     </div>
 </div>
 <ejs-grid [dataSource]='data'>
-<<<<<<< HEAD
-    <e-columns class="col" >
-        <e-column field='penalty_id' headerText='penalty_id' textAlign='Right' width=90></e-column>
-        <e-column field='license_no' headerText='driver_license' width=120></e-column>
-        <e-column field='fullName' headerText='driver_name' textAlign='Right' format='C2' width=90></e-column>
-        <e-column field='violation_type' headerText='violation_type' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='date' headerText='date' textAlign='Right' format='yMd' width=120></e-column>   
-        <e-column field='penalty_leve' headerText='penalty_leve' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='amount' headerText='amount' textAlign='Right' format='yMd' width=120></e-column>
-        
-     
+    <e-columns>
+        <e-column field='penalty_id' headerText='NO' textAlign='Right' width=90></e-column>
+        <e-column field='license_no' headerText='Driver License' width=120></e-column>
+        <e-column field='fullname' headerText='Driver Name' textAlign='Right' format='C2' width=90></e-column>
+        <e-column field='violation_type' headerText='Violation Type' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Date' headerText='Date' textAlign='Right' format='yMd' width=120></e-column>   
+        <e-column field='penalty_leve' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
+        <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
         <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120>
+
             <ng-template #template let-data>
-        <div class="div">
-          <i id="update" class="fa-sharp fa-solid fa-pen"></i>
-          <i id="delete" class="fa-sharp fa-solid fa-trash" (click)="deletepenalty(data.penalty_id)"></i>
-        </div>
-      </ng-template>
+                <div class="div">
+                  <i id="update" class="fa-sharp fa-solid fa-pen" ></i>
+                  <i id="delete" class="fa-sharp fa-solid fa-trash" (click)="deletepenalty(data.accident_id)"></i>
+                </div>
+              </ng-template>
         </e-column>
     </e-columns>
 </ejs-grid>
-</div>
-
-<!-- penalty_id: number,
-driver_license :number,
-driver_name:String,
-violation_type : String,
-date : Date,
-penalty_leve : string
-amount : String,
-penalty_driver_id :number, -->
-=======
-    <e-columns>
-        <e-column field='NO' headerText='NO' textAlign='Right' width=90></e-column>
-        <e-column field='Driver License' headerText='Driver License' width=120></e-column>
-        <e-column field='Driver Name' headerText='Driver Name' textAlign='Right' format='C2' width=90></e-column>
-        <e-column field='Violation Type' headerText='Violation Type' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Date' headerText='Date' textAlign='Right' format='yMd' width=120></e-column>   
-        <e-column field='Penality Level' headerText='Penality Level' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Amount' headerText='Amount' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Status' headerText='Status' textAlign='Right' format='yMd' width=120></e-column>
-        <e-column field='Action' headerText='Action' textAlign='Right' format='yMd' width=120></e-column>
-    </e-columns>
-</ejs-grid>
->>>>>>> 6441e3e (form and penality grid)

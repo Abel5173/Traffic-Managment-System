@@ -1,6 +1,7 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../Services/auth.service';
 import { DashBoardService } from '../Services/dash-board.service';
+import { forkJoin } from 'rxjs';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,7 +9,6 @@ import { DashBoardService } from '../Services/dash-board.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  public piedata!: Object[];
   public legendSettings!: Object;
   public palette!: string[];
   public primaryXAxis!: Object;
@@ -23,47 +23,66 @@ export class DashboardComponent implements OnInit {
   totalofficer !:number ;
   totalvehicle !:number ;
   totalpenalty !: number ;
-  phonewhiledriving !:number ;
-  overspeed ! :number ;
-  nobelt ! :number ;
-  redlight ! : number ;
-  drinkdrivern  !: number ;
-
-
+  phonewhiledriving :any ;
+  overspeed  :any ;
+  nobelt :any ;
+  redlight  : any ;
+  // drinkdrivern  !: number ;
+  pieData :any;
+  
 
 
   constructor(private authservice : AuthService,private dashboard : DashBoardService){}
   ngOnInit(): void {
+
+  
+  
 
     this.dashboard.getlifelost().subscribe(data => this.lifelost = data)
     this.dashboard.getminorphysicalinjury().subscribe(data => this.minorinjury = data)
     this.dashboard.getmajorphysicalinjury().subscribe(data => this.majorinjury = data)
     this.dashboard.gettotalaccident().subscribe(data => this.totalaccident = data)
 
+ 
+
     this.dashboard.gettotaldriver().subscribe(data => this.totaldriver = data)
     this.dashboard.gettotalofficer().subscribe(data => this.totalofficer = data)
     this.dashboard.gettotalvehicle().subscribe(data => this.totalvehicle = data)
 
-    this.dashboard.gettotalpenalty().subscribe(data => this.totalpenalty = data)
-    this.dashboard.getdrinkdriver().subscribe(data => this.drinkdrivern = data)
-    this.dashboard.getredlight().subscribe(data => this.redlight = data)
-    this.dashboard.getphonewhiledriving().subscribe(data => this.phonewhiledriving = data)
-    this.dashboard.getnobelt().subscribe(data => this.nobelt = data)
-    this.dashboard.getoverspeed().subscribe(data => this.overspeed = data)
+  //   this.dashboard.gettotalpenalty().subscribe(data => this.totalpenalty = data)
+  //   // this.dashboard.getdrinkdriver().subscribe(data => this.drinkdrivern = data)
+  //   this.dashboard.getredlight().subscribe(data => this.redlight = data)
+  //   this.dashboard.getphonewhiledriving().subscribe(data => this.phonewhiledriving = data)
+  //   this.dashboard.getnobelt().subscribe(data => this.nobelt = data)
+  //   this.dashboard.getoverspeed().subscribe(data => {this.overspeed = data
+    
+    
+  //      this.pieData = [
+
+  //   { x: 'Phone while Driving', y:(this.phonewhiledriving / this.totalpenalty ) * 100},
+  //   { x: 'Overspeed ', y: (Number(this.overspeed )/ Number(this.totalpenalty) ) * 100 },
+  //   { x: 'No Belt', y: (Number(this.nobelt )/ Number(this.totalpenalty )) * 100 },
+  //   { x: 'Red light', y: (Number(this.redlight) /Number( this.totalpenalty )) * 100 },
+    
+  //   // Add more data points as needed
+  // ];
+  //   })
+             this.getData();
 
 
 
-   const  pieData: Object[] = [
-      { x: 'Phone while Driving', y:(this.phonewhiledriving / this.totalpenalty ) * 100},
-      { x: 'Overspeed ', y: (this.overspeed / this.totalpenalty ) * 100 },
-      { x: 'No Belt', y: (this.nobelt / this.totalpenalty ) * 100 },
-      { x: 'Red light', y: (this.redlight / this.totalpenalty ) * 100 },
-      { x: 'Drink Drive', y: (this.drinkdrivern / this.totalpenalty ) * 100 },
-      // Add more data points as needed
-    ];
+
+    console.log(this.overspeed);
+   console.log(this.lifelost);
+   console.log(this.redlight);
+   console.log(this.pieData);
+   console.log(this.overspeed);
+
+
+
+ 
 
     console.log(this.authservice.sessionValue);
-      this.piedata = pieData;
        this.legendSettings = {
           visible: false
       };
@@ -85,5 +104,30 @@ export class DashboardComponent implements OnInit {
         };
   }
   public data: string[] = ['Yeka', 'Ketema', 'Akaki', 'Kality', 'Arada', 'Bole']
+
+
+  getData(): void {
+    forkJoin([
+      this.dashboard.gettotalpenalty(),
+      this.dashboard.getredlight(),
+      this.dashboard.getphonewhiledriving(),
+      this.dashboard.getnobelt(),
+      this.dashboard.getoverspeed()
+    ]).subscribe(([totalpenalty, redlight, phonewhiledriving, nobelt, overspeed]) => {
+      this.totalpenalty = totalpenalty;
+      this.redlight = redlight;
+      this.phonewhiledriving = phonewhiledriving;
+      this.nobelt = nobelt;
+      this.overspeed = overspeed;
+
+      this.pieData = [
+        { x: 'Phone while Driving', y: (this.phonewhiledriving / this.totalpenalty) * 100 },
+        { x: 'Overspeed', y: (Number(this.overspeed) / Number(this.totalpenalty)) * 100 },
+        { x: 'No Belt', y: (Number(this.nobelt) / Number(this.totalpenalty)) * 100 },
+        { x: 'Red light', y: (Number(this.redlight) / Number(this.totalpenalty)) * 100 },
+        // Add more data points as needed
+      ];
+    });
+  }
 
 }
