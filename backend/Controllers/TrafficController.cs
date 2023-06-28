@@ -27,7 +27,7 @@ public class OfficerController : ControllerBase
     public ActionResult<IEnumerable<Officer>> SearchOfficer(string query)
     {
         var searchResults = _context.Officer
-                            .Where(o => o.fullname.Contains(query) || o.officer_id.ToString().Contains(query))
+                            .Where(o => o.fullname.Contains(query) || o.username.Contains(query))
                             .ToList();
 
         return Ok(searchResults);
@@ -56,16 +56,21 @@ public class OfficerController : ControllerBase
             return BadRequest();
         }
 
-        var todoItem = await _context.Officer.FindAsync(id);
-        if (todoItem == null)
+        var existingOfficer = await _context.Officer.FindAsync(id);
+        if (existingOfficer == null)
         {
             return NotFound();
         }
 
-        todoItem.status = "Left";
+        existingOfficer.fullname = officer.fullname;
+        existingOfficer.phone_no = officer.phone_no;
+        existingOfficer.password = officer.password;
+        existingOfficer.username = officer.username;
+        existingOfficer.status = officer.status;
 
         await _context.SaveChangesAsync();
 
         return NoContent();
     }
+
 }

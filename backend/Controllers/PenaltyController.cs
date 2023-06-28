@@ -3,6 +3,7 @@ using System.Linq;
 using apidb2.Services;
 using Microsoft.AspNetCore.Mvc;
 using Models.penalty;
+using Models.penalty_driver;
 
 [ApiController]
 [Route("api/penalty")]
@@ -41,38 +42,56 @@ public class penaltyController : ControllerBase
     public ActionResult<IEnumerable<Penalty>> SearchPenalty(string query)
     {
         var search = from driver in _context.driver
-                     join penalty in _context.penalty on driver.license_no equals penalty.driver_license
-                     select new
-                     {
-                         driver.fullname,
-                         driver.license_no,
-                         penalty.amount,
-                         penalty.date,
-                         penalty.penalty_leve,
-                         penalty.violation_type,
-                         penalty.penalty_id
-                     };
+                    join penaltyDriver in _context.penalty_driver on driver.license_no equals penaltyDriver.driver_id
+                    join penalty in _context.penalty on penaltyDriver.penalty_id equals penalty.penalty_id
+                    select new
+                    {
+                        driver.fullname,
+                        driver.license_no,
+                        penalty.amount,
+                        penalty.date,
+                        penalty.penalty_leve,
+                        penalty.violation_type,
+                        penalty.penalty_id
+                    };
 
         return Ok(search.Where(a => a.license_no.ToString().Contains(query)));
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreatePenalty(Penalty penalty)
+    public async Task<IActionResult> CreatePenalty([FromBody] PenaltyInputModel penaltyInput)
     {
         try
         {
-            // Add the penalty to the context
+            Penalty penalty = new Penalty
+            {
+                penalty_id = penaltyInput.PenaltyId,
+                violation_type = penaltyInput.ViolationType,
+                date = penaltyInput.Date,
+                penalty_leve = penaltyInput.PenaltyLevel,
+                amount = penaltyInput.Amount
+            };
+
             _context.penalty.Add(penalty);
+            await _context.SaveChangesAsync();
+
+            penalty_driver penaltyDriver = new penalty_driver
+            {
+                penalty_id = penaltyInput.PenaltyId,
+                driver_id = penaltyInput.DriverId
+            };
+
+            _context.penalty_driver.Add(penaltyDriver);
             await _context.SaveChangesAsync();
 
             return Ok();
         }
         catch (Exception ex)
         {
-            // Handle exception and return appropriate response
             return BadRequest("Error creating penalty: " + ex.Message);
         }
     }
+
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)

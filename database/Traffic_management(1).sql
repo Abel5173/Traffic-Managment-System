@@ -1,7 +1,9 @@
-use Traffic_management;  
+-- drop database Traffic_management
+-- create database Traffic_management
+-- use Traffic_management;  
 
 -- CREATE TABLE `Officer` (
---   `officer_id` int NOT NULL,
+--   `officer_id` int NOT NULL AUTO_INCREMENT,
 --   `fullname` varchar(200),
 --   `phone_no` int NOT NULL,
 --   `password` varchar(100),
@@ -10,8 +12,9 @@ use Traffic_management;
 --   PRIMARY KEY (`officer_id`)
 -- );
 
+
 -- CREATE TABLE `address` (
---   `address_id` int(255) NOT NULL,
+--   `address_id` int NOT NULL AUTO_INCREMENT,
 --   `region` varchar(200) NOT NULL,
 --   `wereda` varchar(200) NOT NULL,
 --   `kebele` varchar(200) NOT NULL,
@@ -50,7 +53,7 @@ use Traffic_management;
 -- );
 
 -- CREATE TABLE `penalty` (
---   `penalty_id` int NOT NULL,
+--   `penalty_id` int NOT NULL AUTO_INCREMENT,
 --   `violation_type` varchar(200),
 --   `date` date NOT NULL,
 --   `penalty_leve` varchar(100),
@@ -59,7 +62,7 @@ use Traffic_management;
 -- );
 
 -- CREATE TABLE `accident_driver` (
---   `accident_driver_id` int NOT NULL,
+--   `accident_driver_id` int NOT NULL AUTO_INCREMENT,
 --   `accident_id` int NOT NULL,
 --   `driver_id` varchar(100),
 --   PRIMARY KEY (`accident_driver_id`),
@@ -68,7 +71,7 @@ use Traffic_management;
 -- );
 
 -- CREATE TABLE `accident_vehicle` (
---   `accident_vehicle_id` int NOT NULL,
+--   `accident_vehicle_id` int NOT NULL AUTO_INCREMENT,
 --   `accident_id` int NOT NULL,
 --   `vehicle_id` varchar(100),
 --   PRIMARY KEY (`accident_vehicle_id`),
@@ -77,7 +80,7 @@ use Traffic_management;
 -- );
 
 -- CREATE TABLE `penalty_driver` (
---   `penalty_driver_id` int NOT NULL,
+--   `penalty_driver_id` int NOT NULL AUTO_INCREMENT,
 --   `penalty_id` int NOT NULL,
 --   `driver_id` varchar(100),
 --   PRIMARY KEY (`penalty_driver_id`),
@@ -95,7 +98,7 @@ use Traffic_management;
 -- );
 
 -- CREATE TABLE `vehicle_owner` (
---   `vehicle_owner_id` int NOT NULL,
+--   `vehicle_owner_id` int NOT NULL AUTO_INCREMENT,
 --   `vehicle_id` varchar(100) NOT NULL,
 --   `fullname` varchar(1000) NOT NULL,
 --   `phone` varchar(20) NOT NULL,
@@ -116,6 +119,10 @@ use Traffic_management;
 
 -- INSERT INTO `Officer` (`officer_id`, `fullname`, `phone_no`, `password`, `username`, `status`)
 -- VALUES (1, 'John Doe', 1234567890, 'password123', 'johndoe', 'Active');
+
+-- INSERT INTO `Officer` (`officer_id`, `fullname`, `phone_no`, `password`, `username`, `status`)
+-- VALUES (2, 'Abel Zeleke', 935353626, 'admin', 'admin', 'Active');
+
 -- INSERT INTO `address` (`address_id`, `region`, `wereda`, `kebele`, `specific_location`, `zone`)
 -- VALUES (1, 'Region A', 'Wereda 1', 'Kebele 1', 'Specific Location 1', 'Zone 1');
 -- INSERT INTO `driver` (`license_no`, `fullname`, `phone_no`, `age`, `nationality`)
@@ -138,9 +145,6 @@ use Traffic_management;
 -- VALUES (1, 'ABC123', 'John Smith', '9876543210');
 -- INSERT INTO `reporter_address` (`id`, `reporter_id`, `address_id`, `accident_id`)
 -- VALUES (1, 1, 1, 1);
-
-
-
 
 -- DELETE FROM address;
 -- DELETE FROM Officer;

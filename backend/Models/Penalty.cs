@@ -8,8 +8,6 @@ namespace Models.penalty
         [Required(ErrorMessage = "penalty_id field is required")]
         public int penalty_id { get; set; }
 
-        public string driver_license { get; set; }
-
         [Required(ErrorMessage = "violation_type field is required")]
         public string violation_type { get; set; }
 
